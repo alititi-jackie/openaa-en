@@ -1,0 +1,1 @@
+{"id": "p-is-there-wait", "english": "Is there a wait?", "chinese": "需要等位吗？", "explanation": "到餐厅发现人多时问；如果要等，店员会问名字登记 waitlist，有位子了叫你。", "alternatives": [{"en": "How long is the wait?", "zh": "要等多久？"}, {"en": "Can you put us on the waitlist?", "zh": "能帮我们登记等位吗？"}], "aliases": ["等位", "排队"], "sceneIds": ["s-make-reservation"], "categoryIds": ["restaurant"]}

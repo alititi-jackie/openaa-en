@@ -1,0 +1,16 @@
+{
+  "english": "What is my routing number?",
+  "chinese": "我的路由号码是多少？",
+  "explanation": "设工资直存、办电汇时要问的，柜员会直接告诉你。",
+  "alternatives": [],
+  "aliases": [
+    "问路由号"
+  ],
+  "sceneIds": [
+    "s-open-account"
+  ],
+  "id": "p-routing-number-ask",
+  "categoryIds": [
+    "banking"
+  ]
+}

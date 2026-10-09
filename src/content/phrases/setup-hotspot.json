@@ -1,0 +1,14 @@
+{
+  "english": "How do I turn on the hotspot?",
+  "chinese": "手机热点怎么开？",
+  "explanation": "问店员或朋友怎么开热点，turn on 是打开的意思。",
+  "alternatives": [],
+  "aliases": [
+    "开热点"
+  ],
+  "sceneIds": [],
+  "id": "p-setup-hotspot",
+  "categoryIds": [
+    "phone"
+  ]
+}

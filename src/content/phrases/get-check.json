@@ -1,0 +1,1 @@
+{"id": "p-get-check", "english": "Can I get the check, please?", "chinese": "能买单吗？", "explanation": "在美国餐厅结账最常用的一句；美国服务员不会主动拿账单来，一定要你开口要，这是规矩不是服务不好。", "alternatives": [{"en": "Check, please.", "zh": "买单。"}, {"en": "Can we get the bill?", "zh": "能买单吗？（bill 偏英式）"}], "aliases": ["买单", "结账"], "sceneIds": ["s-ask-for-check"], "categoryIds": ["restaurant"]}

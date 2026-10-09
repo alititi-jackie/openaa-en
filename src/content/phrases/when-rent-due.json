@@ -1,0 +1,1 @@
+{"id":"p-when-rent-due","english":"When is the rent due?","chinese":"房租几号交？","explanation":"签约或刚搬进来时问清楚交租日期。due 就是\"到期、该交\"。","categoryIds":["housing"],"sceneIds":["s-sign-lease"],"alternatives":[{"en":"What day is the rent due?","zh":"房租每月几号交？"}],"aliases":["几号交租"]}

@@ -1,0 +1,16 @@
+{
+  "english": "Do you have a family plan?",
+  "chinese": "你们有家庭套餐吗？",
+  "explanation": "一家人用一个套餐更划算，去店里直接问有没有 family plan。",
+  "alternatives": [],
+  "aliases": [
+    "家庭套餐"
+  ],
+  "sceneIds": [
+    "s-phone-store"
+  ],
+  "id": "p-family-plan",
+  "categoryIds": [
+    "phone"
+  ]
+}

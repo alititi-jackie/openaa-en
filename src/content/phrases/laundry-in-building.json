@@ -1,0 +1,1 @@
+{"id":"p-laundry-in-building","english":"Is there a laundry room in the building?","chinese":"楼里有洗衣房吗？","explanation":"看房时问，关系到每周洗衣服方不方便。","categoryIds":["housing"],"sceneIds":["s-viewing-apartment"],"alternatives":[{"en":"Does the unit have a washer and dryer?","zh":"房子里有洗衣机烘干机吗？"}],"aliases":["有洗衣房吗"]}

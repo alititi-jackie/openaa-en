@@ -1,0 +1,1 @@
+{"id":"p-on-sale","english":"Is this on sale?","chinese":"这个在打折吗？","explanation":"看到价格不错，确认是不是促销价。on sale 就是\"打折中\"。","categoryIds":["shopping"],"sceneIds":["s-ask-sale"],"alternatives":[{"en":"Is there a sale on this?","zh":"这个有促销吗？"}],"aliases":["打折吗"]}

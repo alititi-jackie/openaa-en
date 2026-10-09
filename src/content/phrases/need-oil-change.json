@@ -1,0 +1,16 @@
+{
+  "english": "I need an oil change.",
+  "chinese": "我要换机油。",
+  "explanation": "去快修店最常说的一句，直接开去、排队、说这句就行。",
+  "alternatives": [],
+  "aliases": [
+    "换机油"
+  ],
+  "sceneIds": [
+    "s-car-repair"
+  ],
+  "id": "p-need-oil-change",
+  "categoryIds": [
+    "driving"
+  ]
+}

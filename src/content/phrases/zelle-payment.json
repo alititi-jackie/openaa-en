@@ -1,0 +1,14 @@
+{
+  "english": "Can I pay with Zelle?",
+  "chinese": "能用 Zelle 付款吗？",
+  "explanation": "给房东、朋友转钱前先问对方收不收 Zelle。",
+  "alternatives": [],
+  "aliases": [
+    "Zelle付款"
+  ],
+  "sceneIds": [],
+  "id": "p-zelle-payment",
+  "categoryIds": [
+    "banking"
+  ]
+}

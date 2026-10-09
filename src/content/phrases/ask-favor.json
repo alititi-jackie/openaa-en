@@ -1,0 +1,1 @@
+{"id": "p-ask-favor", "english": "Can I ask you a favor?", "chinese": "能请你帮个忙吗？", "explanation": "开口请人帮忙的万能句；先问这一句，对方说 Sure 再说具体什么事，直接提要求会显得唐突。", "alternatives": [{"en": "Could you do me a favor?", "zh": "能帮我个忙吗？"}], "aliases": ["帮个忙"], "sceneIds": ["s-ask-favor-neighbor"], "categoryIds": ["social"]}

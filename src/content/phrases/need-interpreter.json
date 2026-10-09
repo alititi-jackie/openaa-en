@@ -1,0 +1,22 @@
+{
+  "english": "I need a Mandarin interpreter.",
+  "chinese": "我需要中文翻译。",
+  "explanation": "美国医院按法律必须提供免费翻译，看病听不懂时大胆要，这是你的权利。",
+  "alternatives": [
+    {
+      "en": "Can you get me an interpreter?",
+      "zh": "能帮我找个翻译吗？"
+    }
+  ],
+  "aliases": [
+    "要翻译"
+  ],
+  "sceneIds": [
+    "s-first-visit",
+    "s-urgent-care-visit"
+  ],
+  "id": "p-need-interpreter",
+  "categoryIds": [
+    "medical"
+  ]
+}

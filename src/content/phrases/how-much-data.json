@@ -1,0 +1,16 @@
+{
+  "english": "How much data does this plan include?",
+  "chinese": "这个套餐包含多少流量？",
+  "explanation": "选套餐必问，流量不够用超了会降速或加钱。",
+  "alternatives": [],
+  "aliases": [
+    "问流量"
+  ],
+  "sceneIds": [
+    "s-phone-store"
+  ],
+  "id": "p-how-much-data",
+  "categoryIds": [
+    "phone"
+  ]
+}

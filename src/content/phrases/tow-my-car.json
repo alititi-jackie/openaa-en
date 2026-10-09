@@ -1,0 +1,21 @@
+{
+  "english": "Can you tow my car?",
+  "chinese": "能把我的车拖走吗？",
+  "explanation": "车动不了时打给拖车公司或保险道路救援的说法。",
+  "alternatives": [
+    {
+      "en": "Please send a tow truck to my location.",
+      "zh": "请派拖车到我这个位置。"
+    }
+  ],
+  "aliases": [
+    "叫拖车"
+  ],
+  "sceneIds": [
+    "s-roadside-help"
+  ],
+  "id": "p-tow-my-car",
+  "categoryIds": [
+    "driving"
+  ]
+}

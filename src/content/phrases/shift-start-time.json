@@ -1,0 +1,1 @@
+{"id":"p-shift-start-time","english":"What time does my shift start?","chinese":"我的班几点开始？","explanation":"问排班时间。下班时间就问 What time does my shift end?","categoryIds":["factory"],"sceneIds":[],"alternatives":[{"en":"When do I start tomorrow?","zh":"我明天几点上班？"}],"aliases":["几点上班"]}

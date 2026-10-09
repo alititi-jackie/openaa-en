@@ -1,0 +1,1 @@
+{"id": "p-allergic-shellfish", "english": "I'm allergic to shellfish.", "chinese": "我对贝类过敏。", "explanation": "有食物过敏点菜时一定要主动说；shellfish 换成 peanuts、eggs、milk 等任何过敏原，美国餐厅都会严肃对待。", "alternatives": [{"en": "Does this contain peanuts?", "zh": "这个含花生吗？"}, {"en": "I have a food allergy.", "zh": "我有食物过敏。"}], "aliases": ["过敏"], "sceneIds": ["s-food-problem"], "categoryIds": ["restaurant"]}

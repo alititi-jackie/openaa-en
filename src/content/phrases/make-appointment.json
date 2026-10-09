@@ -1,0 +1,21 @@
+{
+  "english": "I'd like to make an appointment.",
+  "chinese": "我想约个号。",
+  "explanation": "打电话或到前台约医生的标准说法，礼貌又直接。",
+  "alternatives": [
+    {
+      "en": "Can I schedule an appointment?",
+      "zh": "能帮我约个时间吗？"
+    }
+  ],
+  "aliases": [
+    "约医生"
+  ],
+  "sceneIds": [
+    "s-make-appointment"
+  ],
+  "id": "p-make-appointment",
+  "categoryIds": [
+    "medical"
+  ]
+}

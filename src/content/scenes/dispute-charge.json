@@ -1,0 +1,82 @@
+{
+  "title": "账单上有不认识的扣款，怎么办？",
+  "summary": "对账单发现可疑扣款：打电话给银行问明细、申诉，保护账户安全。",
+  "featuredPhrase": {
+    "en": "There's a charge I don't recognize.",
+    "zh": "有一笔我不认识的扣款。"
+  },
+  "phrases": [
+    {
+      "en": "There's a charge I don't recognize.",
+      "zh": "有一笔我不认识的扣款。"
+    },
+    {
+      "en": "I think there's fraud on my account.",
+      "zh": "我觉得我的账户被盗刷了。"
+    },
+    {
+      "en": "Can you print my last statement?",
+      "zh": "能打印我上个月的对账单吗？"
+    },
+    {
+      "en": "Can you reverse this charge?",
+      "zh": "能把这笔扣款退回来吗？"
+    },
+    {
+      "en": "I want to dispute this transaction.",
+      "zh": "我要对这笔交易提出异议。"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, there's a charge I don't recognize on my statement.",
+      "zh": "你好，我的对账单上有一笔不认识的扣款。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Can you tell me the date and amount?",
+      "zh": "能告诉我日期和金额吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "October 5th, $89.99, from a store I've never heard of.",
+      "zh": "10 月 5 号，89.99 美元，一家我没听过的店。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "I see it. Would you like to dispute this transaction?",
+      "zh": "看到了，要对这笔交易提出异议吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, please. Can you reverse this charge?",
+      "zh": "要，麻烦把这笔扣款退回来。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Done. You'll see the refund in 3 to 5 days.",
+      "zh": "办好了，3 到 5 天会退款到账。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-statement",
+    "w-balance"
+  ],
+  "relatedSceneIds": [
+    "s-lost-card"
+  ],
+  "seoTitle": "美国银行扣款有问题英语怎么说？申诉对话",
+  "seoDescription": "账单上有不认识的扣款：打电话问明细、申诉退款的完整英语说法，附真实对话。",
+  "id": "s-dispute-charge",
+  "categoryIds": [
+    "banking"
+  ],
+  "aliases": []
+}

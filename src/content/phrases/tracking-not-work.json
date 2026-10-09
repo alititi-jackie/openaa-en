@@ -1,0 +1,1 @@
+{"id": "p-tracking-not-work", "english": "The tracking number doesn't work.", "chinese": "追踪号查不到。", "explanation": "刚发货时追踪号可能还没录入系统，等几小时再查；如果一直查不到，打电话问卖家要正确的单号。", "alternatives": [{"en": "It says the tracking number is invalid.", "zh": "显示追踪号无效。"}], "aliases": ["查不到物流"], "sceneIds": ["s-missing-package-call"], "categoryIds": ["delivery"]}

@@ -1,0 +1,14 @@
+{
+  "english": "I'd like to withdraw $200.",
+  "chinese": "我想取 200 美元。",
+  "explanation": "去柜台取钱的说法，金额换成你要的数字就行。",
+  "alternatives": [],
+  "aliases": [
+    "取钱"
+  ],
+  "sceneIds": [],
+  "id": "p-withdraw-cash",
+  "categoryIds": [
+    "banking"
+  ]
+}

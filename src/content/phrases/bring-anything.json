@@ -1,0 +1,1 @@
+{"id": "p-bring-anything", "english": "Can I bring anything?", "chinese": "我需要带点什么吗？", "explanation": "被邀请去聚会一定要问这句；主人说不用带也最好带瓶酒或甜点，空手去不礼貌。", "alternatives": [{"en": "What can I bring?", "zh": "我带点什么好？"}], "aliases": ["带什么"], "sceneIds": ["s-invite-bbq"], "categoryIds": ["social"]}

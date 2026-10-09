@@ -1,0 +1,1 @@
+{"id": "p-leave-at-door", "english": "Please leave it at the front door.", "chinese": "请放门口。", "explanation": "跟快递员或在订单备注里写；美国很多包裹直接放门口，但贵重物品最好要求签收或放隐蔽处。", "alternatives": [{"en": "Please leave it behind the fence.", "zh": "请放在栅栏后面。"}], "aliases": ["放门口"], "sceneIds": [], "categoryIds": ["delivery"]}

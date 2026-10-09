@@ -1,0 +1,21 @@
+{
+  "english": "Where do I pay this ticket?",
+  "chinese": "这罚单去哪儿交？",
+  "explanation": "收到罚单后问去哪儿交；很多罚单可以直接网上交，不用跑一趟。",
+  "alternatives": [
+    {
+      "en": "Can I pay the ticket online?",
+      "zh": "罚单能在网上交吗？"
+    }
+  ],
+  "aliases": [
+    "交罚单"
+  ],
+  "sceneIds": [
+    "s-traffic-stop"
+  ],
+  "id": "p-pay-ticket-where",
+  "categoryIds": [
+    "driving"
+  ]
+}

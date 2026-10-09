@@ -1,0 +1,1 @@
+{"id": "p-split-bill", "english": "Can we split the bill?", "chinese": "能分开买单吗？", "explanation": "朋友聚餐 AA 时说；最好点菜前就跟服务员说好分开算，叫 separate checks，结账时省事。", "alternatives": [{"en": "Can we get separate checks?", "zh": "能分开结账吗？"}], "aliases": ["AA", "分开买单"], "sceneIds": ["s-ask-for-check"], "categoryIds": ["restaurant"]}

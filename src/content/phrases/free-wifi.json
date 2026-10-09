@@ -1,0 +1,19 @@
+{
+  "english": "Is there free WiFi here?",
+  "chinese": "这里有免费 WiFi 吗？",
+  "explanation": "到餐厅、咖啡店先问这句，省流量。",
+  "alternatives": [
+    {
+      "en": "What's the WiFi password?",
+      "zh": "WiFi 密码是多少？"
+    }
+  ],
+  "aliases": [
+    "问WiFi"
+  ],
+  "sceneIds": [],
+  "id": "p-free-wifi",
+  "categoryIds": [
+    "phone"
+  ]
+}

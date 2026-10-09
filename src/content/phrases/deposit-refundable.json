@@ -1,0 +1,1 @@
+{"id":"p-deposit-refundable","english":"Is the security deposit refundable?","chinese":"押金能退吗？","explanation":"签约前必问。refundable 是\"可退的\"。可以再问一句：What could cause deductions?（什么情况会扣钱？）","categoryIds":["housing"],"sceneIds":["s-sign-lease"],"alternatives":[{"en":"When do I get my deposit back?","zh":"押金什么时候退给我？"}],"aliases":["押金退吗"]}

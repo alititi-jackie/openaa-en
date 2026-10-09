@@ -1,0 +1,1 @@
+{"id":"p-tasks-done","english":"I finished my tasks.","chinese":"我的活儿干完了。","explanation":"干完手头的活儿告诉组长，问接下来干啥。task 就是\"任务、活儿\"。","categoryIds":["factory"],"sceneIds":[],"alternatives":[{"en":"I'm done with my work.","zh":"我的工作做完了。"},{"en":"What's next?","zh":"接下来干啥？"}],"aliases":["干完了"]}

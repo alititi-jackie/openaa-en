@@ -1,0 +1,21 @@
+{
+  "english": "I want to switch to T-Mobile.",
+  "chinese": "我想转到 T-Mobile。",
+  "explanation": "换运营商的说法，运营商名字换成你要去的那家就行。",
+  "alternatives": [
+    {
+      "en": "Can I keep my number?",
+      "zh": "我能保留原来的号码吗？"
+    }
+  ],
+  "aliases": [
+    "换运营商"
+  ],
+  "sceneIds": [
+    "s-switch-carrier"
+  ],
+  "id": "p-switch-carrier",
+  "categoryIds": [
+    "phone"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "english": "I'd like to sign up for a phone plan.",
+  "chinese": "我想办个手机套餐。",
+  "explanation": "去手机店办套餐的标准开场白，店员会接着问你要哪种。",
+  "alternatives": [
+    {
+      "en": "What's the cheapest plan you have?",
+      "zh": "你们最便宜的套餐是多少？"
+    }
+  ],
+  "aliases": [
+    "办套餐"
+  ],
+  "sceneIds": [
+    "s-phone-store"
+  ],
+  "id": "p-sign-up-plan",
+  "categoryIds": [
+    "phone"
+  ]
+}

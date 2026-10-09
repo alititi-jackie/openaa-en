@@ -1,0 +1,16 @@
+{
+  "english": "Do I need a referral to see a specialist?",
+  "chinese": "看专科医生需要转诊单吗？",
+  "explanation": "约专科医生前先问清，省得白跑一趟保险还不报。",
+  "alternatives": [],
+  "aliases": [
+    "问转诊"
+  ],
+  "sceneIds": [
+    "s-make-appointment"
+  ],
+  "id": "p-need-referral",
+  "categoryIds": [
+    "medical"
+  ]
+}

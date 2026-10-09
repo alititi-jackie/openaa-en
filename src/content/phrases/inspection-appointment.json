@@ -1,0 +1,16 @@
+{
+  "english": "Can I schedule an inspection?",
+  "chinese": "能约个车辆年检吗？",
+  "explanation": "打电话给修车店约年检的说法。",
+  "alternatives": [],
+  "aliases": [
+    "约年检"
+  ],
+  "sceneIds": [
+    "s-car-repair"
+  ],
+  "id": "p-inspection-appointment",
+  "categoryIds": [
+    "driving"
+  ]
+}

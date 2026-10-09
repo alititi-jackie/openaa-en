@@ -1,0 +1,81 @@
+{
+  "title": "去 DMV 办驾照和车辆注册",
+  "summary": "去车管所更新驾照、注册车辆：带什么证件、排队说什么，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "I'd like to renew my driver's license.",
+    "zh": "我想更新驾照。"
+  },
+  "phrases": [
+    {
+      "en": "I'd like to renew my driver's license.",
+      "zh": "我想更新驾照。"
+    },
+    {
+      "en": "I need to register my car.",
+      "zh": "我要给车做注册。"
+    },
+    {
+      "en": "What documents do I need?",
+      "zh": "需要带什么证件？"
+    },
+    {
+      "en": "Do I need an appointment?",
+      "zh": "需要预约吗？"
+    },
+    {
+      "en": "When will I get my new license?",
+      "zh": "新驾照什么时候能拿到？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I'd like to renew my driver's license.",
+      "zh": "你好，我想更新驾照。"
+    },
+    {
+      "speaker": "Clerk",
+      "speakerZh": "办事员",
+      "en": "Do you have an appointment?",
+      "zh": "你有预约吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, at 2 pm. Here's my current license.",
+      "zh": "有，下午 2 点。这是我的旧驾照。"
+    },
+    {
+      "speaker": "Clerk",
+      "speakerZh": "办事员",
+      "en": "Please look at the camera for your photo. Do you need to update your address?",
+      "zh": "请看镜头拍照。地址需要更新吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, I just moved. I also need to register my car.",
+      "zh": "要，我刚搬家。另外我还要给车做注册。"
+    },
+    {
+      "speaker": "Clerk",
+      "speakerZh": "办事员",
+      "en": "Bring your title and proof of insurance to window 5.",
+      "zh": "带上车辆 title 和保险证明去 5 号窗口。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-drivers-license",
+    "w-dmv",
+    "w-car-registration"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国 DMV 办事英语怎么说？车管所对话",
+  "seoDescription": "去美国车管所更新驾照、注册车辆的完整英语说法，附真实对话，带齐证件一次办成。",
+  "id": "s-at-dmv",
+  "categoryIds": [
+    "driving"
+  ],
+  "aliases": []
+}

@@ -1,0 +1,14 @@
+{
+  "english": "Can I get a cashier's check?",
+  "chinese": "能开一张银行本票吗？",
+  "explanation": "租房交押金、买车时要银行本票的说法，一般要收几美元手续费。",
+  "alternatives": [],
+  "aliases": [
+    "开本票"
+  ],
+  "sceneIds": [],
+  "id": "p-cashiers-check-please",
+  "categoryIds": [
+    "banking"
+  ]
+}

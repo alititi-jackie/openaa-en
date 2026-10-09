@@ -1,0 +1,1 @@
+{"id": "p-missed-bus", "english": "My child missed the bus.", "chinese": "我孩子没赶上校车。", "explanation": "打电话跟学校说孩子会晚到；也可以直接自己开车送过去，到了去办公室签到就行。", "alternatives": [{"en": "He'll be a little late today.", "zh": "他今天会晚到一会儿。"}], "aliases": ["没赶上校车", "晚到"], "sceneIds": ["s-school-bus-issue"], "categoryIds": ["education"]}

@@ -1,0 +1,1 @@
+{"id":"p-overtime-weekend","english":"Can I work overtime this weekend?","chinese":"这个周末我能加班吗？","explanation":"想多挣钱主动问主管要加班时用。美国加班一般 1.5 倍工资。","categoryIds":["factory"],"sceneIds":["s-ask-overtime"],"alternatives":[{"en":"Is there any overtime available?","zh":"有加班的机会吗？"}],"aliases":["周末加班"]}

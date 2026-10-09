@@ -1,0 +1,1 @@
+{"id":"p-faucet-leaking","english":"The faucet is leaking.","chinese":"水龙头漏水了。","explanation":"报修最常用的句型。faucet 换成 toilet（马桶）、heater（暖气）都能用。","categoryIds":["housing"],"sceneIds":["s-report-repair"],"alternatives":[{"en":"The faucet is dripping.","zh":"水龙头滴水。"},{"en":"There's a leak under the sink.","zh":"水槽下面漏水。"}],"aliases":["水龙头漏水"]}

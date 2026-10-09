@@ -1,0 +1,14 @@
+{
+  "english": "Can I get a copy of my medical records?",
+  "chinese": "能给我一份我的病历吗？",
+  "explanation": "换医生、回国看病时要病历的标准说法，诊所一般会让你填个表。",
+  "alternatives": [],
+  "aliases": [
+    "要病历"
+  ],
+  "sceneIds": [],
+  "id": "p-medical-records",
+  "categoryIds": [
+    "medical"
+  ]
+}

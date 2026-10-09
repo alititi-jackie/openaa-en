@@ -1,0 +1,1 @@
+{"id":"p-forklift-charging","english":"The forklift needs to be charged.","chinese":"叉车该充电了。","explanation":"电动叉车没电了要说。charge 就是充电。","categoryIds":["factory"],"sceneIds":[],"alternatives":[{"en":"The forklift is out of battery.","zh":"叉车没电了。"}],"aliases":["叉车充电"]}

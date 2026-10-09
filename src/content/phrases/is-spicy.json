@@ -1,0 +1,1 @@
+{"id": "p-is-spicy", "english": "Is this dish spicy?", "chinese": "这道菜辣吗？", "explanation": "怕辣点菜前先问；美国餐厅的 spicy 对中国人来说可能只是微辣，不放心就说 Not too spicy, please。", "alternatives": [{"en": "Not too spicy, please.", "zh": "别太辣，谢谢。"}], "aliases": ["辣不辣"], "sceneIds": ["s-order-dine-in"], "categoryIds": ["restaurant"]}

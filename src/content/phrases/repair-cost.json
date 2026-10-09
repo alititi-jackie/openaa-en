@@ -1,0 +1,21 @@
+{
+  "english": "How much will the repair cost?",
+  "chinese": "修这个要多少钱？",
+  "explanation": "修车前必问，先问价再修；更地道的说法是 Can I get an estimate?",
+  "alternatives": [
+    {
+      "en": "Can I get an estimate first?",
+      "zh": "能先给个报价吗？"
+    }
+  ],
+  "aliases": [
+    "问修车价格"
+  ],
+  "sceneIds": [
+    "s-car-repair"
+  ],
+  "id": "p-repair-cost",
+  "categoryIds": [
+    "driving"
+  ]
+}

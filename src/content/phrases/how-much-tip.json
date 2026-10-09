@@ -1,0 +1,1 @@
+{"id": "p-how-much-tip", "english": "How much should I tip?", "chinese": "小费给多少合适？", "explanation": "不确定小费时直接问朋友或查一下也行；堂食一般 18%-20%，服务特别好可以给 25%，快餐自取可以不给。", "alternatives": [{"en": "Is the tip included?", "zh": "小费含在里面了吗？（有时大桌会自动加）"}], "aliases": ["小费多少"], "sceneIds": ["s-ask-for-check"], "categoryIds": ["restaurant"]}

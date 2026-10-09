@@ -1,0 +1,1 @@
+{"id": "p-wrong-address", "english": "It was delivered to the wrong address.", "chinese": "包裹送错地址了。", "explanation": "物流显示送达但你没收到时跟客服说；先问问邻居有没有代收，再打电话，客服会帮你调查。", "alternatives": [{"en": "My package was misdelivered.", "zh": "我的包裹送错了。"}], "aliases": ["送错地址"], "sceneIds": ["s-wrong-address-delivery"], "categoryIds": ["delivery"]}

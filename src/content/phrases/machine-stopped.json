@@ -1,0 +1,1 @@
+{"id":"p-machine-stopped","english":"The machine stopped working.","chinese":"机器停了，不转了。","explanation":"机器突然停了用这句，比 broken 语气轻一点，只是陈述\"停了\"这个事实。","categoryIds":["factory"],"sceneIds":[],"alternatives":[{"en":"The machine is down.","zh":"机器停机了。"},{"en":"The line stopped.","zh":"产线停了。"}],"aliases":["机器停了"]}

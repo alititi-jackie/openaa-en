@@ -1,0 +1,16 @@
+{
+  "english": "I got pulled over by the police.",
+  "chinese": "我被警察拦下来了。",
+  "explanation": "跟家人朋友说被警察拦下的说法；被拦下时手放方向盘上，等警察过来再动。",
+  "alternatives": [],
+  "aliases": [
+    "被警察拦下"
+  ],
+  "sceneIds": [
+    "s-traffic-stop"
+  ],
+  "id": "p-pulled-over",
+  "categoryIds": [
+    "driving"
+  ]
+}

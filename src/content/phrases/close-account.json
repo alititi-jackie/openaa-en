@@ -1,0 +1,14 @@
+{
+  "english": "I'd like to close my account.",
+  "chinese": "我想把账户关了。",
+  "explanation": "销户的说法；关之前先把余额转走，确认没有自动扣款绑在这张卡上。",
+  "alternatives": [],
+  "aliases": [
+    "销户"
+  ],
+  "sceneIds": [],
+  "id": "p-close-account",
+  "categoryIds": [
+    "banking"
+  ]
+}

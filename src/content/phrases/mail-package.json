@@ -1,0 +1,1 @@
+{"id": "p-mail-package", "english": "I need to mail this package.", "chinese": "我要寄这个包裹。", "explanation": "去邮局寄包裹的开场白；工作人员会问寄到哪里、要多快，然后称重报价。", "alternatives": [{"en": "I'd like to send this package.", "zh": "我想寄这个包裹。"}], "aliases": ["寄包裹", "寄快递"], "sceneIds": ["s-mail-at-post-office"], "categoryIds": ["delivery"]}

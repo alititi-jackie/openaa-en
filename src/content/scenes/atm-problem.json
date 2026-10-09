@@ -1,0 +1,82 @@
+{
+  "title": "ATM 吞卡、取不出钱，怎么办？",
+  "summary": "取款机吞卡或故障：记下机器编号，打银行客服，申请补卡或退钱。",
+  "featuredPhrase": {
+    "en": "The ATM ate my card.",
+    "zh": "取款机把我的卡吞了。"
+  },
+  "phrases": [
+    {
+      "en": "The ATM ate my card.",
+      "zh": "取款机把我的卡吞了。"
+    },
+    {
+      "en": "The ATM didn't give me my cash.",
+      "zh": "取款机没给我吐钱。"
+    },
+    {
+      "en": "I'd like to withdraw $200.",
+      "zh": "我想取 200 美元。"
+    },
+    {
+      "en": "Can you send me a new card?",
+      "zh": "能给我寄张新卡吗？"
+    },
+    {
+      "en": "Where is the nearest branch?",
+      "zh": "最近的网点在哪？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, the ATM ate my card just now.",
+      "zh": "你好，取款机刚才把我的卡吞了。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "I'm sorry. Do you know the ATM location or number?",
+      "zh": "很抱歉，知道那台机器的位置或编号吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "It's the one outside the Main Street branch.",
+      "zh": "就是 Main Street 网点门口那台。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Got it. I've frozen your card. Can you come to the branch tomorrow?",
+      "zh": "记下了，卡已冻结，明天能来网点一趟吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes. Can I get my card back there?",
+      "zh": "可以，能在网点拿回我的卡吗？"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "We'll check. If not, we'll send you a new one.",
+      "zh": "我们查一下，拿不回来就给你寄张新的。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-atm",
+    "w-withdrawal"
+  ],
+  "relatedSceneIds": [
+    "s-lost-card"
+  ],
+  "seoTitle": "美国 ATM 吞卡英语怎么说？取款机故障对话",
+  "seoDescription": "ATM 吞卡、取不出钱：打银行客服的完整英语说法，附真实对话，冷静处理。",
+  "id": "s-atm-problem",
+  "categoryIds": [
+    "banking"
+  ],
+  "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+  "english": "Can you print my last statement?",
+  "chinese": "能打印我上个月的对账单吗？",
+  "explanation": "办贷款、签证、报税要对账单时去柜台的说法。",
+  "alternatives": [],
+  "aliases": [
+    "打印账单"
+  ],
+  "sceneIds": [
+    "s-dispute-charge"
+  ],
+  "id": "p-print-statement",
+  "categoryIds": [
+    "banking"
+  ]
+}

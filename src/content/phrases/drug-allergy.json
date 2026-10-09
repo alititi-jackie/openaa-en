@@ -1,0 +1,22 @@
+{
+  "english": "I'm allergic to penicillin.",
+  "chinese": "我对青霉素过敏。",
+  "explanation": "看病、拿药、打疫苗时主动说明过敏史，句式：I'm allergic to + 东西。",
+  "alternatives": [
+    {
+      "en": "I have a drug allergy.",
+      "zh": "我有药物过敏。"
+    }
+  ],
+  "aliases": [
+    "药物过敏"
+  ],
+  "sceneIds": [
+    "s-first-visit",
+    "s-pharmacy-pickup"
+  ],
+  "id": "p-drug-allergy",
+  "categoryIds": [
+    "medical"
+  ]
+}

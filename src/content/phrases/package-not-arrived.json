@@ -1,0 +1,1 @@
+{"id": "p-package-not-arrived", "english": "My package hasn't arrived yet.", "chinese": "我的包裹还没到。", "explanation": "超过预计送达时间还没收到时说；客服会帮你查，有时是物流延迟，有时是送错了。", "alternatives": [{"en": "It's past the delivery date.", "zh": "已经过了预计送达日期。"}], "aliases": ["包裹没到"], "sceneIds": ["s-missing-package-call"], "categoryIds": ["delivery"]}

@@ -1,0 +1,1 @@
+{"id":"p-where-is-milk","english":"Where can I find the milk?","chinese":"牛奶在哪儿？","explanation":"超市里找不到东西问店员。milk 换成任何商品都行。","categoryIds":["shopping"],"sceneIds":["s-find-item-store"],"alternatives":[{"en":"Where is the milk?","zh":"牛奶在哪儿？"}],"aliases":["牛奶在哪"]}

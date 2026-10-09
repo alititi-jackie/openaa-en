@@ -1,0 +1,21 @@
+{
+  "english": "I'd like to deposit this check.",
+  "chinese": "我要存这张支票。",
+  "explanation": "去柜台存支票的说法；小额支票直接手机拍照存更快。",
+  "alternatives": [
+    {
+      "en": "Can I deposit cash?",
+      "zh": "能存现金吗？"
+    }
+  ],
+  "aliases": [
+    "存支票"
+  ],
+  "sceneIds": [
+    "s-open-account"
+  ],
+  "id": "p-deposit-check",
+  "categoryIds": [
+    "banking"
+  ]
+}

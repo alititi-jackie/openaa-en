@@ -1,0 +1,16 @@
+{
+  "english": "Can you help me reset my router?",
+  "chinese": "能帮我重置一下路由器吗？",
+  "explanation": "打客服时让对方远程帮你重置路由器，很多问题这样就好。",
+  "alternatives": [],
+  "aliases": [
+    "重置路由"
+  ],
+  "sceneIds": [
+    "s-wifi-support"
+  ],
+  "id": "p-reset-router",
+  "categoryIds": [
+    "phone"
+  ]
+}

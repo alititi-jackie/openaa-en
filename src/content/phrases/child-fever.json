@@ -1,0 +1,1 @@
+{"id": "p-child-fever", "english": "My child has a fever.", "chinese": "我孩子发烧了。", "explanation": "跟学校请病假时说明原因；美国学校规定完全退烧 24 小时后才能返校，保护其他孩子。", "alternatives": [{"en": "She threw up this morning.", "zh": "她今天早上吐了。"}], "aliases": ["发烧", "生病"], "sceneIds": ["s-call-in-sick-school"], "categoryIds": ["education"]}

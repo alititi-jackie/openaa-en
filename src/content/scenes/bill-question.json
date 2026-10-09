@@ -1,0 +1,81 @@
+{
+  "title": "收到医疗账单有疑问，怎么问？",
+  "summary": "收到看不懂的医疗账单：打电话问明细、确认保险报了没、申请分期付款。",
+  "featuredPhrase": {
+    "en": "I have a question about my bill.",
+    "zh": "我对账单有疑问。"
+  },
+  "phrases": [
+    {
+      "en": "I have a question about my bill.",
+      "zh": "我对账单有疑问。"
+    },
+    {
+      "en": "Can you explain these charges?",
+      "zh": "能解释一下这些收费吗？"
+    },
+    {
+      "en": "Was my insurance billed?",
+      "zh": "你们走我的保险了吗？"
+    },
+    {
+      "en": "Can I set up a payment plan?",
+      "zh": "能分期付款吗？"
+    },
+    {
+      "en": "Can you send me an itemized bill?",
+      "zh": "能给我一份明细账单吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I have a question about my bill. It's much higher than I expected.",
+      "zh": "你好，我对账单有疑问，比我预期的高太多了。"
+    },
+    {
+      "speaker": "Billing",
+      "speakerZh": "账单部门",
+      "en": "What's your account number?",
+      "zh": "你的账号是多少？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "It's 12345. Was my insurance billed?",
+      "zh": "12345。你们走我的保险了吗？"
+    },
+    {
+      "speaker": "Billing",
+      "speakerZh": "账单部门",
+      "en": "It looks like the claim was denied. You may need to meet your deductible first.",
+      "zh": "看起来保险拒赔了，你可能要先花够免赔额。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I see. Can I set up a payment plan?",
+      "zh": "明白了，能分期付款吗？"
+    },
+    {
+      "speaker": "Billing",
+      "speakerZh": "账单部门",
+      "en": "Of course. We can split it into 6 monthly payments.",
+      "zh": "当然，可以分成 6 个月付。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-insurance",
+    "w-deductible",
+    "w-copay"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国医疗账单看不懂怎么办？问账单的英语",
+  "seoDescription": "收到天价医疗账单别慌。本文教你打电话问明细、确认保险、分期付款的英语说法，附真实对话。",
+  "id": "s-bill-question",
+  "categoryIds": [
+    "medical"
+  ],
+  "aliases": []
+}

@@ -1,0 +1,21 @@
+{
+  "english": "I have a flat tire.",
+  "chinese": "我的轮胎爆了。",
+  "explanation": "路上爆胎打电话求助时说这句，对方会问你在什么位置。",
+  "alternatives": [
+    {
+      "en": "Can you help me change the tire?",
+      "zh": "能帮我换下轮胎吗？"
+    }
+  ],
+  "aliases": [
+    "爆胎求助"
+  ],
+  "sceneIds": [
+    "s-roadside-help"
+  ],
+  "id": "p-flat-tire-help",
+  "categoryIds": [
+    "driving"
+  ]
+}

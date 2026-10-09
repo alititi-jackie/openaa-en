@@ -1,0 +1,83 @@
+{
+  "title": "修车店：描述问题和问价格",
+  "summary": "车有异响、要保养：跟修车师傅描述问题、先问报价再修，不被乱收费。",
+  "featuredPhrase": {
+    "en": "My car is making a strange noise.",
+    "zh": "我的车有异响。"
+  },
+  "phrases": [
+    {
+      "en": "My car is making a strange noise.",
+      "zh": "我的车有异响。"
+    },
+    {
+      "en": "I need an oil change.",
+      "zh": "我要换机油。"
+    },
+    {
+      "en": "How much will the repair cost?",
+      "zh": "修这个要多少钱？"
+    },
+    {
+      "en": "Is this covered by the warranty?",
+      "zh": "这个在保修范围内吗？"
+    },
+    {
+      "en": "When will my car be ready?",
+      "zh": "我的车什么时候能修好？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, my car is making a strange noise when I brake.",
+      "zh": "你好，我踩刹车时车有异响。"
+    },
+    {
+      "speaker": "Mechanic",
+      "speakerZh": "修车师傅",
+      "en": "Let me take a look. How long has this been going on?",
+      "zh": "我看看，多久了？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "About a week. How much will the repair cost?",
+      "zh": "大概一周了，修一下多少钱？"
+    },
+    {
+      "speaker": "Mechanic",
+      "speakerZh": "修车师傅",
+      "en": "Your brake pads are worn out. It'll be about $250.",
+      "zh": "刹车片磨没了，大概要 250 美元。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Is this covered by the warranty?",
+      "zh": "这个在保修范围内吗？"
+    },
+    {
+      "speaker": "Mechanic",
+      "speakerZh": "修车师傅",
+      "en": "Brake pads are wear and tear, so no. But I can have it ready by 4.",
+      "zh": "刹车片算损耗件，不保。不过 4 点前能修好。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-mechanic",
+    "w-oil-change",
+    "w-mileage"
+  ],
+  "relatedSceneIds": [
+    "s-roadside-help"
+  ],
+  "seoTitle": "美国修车英语怎么说？修车店沟通对话",
+  "seoDescription": "在美国修车店描述问题、问报价的完整英语说法，附真实对话，先问价再修不被坑。",
+  "id": "s-car-repair",
+  "categoryIds": [
+    "driving"
+  ],
+  "aliases": []
+}

@@ -1,0 +1,16 @@
+{
+  "english": "What are the side effects of this medicine?",
+  "chinese": "这药有什么副作用？",
+  "explanation": "拿药时多问一句，吃得明白也安心。",
+  "alternatives": [],
+  "aliases": [
+    "问副作用"
+  ],
+  "sceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "id": "p-side-effects-ask",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "english": "It's an emergency!",
+  "chinese": "这是紧急情况！",
+  "explanation": "真正危急时喊的话，急诊分诊会优先处理；小病别用这句。",
+  "alternatives": [],
+  "aliases": [
+    "急诊"
+  ],
+  "sceneIds": [
+    "s-urgent-care-visit"
+  ],
+  "id": "p-its-emergency",
+  "categoryIds": [
+    "medical"
+  ]
+}

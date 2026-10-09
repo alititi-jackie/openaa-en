@@ -1,0 +1,21 @@
+{
+  "english": "There's a charge I don't recognize.",
+  "chinese": "有一笔我不认识的扣款。",
+  "explanation": "对账单发现可疑扣款时打电话问的标准说法，银行会帮你查。",
+  "alternatives": [
+    {
+      "en": "I think there's fraud on my account.",
+      "zh": "我觉得我的账户被盗刷了。"
+    }
+  ],
+  "aliases": [
+    "可疑扣款"
+  ],
+  "sceneIds": [
+    "s-dispute-charge"
+  ],
+  "id": "p-unknown-charge",
+  "categoryIds": [
+    "banking"
+  ]
+}

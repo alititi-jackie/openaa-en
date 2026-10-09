@@ -1,0 +1,21 @@
+{
+  "english": "I've been in a car accident.",
+  "chinese": "我出车祸了。",
+  "explanation": "出事故打 911 或通知保险时的第一句，先说这句再说位置。",
+  "alternatives": [
+    {
+      "en": "Please call 911.",
+      "zh": "请打 911。"
+    }
+  ],
+  "aliases": [
+    "出车祸"
+  ],
+  "sceneIds": [
+    "s-roadside-help"
+  ],
+  "id": "p-car-accident",
+  "categoryIds": [
+    "driving"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "english": "I need a refill on my prescription.",
+  "chinese": "我的处方药该续了。",
+  "explanation": "长期药吃完了，打电话给药房续药的标准说法。",
+  "alternatives": [
+    {
+      "en": "Can I refill this prescription?",
+      "zh": "这个处方能续吗？"
+    }
+  ],
+  "aliases": [
+    "续处方药"
+  ],
+  "sceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "id": "p-refill-prescription",
+  "categoryIds": [
+    "medical"
+  ]
+}

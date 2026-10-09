@@ -1,0 +1,1 @@
+{"id": "p-when-conference", "english": "When is the parent-teacher conference?", "chinese": "家长会什么时候开？", "explanation": "问家长会时间；美国小学一般一年两次，秋冬各一次，老师会提前发通知让家长预约时段。", "alternatives": [{"en": "How do I sign up for a conference?", "zh": "家长会怎么报名约时间？"}], "aliases": ["家长会时间"], "sceneIds": ["s-parent-teacher-conference"], "categoryIds": ["education"]}

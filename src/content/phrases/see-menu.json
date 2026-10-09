@@ -1,0 +1,1 @@
+{"id": "p-see-menu", "english": "Can I see the menu?", "chinese": "能看下菜单吗？", "explanation": "坐下后跟服务员要菜单；很多餐厅桌上有二维码，扫码看电子菜单，也可以说 Can I have a paper menu?（能给我纸质菜单吗？）。", "alternatives": [{"en": "Can I have a paper menu?", "zh": "能给我纸质菜单吗？"}], "aliases": ["菜单"], "sceneIds": ["s-order-dine-in"], "categoryIds": ["restaurant"]}

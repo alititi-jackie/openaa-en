@@ -1,0 +1,21 @@
+{
+  "english": "I'd like to open a checking account.",
+  "chinese": "我想开个支票账户。",
+  "explanation": "去银行开户的标准开场白，柜员会接着问你要什么证件。",
+  "alternatives": [
+    {
+      "en": "I'd like to open a savings account too.",
+      "zh": "我还想开个储蓄账户。"
+    }
+  ],
+  "aliases": [
+    "开户"
+  ],
+  "sceneIds": [
+    "s-open-account"
+  ],
+  "id": "p-open-account",
+  "categoryIds": [
+    "banking"
+  ]
+}

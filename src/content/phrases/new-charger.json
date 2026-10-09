@@ -1,0 +1,16 @@
+{
+  "english": "I need a new charger for my iPhone.",
+  "chinese": "我的 iPhone 需要一个新的充电器。",
+  "explanation": "去店里买充电器的说法，型号换成你的手机就行。",
+  "alternatives": [],
+  "aliases": [
+    "买充电器"
+  ],
+  "sceneIds": [
+    "s-phone-repair"
+  ],
+  "id": "p-new-charger",
+  "categoryIds": [
+    "phone"
+  ]
+}

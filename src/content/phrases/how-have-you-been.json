@@ -1,0 +1,1 @@
+{"id": "p-how-have-you-been", "english": "How have you been?", "chinese": "最近怎么样？", "explanation": "跟熟人打招呼问近况；不用真的详细回答，说 Pretty good, how about you?（挺好的，你呢？）就行。", "alternatives": [{"en": "How's it going?", "zh": "最近咋样？（更随意）"}, {"en": "Pretty good, how about you?", "zh": "挺好的，你呢？"}], "aliases": ["最近怎么样"], "sceneIds": ["s-small-talk-party"], "categoryIds": ["social"]}

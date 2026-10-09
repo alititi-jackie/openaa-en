@@ -1,0 +1,14 @@
+{
+  "english": "My bill is higher than I expected.",
+  "chinese": "我的账单比预期的高。",
+  "explanation": "话费账单不对时打客服问的标准开场，客服会帮你查明细。",
+  "alternatives": [],
+  "aliases": [
+    "账单太高"
+  ],
+  "sceneIds": [],
+  "id": "p-bill-too-high",
+  "categoryIds": [
+    "phone"
+  ]
+}

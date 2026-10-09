@@ -1,0 +1,1 @@
+{"id": "p-ride-school-bus", "english": "Can my child ride the school bus?", "chinese": "我孩子能坐校车吗？", "explanation": "问校车资格；住得离学校近（一般 2 英里内）可能没有校车，需要自己接送。", "alternatives": [{"en": "Where is the bus stop?", "zh": "校车站在哪里？"}], "aliases": ["校车"], "sceneIds": ["s-school-bus-issue"], "categoryIds": ["education"]}

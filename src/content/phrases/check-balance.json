@@ -1,0 +1,14 @@
+{
+  "english": "What's my balance?",
+  "chinese": "我账户余额是多少？",
+  "explanation": "查余额最直接的说法，柜台、电话、App 里都能用。",
+  "alternatives": [],
+  "aliases": [
+    "查余额"
+  ],
+  "sceneIds": [],
+  "id": "p-check-balance",
+  "categoryIds": [
+    "banking"
+  ]
+}

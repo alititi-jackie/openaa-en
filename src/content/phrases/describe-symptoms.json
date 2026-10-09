@@ -1,0 +1,22 @@
+{
+  "english": "I have a fever and a sore throat.",
+  "chinese": "我发烧，嗓子疼。",
+  "explanation": "跟医生描述症状的句式：I have a + 症状，套什么症状都行。",
+  "alternatives": [
+    {
+      "en": "I've had a cough for three days.",
+      "zh": "我咳嗽三天了。"
+    }
+  ],
+  "aliases": [
+    "说症状"
+  ],
+  "sceneIds": [
+    "s-first-visit",
+    "s-urgent-care-visit"
+  ],
+  "id": "p-describe-symptoms",
+  "categoryIds": [
+    "medical"
+  ]
+}

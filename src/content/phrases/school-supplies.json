@@ -1,0 +1,1 @@
+{"id": "p-school-supplies", "english": "What supplies does my child need?", "chinese": "我孩子需要准备什么文具？", "explanation": "开学前问老师或看学校发的 supply list（文具清单）；文具去 Target、Walmart 一次就能买齐。", "alternatives": [{"en": "Where can I find the supply list?", "zh": "文具清单在哪里看？"}], "aliases": ["文具", "开学准备"], "sceneIds": ["s-enroll-child-school"], "categoryIds": ["education"]}

@@ -1,0 +1,1 @@
+{"id": "p-track-package", "english": "How can I track my package?", "chinese": "我怎么查包裹物流？", "explanation": "不知道怎么查时问；一般去 USPS、UPS、FedEx 官网输入 tracking number 就行。", "alternatives": [{"en": "Where can I track it?", "zh": "在哪里能查到？"}], "aliases": ["查物流", "查包裹"], "sceneIds": ["s-missing-package-call"], "categoryIds": ["delivery"]}

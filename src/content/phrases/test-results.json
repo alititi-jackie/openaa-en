@@ -1,0 +1,21 @@
+{
+  "english": "When will my test results be ready?",
+  "chinese": "我的检查结果什么时候出来？",
+  "explanation": "做完抽血、拍片一定要问这句，不然结果出来了没人通知你。",
+  "alternatives": [
+    {
+      "en": "How will I get my results?",
+      "zh": "结果会怎么通知我？"
+    }
+  ],
+  "aliases": [
+    "问检查结果"
+  ],
+  "sceneIds": [
+    "s-first-visit"
+  ],
+  "id": "p-test-results",
+  "categoryIds": [
+    "medical"
+  ]
+}

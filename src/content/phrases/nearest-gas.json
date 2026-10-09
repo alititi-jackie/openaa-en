@@ -1,0 +1,16 @@
+{
+  "english": "Where is the nearest gas station?",
+  "chinese": "最近的加油站在哪？",
+  "explanation": "油表见底时问路人的救命句，nearest 是最实用的词。",
+  "alternatives": [],
+  "aliases": [
+    "找加油站"
+  ],
+  "sceneIds": [
+    "s-gas-station"
+  ],
+  "id": "p-nearest-gas",
+  "categoryIds": [
+    "driving"
+  ]
+}

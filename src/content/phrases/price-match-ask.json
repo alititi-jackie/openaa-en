@@ -1,0 +1,1 @@
+{"id":"p-price-match-ask","english":"Do you price match?","chinese":"你们比价吗？","explanation":"别家便宜时问这家能不能按低价卖。Target、Best Buy 一般都行。","categoryIds":["shopping"],"sceneIds":["s-ask-sale"],"alternatives":[{"en":"Can you match this price?","zh":"能按这个价格卖吗？"}],"aliases":["比价"]}

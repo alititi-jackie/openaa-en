@@ -1,0 +1,1 @@
+{"id": "p-to-go", "english": "Can I get this to go?", "chinese": "这个能打包吗？", "explanation": "吃不完想打包时说；服务员会拿 to-go box 来，或者帮你打包好，to go 就是带走的意思。", "alternatives": [{"en": "Can I get a to-go box?", "zh": "能给我个打包盒吗？"}, {"en": "I'll take the rest to go.", "zh": "剩下的我打包带走。"}], "aliases": ["打包", "带走"], "sceneIds": [], "categoryIds": ["restaurant"]}

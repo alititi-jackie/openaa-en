@@ -1,0 +1,67 @@
+{
+  "title": "加油站自助加油，怎么操作？",
+  "summary": "美国加油基本自助：刷卡、选油号、自己加，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "Fill it up with regular, please.",
+    "zh": "加满普通汽油，谢谢。"
+  },
+  "phrases": [
+    {
+      "en": "Fill it up with regular, please.",
+      "zh": "加满普通汽油，谢谢。"
+    },
+    {
+      "en": "Where is the nearest gas station?",
+      "zh": "最近的加油站在哪？"
+    },
+    {
+      "en": "Which pump is mine?",
+      "zh": "我是哪个加油机？"
+    },
+    {
+      "en": "The pump isn't working.",
+      "zh": "这个加油机坏了。"
+    },
+    {
+      "en": "Can I get a receipt?",
+      "zh": "能给我小票吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, fill it up with regular, please.",
+      "zh": "你好，加满普通汽油。"
+    },
+    {
+      "speaker": "Attendant",
+      "speakerZh": "加油员",
+      "en": "Sure. Pump 3. Do you want a receipt?",
+      "zh": "好的，3 号机，要小票吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, please.",
+      "zh": "要，谢谢。"
+    },
+    {
+      "speaker": "Attendant",
+      "speakerZh": "加油员",
+      "en": "All set. That'll be $45.",
+      "zh": "加好了，45 美元。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-gas-station"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国加油站英语怎么说？自助加油对话",
+  "seoDescription": "在美国加油站自助加油的英语说法：选油、加油、要小票。本文附实用对话，开车加油不求人。",
+  "id": "s-gas-station",
+  "categoryIds": [
+    "driving"
+  ],
+  "aliases": []
+}

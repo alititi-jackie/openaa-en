@@ -1,0 +1,1 @@
+{"id": "p-package-damaged", "english": "My package arrived damaged.", "chinese": "我的包裹收到时是坏的。", "explanation": "开箱发现东西坏了跟卖家或快递说；拍照留证，一般卖家会补发或退款，买了保险走索赔也行。", "alternatives": [{"en": "The item inside is broken.", "zh": "里面的东西碎了。"}], "aliases": ["包裹破损"], "sceneIds": [], "categoryIds": ["delivery"]}

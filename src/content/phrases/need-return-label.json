@@ -1,0 +1,1 @@
+{"id": "p-need-return-label", "english": "I need a return label.", "chinese": "我需要一张退货标签。", "explanation": "网购退货时跟卖家要；很多卖家直接发到你邮箱，打印出来贴箱子上就行，不用自己付运费。", "alternatives": [{"en": "Can you email me the return label?", "zh": "能把退货标签发到我邮箱吗？"}], "aliases": ["退货"], "sceneIds": ["s-return-online-order"], "categoryIds": ["delivery"]}

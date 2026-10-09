@@ -1,0 +1,21 @@
+{
+  "english": "My WiFi isn't working.",
+  "chinese": "我家无线网连不上了。",
+  "explanation": "断网了打宽带客服的第一句，对方会一步步带你排查。",
+  "alternatives": [
+    {
+      "en": "The internet is down.",
+      "zh": "断网了。"
+    }
+  ],
+  "aliases": [
+    "断网"
+  ],
+  "sceneIds": [
+    "s-wifi-support"
+  ],
+  "id": "p-wifi-not-working",
+  "categoryIds": [
+    "phone"
+  ]
+}

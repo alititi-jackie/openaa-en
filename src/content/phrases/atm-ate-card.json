@@ -1,0 +1,16 @@
+{
+  "english": "The ATM ate my card.",
+  "chinese": "取款机把我的卡吞了。",
+  "explanation": "ATM 吞卡后打银行客服的标准说法，ate 在这里是口语化的说法，老外都这么说。",
+  "alternatives": [],
+  "aliases": [
+    "吞卡"
+  ],
+  "sceneIds": [
+    "s-atm-problem"
+  ],
+  "id": "p-atm-ate-card",
+  "categoryIds": [
+    "banking"
+  ]
+}

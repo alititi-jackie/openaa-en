@@ -1,0 +1,16 @@
+{
+  "english": "Where is the nearest pharmacy?",
+  "chinese": "最近的药房在哪？",
+  "explanation": "医生开了处方，问清去哪儿取药；nearest 是最实用的词。",
+  "alternatives": [],
+  "aliases": [
+    "找药房"
+  ],
+  "sceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "id": "p-where-pharmacy",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,1 @@
+{"id": "p-table-for-two", "english": "A table for two, please.", "chinese": "两位，谢谢。", "explanation": "进餐厅跟领位员说的第一句；几个人就把 two 换成 three、four，one person 就是一位。", "alternatives": [{"en": "Two, please.", "zh": "两位。"}, {"en": "Party of four.", "zh": "四位。"}], "aliases": ["几位", "订座"], "sceneIds": ["s-order-dine-in"], "categoryIds": ["restaurant"]}

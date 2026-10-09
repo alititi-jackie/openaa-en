@@ -1,0 +1,1 @@
+{"id": "p-refund-shipping", "english": "Can I get a refund for the shipping?", "chinese": "运费能退吗？", "explanation": "付了加急费结果延迟送达时可以要运费退款；态度好一点，客服一般会同意退。", "alternatives": [{"en": "I paid for express shipping but it was late.", "zh": "我付了加急运费但送晚了。"}], "aliases": ["退运费"], "sceneIds": [], "categoryIds": ["delivery"]}

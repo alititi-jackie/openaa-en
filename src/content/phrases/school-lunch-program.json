@@ -1,0 +1,1 @@
+{"id": "p-school-lunch-program", "english": "Is there a free lunch program?", "chinese": "学校有免费午餐吗？", "explanation": "美国公立学校给符合条件的家庭提供免费或减价午餐，申请填表就行，信息保密，孩子不会被区别对待。", "alternatives": [{"en": "How do I apply for free lunch?", "zh": "免费午餐怎么申请？"}], "aliases": ["免费午餐", "午餐计划"], "sceneIds": ["s-school-lunch-allergy"], "categoryIds": ["education"]}

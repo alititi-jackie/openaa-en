@@ -1,0 +1,21 @@
+{
+  "english": "My car won't start.",
+  "chinese": "我的车打不着火了。",
+  "explanation": "车发动不了时打电话求助的标准说法，拖车公司、修车店一听就懂。",
+  "alternatives": [
+    {
+      "en": "My car broke down on the highway.",
+      "zh": "我的车在高速上抛锚了。"
+    }
+  ],
+  "aliases": [
+    "打不着火"
+  ],
+  "sceneIds": [
+    "s-roadside-help"
+  ],
+  "id": "p-car-wont-start",
+  "categoryIds": [
+    "driving"
+  ]
+}

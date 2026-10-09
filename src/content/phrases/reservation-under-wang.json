@@ -1,0 +1,1 @@
+{"id": "p-reservation-under-wang", "english": "We have a reservation under Wang.", "chinese": "我们有预订，姓王。", "explanation": "到有预订的餐厅报名字；under 后面跟订位时留的姓，Wang 换成你自己的姓就行。", "alternatives": [{"en": "I have a reservation for two at 7.", "zh": "我订了今晚 7 点两位。"}], "aliases": ["预订", "订位"], "sceneIds": ["s-make-reservation"], "categoryIds": ["restaurant"]}

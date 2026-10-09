@@ -1,0 +1,1 @@
+{"id": "p-food-cold", "english": "The food is cold.", "chinese": "菜凉了。", "explanation": "菜有问题时直接跟服务员说，美国人遇到这种情况会直接讲，不用不好意思；也可以说 This isn't what I ordered（这不是我点的）。", "alternatives": [{"en": "This isn't what I ordered.", "zh": "这不是我点的。"}, {"en": "My steak is overcooked.", "zh": "我的牛排煎老了。"}], "aliases": ["投诉", "菜有问题"], "sceneIds": ["s-food-problem"], "categoryIds": ["restaurant"]}

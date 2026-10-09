@@ -1,0 +1,16 @@
+{
+  "english": "I'd like to set up direct deposit.",
+  "chinese": "我想设置工资直接入账。",
+  "explanation": "让工资自动打到账户里；也可以直接问公司 HR 要表格。",
+  "alternatives": [],
+  "aliases": [
+    "工资直存"
+  ],
+  "sceneIds": [
+    "s-open-account"
+  ],
+  "id": "p-setup-direct-deposit",
+  "categoryIds": [
+    "banking"
+  ]
+}

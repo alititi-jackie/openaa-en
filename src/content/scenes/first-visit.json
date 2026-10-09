@@ -1,0 +1,90 @@
+{
+  "title": "第一次去诊所看病：填表和见医生",
+  "summary": "新病人第一次去诊所：前台填表交保险卡，见医生描述症状，这样沟通最顺畅。",
+  "featuredPhrase": {
+    "en": "I have a fever and a sore throat.",
+    "zh": "我发烧，嗓子疼。"
+  },
+  "phrases": [
+    {
+      "en": "I need to see a doctor.",
+      "zh": "我需要看医生。"
+    },
+    {
+      "en": "I have a fever and a sore throat.",
+      "zh": "我发烧，嗓子疼。"
+    },
+    {
+      "en": "I'm allergic to penicillin.",
+      "zh": "我对青霉素过敏。"
+    },
+    {
+      "en": "I need a Mandarin interpreter.",
+      "zh": "我需要中文翻译。"
+    },
+    {
+      "en": "When will my test results be ready?",
+      "zh": "我的检查结果什么时候出来？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Front desk",
+      "speakerZh": "前台",
+      "en": "Hi, do you have an appointment?",
+      "zh": "你好，你有预约吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, at 10 with Dr. Smith. Here's my insurance card.",
+      "zh": "有，10 点约的 Smith 医生。这是我的保险卡。"
+    },
+    {
+      "speaker": "Front desk",
+      "speakerZh": "前台",
+      "en": "Please fill out these forms. Your copay is $30.",
+      "zh": "请填一下这些表，自付费 30 美元。"
+    },
+    {
+      "speaker": "Doctor",
+      "speakerZh": "医生",
+      "en": "What brings you in today?",
+      "zh": "今天哪里不舒服？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I have a fever and a sore throat. It started three days ago.",
+      "zh": "我发烧，嗓子疼，三天前开始的。"
+    },
+    {
+      "speaker": "Doctor",
+      "speakerZh": "医生",
+      "en": "Do you have any drug allergies?",
+      "zh": "你对什么药过敏吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, I'm allergic to penicillin.",
+      "zh": "有，我对青霉素过敏。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-symptoms",
+    "w-allergy",
+    "w-copay",
+    "w-insurance"
+  ],
+  "relatedSceneIds": [
+    "s-make-appointment"
+  ],
+  "seoTitle": "美国第一次看病英语怎么说？诊所看病对话",
+  "seoDescription": "第一次在美国诊所看病，从填表到见医生全程英语。本文附完整对话和实用句子，照着说就行。",
+  "id": "s-first-visit",
+  "categoryIds": [
+    "medical"
+  ],
+  "aliases": []
+}

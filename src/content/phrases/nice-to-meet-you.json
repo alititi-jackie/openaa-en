@@ -1,0 +1,1 @@
+{"id": "p-nice-to-meet-you", "english": "Nice to meet you!", "chinese": "很高兴认识你！", "explanation": "认识新朋友最常用的一句；对方一般会回 Nice to meet you too（我也很高兴认识你）。", "alternatives": [{"en": "Nice to meet you too!", "zh": "我也很高兴认识你！"}, {"en": "Pleased to meet you.", "zh": "很高兴认识你。（稍正式）"}], "aliases": ["认识你很高兴"], "sceneIds": ["s-meet-neighbor"], "categoryIds": ["social"]}

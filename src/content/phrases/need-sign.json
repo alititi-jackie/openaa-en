@@ -1,0 +1,1 @@
+{"id": "p-need-sign", "english": "Do I need to sign for it?", "chinese": "需要我签收吗？", "explanation": "拿包裹时问；需要签收（signature required）的包裹本人不在的话，快递员会留条子让你去网点取。", "alternatives": [{"en": "Can someone else sign for me?", "zh": "能让别人代签吗？"}], "aliases": ["签收"], "sceneIds": [], "categoryIds": ["delivery"]}

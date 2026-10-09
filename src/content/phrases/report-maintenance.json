@@ -1,0 +1,1 @@
+{"id":"p-report-maintenance","english":"I need to report a maintenance issue.","chinese":"我要报修。","explanation":"打电话或去管理处报修的开场白。issue 在这里指\"问题、故障\"。","categoryIds":["housing"],"sceneIds":["s-report-repair"],"alternatives":[{"en":"I have a maintenance request.","zh":"我有个维修申请。"}],"aliases":["报修"]}

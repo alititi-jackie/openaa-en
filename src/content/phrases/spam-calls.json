@@ -1,0 +1,16 @@
+{
+  "english": "I keep getting spam calls.",
+  "chinese": "我老是接到骚扰电话。",
+  "explanation": "跟运营商或朋友抱怨骚扰电话太多，对方会教你开拦截。",
+  "alternatives": [],
+  "aliases": [
+    "骚扰电话多"
+  ],
+  "sceneIds": [
+    "s-spam-calls"
+  ],
+  "id": "p-spam-calls",
+  "categoryIds": [
+    "phone"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "english": "Is there a monthly fee for this account?",
+  "chinese": "这个账户收月费吗？",
+  "explanation": "开户时必问，接着问怎么免掉，能省则省。",
+  "alternatives": [
+    {
+      "en": "How can I avoid the monthly fee?",
+      "zh": "怎么免掉月费？"
+    }
+  ],
+  "aliases": [
+    "问月费"
+  ],
+  "sceneIds": [
+    "s-open-account"
+  ],
+  "id": "p-monthly-fee-ask",
+  "categoryIds": [
+    "banking"
+  ]
+}

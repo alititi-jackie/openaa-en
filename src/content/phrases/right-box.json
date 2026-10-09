@@ -1,0 +1,1 @@
+{"id":"p-right-box","english":"Is this the right box?","chinese":"这是正确的箱子吗？","explanation":"打包时不确定箱子规格、标签对不对，问一句避免返工。","categoryIds":["factory"],"sceneIds":[],"alternatives":[{"en":"Is this the correct label?","zh":"这是正确的标签吗？"}],"aliases":["箱子对吗"]}

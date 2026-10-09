@@ -1,0 +1,1 @@
+{"id": "p-where-package", "english": "Where is my package?", "chinese": "我的包裹在哪？", "explanation": "查包裹最常用的一句；打电话给客服或问家人都用这句，对方一般会让你提供追踪号。", "alternatives": [{"en": "Has my package arrived?", "zh": "我的包裹到了吗？"}], "aliases": ["包裹在哪"], "sceneIds": ["s-missing-package-call"], "categoryIds": ["delivery"]}

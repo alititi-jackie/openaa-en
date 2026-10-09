@@ -1,0 +1,1 @@
+{"id": "p-extra-help-math", "english": "My child needs extra help with math.", "chinese": "我孩子数学需要额外辅导。", "explanation": "跟老师表达孩子需要帮助；很多学校有免费的课后辅导（tutoring），老师会告诉你怎么报名。", "alternatives": [{"en": "Is there tutoring after school?", "zh": "放学后有辅导吗？"}], "aliases": ["辅导", "跟不上"], "sceneIds": ["s-parent-teacher-conference"], "categoryIds": ["education"]}

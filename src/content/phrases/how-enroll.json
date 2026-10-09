@@ -1,0 +1,1 @@
+{"id": "p-how-enroll", "english": "How do I enroll my child in school?", "chinese": "怎么给孩子报名上学？", "explanation": "刚搬家或孩子到年龄时问；直接去学校办公室（school office），他们会给你表格和材料清单。", "alternatives": [{"en": "What documents do I need for enrollment?", "zh": "报名需要什么材料？"}], "aliases": ["报名", "入学注册"], "sceneIds": ["s-enroll-child-school"], "categoryIds": ["education"]}

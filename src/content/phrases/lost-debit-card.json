@@ -1,0 +1,21 @@
+{
+  "english": "I lost my debit card.",
+  "chinese": "我的借记卡丢了。",
+  "explanation": "卡丢了打电话挂失的第一句，越快说越好。",
+  "alternatives": [
+    {
+      "en": "I need to freeze my card.",
+      "zh": "我要冻结我的卡。"
+    }
+  ],
+  "aliases": [
+    "卡丢了"
+  ],
+  "sceneIds": [
+    "s-lost-card"
+  ],
+  "id": "p-lost-debit-card",
+  "categoryIds": [
+    "banking"
+  ]
+}

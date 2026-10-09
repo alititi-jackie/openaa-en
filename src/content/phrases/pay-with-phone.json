@@ -1,0 +1,1 @@
+{"id":"p-pay-with-phone","english":"Can I pay with my phone?","chinese":"能用手机付吗？","explanation":"没带钱包时问。Apple Pay、Google Pay 在美国很普遍。","categoryIds":["shopping"],"sceneIds":[],"alternatives":[{"en":"Do you take Apple Pay?","zh":"收 Apple Pay 吗？"}],"aliases":["手机支付"]}

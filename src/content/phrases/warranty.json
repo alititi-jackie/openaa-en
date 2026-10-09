@@ -1,0 +1,16 @@
+{
+  "english": "Is this covered by the warranty?",
+  "chinese": "这个在保修范围内吗？",
+  "explanation": "修车、换零件前问一句，能省则省；covered by 是……涵盖的意思。",
+  "alternatives": [],
+  "aliases": [
+    "问保修"
+  ],
+  "sceneIds": [
+    "s-car-repair"
+  ],
+  "id": "p-warranty",
+  "categoryIds": [
+    "driving"
+  ]
+}

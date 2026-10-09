@@ -1,0 +1,1 @@
+{"id": "p-where-pickup", "english": "Where do I pick up my child?", "chinese": "我去哪里接孩子？", "explanation": "开学第一天家长必问；学校一般有指定的接送区（pickup area），开车接的要排 pickup line。", "alternatives": [{"en": "Where is the pickup line?", "zh": "接送车队在哪里排？"}], "aliases": ["接孩子", "接送区"], "sceneIds": ["s-enroll-child-school"], "categoryIds": ["education"]}

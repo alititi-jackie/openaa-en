@@ -1,0 +1,1 @@
+{"id":"p-part-defective","english":"This part is defective.","chinese":"这个零件是次品。","explanation":"发现不合格产品上报时用。defective 指有缺陷、不合格。","categoryIds":["factory"],"sceneIds":["s-report-defective"],"alternatives":[{"en":"This one is bad.","zh":"这个是坏的。（更口语）"},{"en":"This doesn't pass inspection.","zh":"这个没通过检查。"}],"aliases":["次品","零件坏了"]}

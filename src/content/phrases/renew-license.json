@@ -1,0 +1,16 @@
+{
+  "english": "I'd like to renew my driver's license.",
+  "chinese": "我想更新驾照。",
+  "explanation": "去 DMV 更新驾照的标准说法； renew 是续期的意思。",
+  "alternatives": [],
+  "aliases": [
+    "更新驾照"
+  ],
+  "sceneIds": [
+    "s-at-dmv"
+  ],
+  "id": "p-renew-license",
+  "categoryIds": [
+    "driving"
+  ]
+}

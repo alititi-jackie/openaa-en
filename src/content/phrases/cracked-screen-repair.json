@@ -1,0 +1,16 @@
+{
+  "english": "My screen is cracked. How much to fix it?",
+  "chinese": "我屏幕碎了，修一下多少钱？",
+  "explanation": "去维修店先问价，修之前问清楚，免得被宰。",
+  "alternatives": [],
+  "aliases": [
+    "修屏幕"
+  ],
+  "sceneIds": [
+    "s-phone-repair"
+  ],
+  "id": "p-cracked-screen-repair",
+  "categoryIds": [
+    "phone"
+  ]
+}

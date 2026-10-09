@@ -1,0 +1,16 @@
+{
+  "english": "Can I keep my old number?",
+  "chinese": "我能保留原来的号码吗？",
+  "explanation": "换运营商时最关键的一句，叫 port in，一般免费。",
+  "alternatives": [],
+  "aliases": [
+    "保留号码"
+  ],
+  "sceneIds": [
+    "s-switch-carrier"
+  ],
+  "id": "p-keep-number",
+  "categoryIds": [
+    "phone"
+  ]
+}

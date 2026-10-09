@@ -1,0 +1,1 @@
+{"id":"p-cut-my-finger","english":"I cut my finger.","chinese":"我把手指割伤了。","explanation":"工作中受伤第一时间告诉组长。美国工厂有工伤报告流程，小伤也要说。","categoryIds":["factory"],"sceneIds":["s-report-injury"],"alternatives":[{"en":"I hurt my hand.","zh":"我手受伤了。"},{"en":"I'm bleeding.","zh":"我流血了。（比较严重时）"}],"aliases":["受伤","割伤"]}

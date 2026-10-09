@@ -1,0 +1,1 @@
+{"id": "p-where-are-you-from", "english": "Where are you from?", "chinese": "你原来是哪里人？", "explanation": "刚认识时问对方哪里人；华人被问到可以说 I'm from China, but I live here now（我从中国来，现在住这儿）。", "alternatives": [{"en": "I'm originally from China.", "zh": "我原来从中国来。"}], "aliases": ["哪里人"], "sceneIds": ["s-meet-neighbor"], "categoryIds": ["social"]}

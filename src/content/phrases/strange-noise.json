@@ -1,0 +1,21 @@
+{
+  "english": "My car is making a strange noise.",
+  "chinese": "我的车有异响。",
+  "explanation": "去修车店描述问题的万能句，师傅会接着问什么样的响声。",
+  "alternatives": [
+    {
+      "en": "There's a strange smell coming from my car.",
+      "zh": "我的车有股怪味。"
+    }
+  ],
+  "aliases": [
+    "车有异响"
+  ],
+  "sceneIds": [
+    "s-car-repair"
+  ],
+  "id": "p-strange-noise",
+  "categoryIds": [
+    "driving"
+  ]
+}

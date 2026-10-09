@@ -1,0 +1,21 @@
+{
+  "english": "I need to reschedule my appointment.",
+  "chinese": "我想改一下预约时间。",
+  "explanation": "有事去不了，提前打电话改期，比直接不去（no-show）强得多，有的诊所 no-show 要罚款。",
+  "alternatives": [
+    {
+      "en": "Can I move my appointment to next week?",
+      "zh": "能把预约改到下周吗？"
+    }
+  ],
+  "aliases": [
+    "改预约"
+  ],
+  "sceneIds": [
+    "s-make-appointment"
+  ],
+  "id": "p-reschedule",
+  "categoryIds": [
+    "medical"
+  ]
+}

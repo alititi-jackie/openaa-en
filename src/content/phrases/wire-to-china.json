@@ -1,0 +1,16 @@
+{
+  "english": "I need to wire money to China.",
+  "chinese": "我要往中国电汇一笔钱。",
+  "explanation": "去银行办跨国汇款的说法，柜员会给你要填的信息清单。",
+  "alternatives": [],
+  "aliases": [
+    "往国内汇款"
+  ],
+  "sceneIds": [
+    "s-wire-money"
+  ],
+  "id": "p-wire-to-china",
+  "categoryIds": [
+    "banking"
+  ]
+}

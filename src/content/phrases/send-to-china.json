@@ -1,0 +1,1 @@
+{"id": "p-send-to-china", "english": "I want to send this to China.", "chinese": "我想把这个寄到中国。", "explanation": "去邮局寄国际包裹的开场白；工作人员会给你海关申报单，要写里面是什么、值多少钱。", "alternatives": [{"en": "How long does it take to get to China?", "zh": "寄到中国要多久？"}], "aliases": ["寄到中国", "国际包裹"], "sceneIds": ["s-send-package-china"], "categoryIds": ["delivery"]}

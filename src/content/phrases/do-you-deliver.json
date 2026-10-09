@@ -1,0 +1,1 @@
+{"id": "p-do-you-deliver", "english": "Do you deliver?", "chinese": "你们送餐吗？", "explanation": "问餐厅是否提供送餐服务；也可以问 What's the delivery fee?（配送费多少？）和 How long is the delivery?（送多久？）。", "alternatives": [{"en": "What's the delivery fee?", "zh": "配送费多少？"}], "aliases": ["送餐"], "sceneIds": ["s-order-takeout-phone"], "categoryIds": ["restaurant"]}

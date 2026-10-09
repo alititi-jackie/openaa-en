@@ -1,0 +1,21 @@
+{
+  "english": "Fill it up with regular, please.",
+  "chinese": "加满普通汽油，谢谢。",
+  "explanation": "在有人服务的加油站（比如新泽西）跟加油员说的话；regular 是最便宜的普通油。",
+  "alternatives": [
+    {
+      "en": "Just $20 of regular, please.",
+      "zh": "加 20 美元的普通油就行。"
+    }
+  ],
+  "aliases": [
+    "加油"
+  ],
+  "sceneIds": [
+    "s-gas-station"
+  ],
+  "id": "p-fill-up-regular",
+  "categoryIds": [
+    "driving"
+  ]
+}

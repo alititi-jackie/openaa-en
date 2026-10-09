@@ -1,0 +1,1 @@
+{"id": "p-how-much-postage", "english": "How much is the postage?", "chinese": "邮费多少钱？", "explanation": "在邮局问价格；对方称重后会给你几个选项：普通（ground）、快一点（priority）、最快（express），越快越贵。", "alternatives": [{"en": "What's the cheapest way to send this?", "zh": "寄这个最便宜的方式是什么？"}], "aliases": ["邮费"], "sceneIds": ["s-mail-at-post-office"], "categoryIds": ["delivery"]}

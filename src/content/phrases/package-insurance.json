@@ -1,0 +1,1 @@
+{"id": "p-package-insurance", "english": "Is there insurance for this package?", "chinese": "这个包裹能买保险吗？", "explanation": "寄贵重东西时问；买了保险丢了或坏了能索赔，邮局默认保 100 美元以内，贵的要加钱。", "alternatives": [{"en": "I'd like to add insurance.", "zh": "我想加个保险。"}], "aliases": ["保险"], "sceneIds": ["s-mail-at-post-office"], "categoryIds": ["delivery"]}

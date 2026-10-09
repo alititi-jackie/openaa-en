@@ -1,0 +1,21 @@
+{
+  "english": "How much is the copay?",
+  "chinese": "挂号自付费是多少？",
+  "explanation": "到前台先问清自付多少，心里有数再交钱。",
+  "alternatives": [
+    {
+      "en": "Do I need to pay a copay today?",
+      "zh": "今天需要交自付费吗？"
+    }
+  ],
+  "aliases": [
+    "问挂号费"
+  ],
+  "sceneIds": [
+    "s-first-visit"
+  ],
+  "id": "p-how-much-copay",
+  "categoryIds": [
+    "medical"
+  ]
+}

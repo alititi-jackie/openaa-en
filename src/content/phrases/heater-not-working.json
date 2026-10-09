@@ -1,0 +1,1 @@
+{"id":"p-heater-not-working","english":"The heater isn't working.","chinese":"暖气不工作了。","explanation":"冬天暖气坏了赶紧报修。heater 换成 air conditioner（空调）夏天用。","categoryIds":["housing"],"sceneIds":["s-report-repair"],"alternatives":[{"en":"There's no heat in my apartment.","zh":"我家没暖气。"}],"aliases":["暖气坏了"]}

@@ -1,0 +1,1 @@
+{"id": "p-school-start-end", "english": "What time does school start and end?", "chinese": "学校几点上课、几点放学？", "explanation": "新生家长最常问的一句；也可以分开问，What time does school dismiss?（几点放学？）也很常用。", "alternatives": [{"en": "What time does school dismiss?", "zh": "学校几点放学？"}], "aliases": ["上课时间", "放学时间"], "sceneIds": ["s-enroll-child-school"], "categoryIds": ["education"]}

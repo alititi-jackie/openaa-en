@@ -1,0 +1,21 @@
+{
+  "english": "I need to see a doctor.",
+  "chinese": "我需要看医生。",
+  "explanation": "身体不舒服、想约医生时的万能开场白，前台一听就懂。",
+  "alternatives": [
+    {
+      "en": "I need medical help.",
+      "zh": "我需要医疗帮助。"
+    }
+  ],
+  "aliases": [
+    "看医生"
+  ],
+  "sceneIds": [
+    "s-first-visit"
+  ],
+  "id": "p-see-doctor",
+  "categoryIds": [
+    "medical"
+  ]
+}

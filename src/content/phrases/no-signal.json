@@ -1,0 +1,14 @@
+{
+  "english": "My phone has no signal.",
+  "chinese": "我的手机没信号。",
+  "explanation": "没信号时打客服或问朋友的标准说法。",
+  "alternatives": [],
+  "aliases": [
+    "没信号"
+  ],
+  "sceneIds": [],
+  "id": "p-no-signal",
+  "categoryIds": [
+    "phone"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "english": "Do you take my insurance?",
+  "chinese": "你们收我的保险吗？",
+  "explanation": "约医生、到诊所第一件事就该问，省得看完收到天价账单。",
+  "alternatives": [
+    {
+      "en": "Are you in-network with my insurance?",
+      "zh": "你们在我保险的网络内吗？"
+    }
+  ],
+  "aliases": [
+    "问保险"
+  ],
+  "sceneIds": [
+    "s-make-appointment",
+    "s-first-visit"
+  ],
+  "id": "p-ask-insurance",
+  "categoryIds": [
+    "medical"
+  ]
+}

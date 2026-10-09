@@ -1,0 +1,1 @@
+{"id": "p-hold-mail", "english": "Can you hold my mail while I'm away?", "chinese": "我出门期间能帮我暂存邮件吗？", "explanation": "出远门时去邮局办 mail hold，邮局免费帮你存最多 30 天，回来后去取或让他们一次送来，防盗又放心。", "alternatives": [{"en": "I'd like to put a hold on my mail.", "zh": "我想暂存我的邮件。"}], "aliases": ["暂存邮件", "出远门"], "sceneIds": [], "categoryIds": ["delivery"]}
