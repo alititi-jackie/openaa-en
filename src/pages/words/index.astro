@@ -1,0 +1,37 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { CATEGORIES, categoryById } from '../../data/categories';
+
+const words = await getCollection('words');
+const byCat = CATEGORIES.map((c) => ({
+  cat: c,
+  items: words.filter((w) => w.data.categoryIds.includes(c.id)),
+})).filter((g) => g.items.length > 0);
+---
+<BaseLayout
+  title="美国生活英语词典｜单词短语中英对照 - OpenAA"
+  description="美国生活英语词典：单词、短语中英对照，带美式发音、例句和使用场景，专为在美华人编写。"
+  canonicalPath="/words/"
+  current="/words/"
+  wide
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '英语词典' }]} />
+  <h1>美国生活英语词典</h1>
+  <p>查询在美国生活、工作中常用的英文单词和短语，每个词条都有中文意思、美式发音和实用例句。</p>
+  {byCat.map((g) => (
+    <section class="section" aria-label={g.cat.nameCn}>
+      <h2>{g.cat.icon} {g.cat.nameCn}</h2>
+      <div class="grid-entries">
+        {g.items.map((w) => (
+          <a class="entry-card" href={`/words/${w.id}/`}>
+            <div class="en-big">{w.data.english}</div>
+            <div class="zh">{w.data.chinese}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+  ))}
+  {words.length === 0 && <p class="empty">词典内容正在准备中，敬请期待。</p>}
+</BaseLayout>

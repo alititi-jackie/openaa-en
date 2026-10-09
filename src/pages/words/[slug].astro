@@ -1,0 +1,120 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SayRow from '../../components/SayRow.astro';
+import EcoBlock from '../../components/EcoBlock.astro';
+import { categoryById } from '../../data/categories';
+import { SITE } from '../../config/site';
+
+export async function getStaticPaths() {
+  const words = await getCollection('words');
+  return words.map((w) => ({ params: { slug: w.id } }));
+}
+
+const { slug } = Astro.params;
+const words = await getCollection('words');
+const entry = words.find((w) => w.id === slug);
+if (!entry) throw new Error(`词条不存在: ${slug}`);
+const w = entry.data;
+
+const scenes = await getCollection('scenes');
+const relatedWords = (w.relatedWordIds || []).flatMap((id) => {
+  const f = words.find((x) => x.id === id || x.data.id === id);
+  return f ? [f] : [];
+});
+const relatedScenes = (w.relatedSceneIds || []).flatMap((id) => {
+  const f = scenes.find((x) => x.id === id || x.data.id === id);
+  return f ? [f] : [];
+});
+
+const title = w.seoTitle || `${w.english}是什么意思？${w.chinese}｜美国生活英语词典 - OpenAA`;
+const description =
+  w.seoDescription || `${w.english}中文是${w.chinese}。${w.explanation}含美式发音、例句和使用场景。`;
+const canonicalPath = `/words/${entry.id}/`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${w.english}（${w.chinese}）`,
+  description,
+  inLanguage: 'zh-CN',
+  mainEntityOfPage: `${SITE.domain}${canonicalPath}`,
+};
+---
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  current="/words/"
+  jsonLd={jsonLd}
+>
+  <span data-recent data-kind="word" data-id={entry.id} data-title={w.english} hidden></span>
+  <Breadcrumbs
+    items={[
+      { label: '首页', href: '/' },
+      { label: '英语词典', href: '/words/' },
+      { label: w.english },
+    ]}
+  />
+
+  <h1 style="font-size:2rem;margin-bottom:0">{w.english}</h1>
+  <p style="font-size:1.25rem;color:var(--text-2);margin-top:4px">{w.chinese}</p>
+
+  <div class="ops" style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0">
+    <button type="button" class="btn primary" data-speak={w.english} aria-label={`朗读：${w.english}`}>
+      🔊 播放英文
+    </button>
+    <button type="button" class="btn" data-copy={w.english}>📋 复制</button>
+    <button
+      type="button"
+      class="btn"
+      data-fav={entry.id}
+      data-kind="word"
+      aria-pressed="false"
+    >
+      ⭐ 收藏
+    </button>
+  </div>
+
+  {w.partOfSpeech && <p><strong>词性：</strong>{w.partOfSpeech}</p>}
+
+  <div class="note">{w.explanation}</div>
+
+  <h2>例句</h2>
+  {w.examples.map((ex) => (
+    <SayRow en={ex.en} zh={ex.zh} />
+  ))}
+
+  <h2>使用场景</h2>
+  <div class="pill-row">
+    {w.categoryIds.map((cid) => {
+      const c = categoryById(cid);
+      return c && <a class="pill" href={`/categories/${c.id}/`}>{c.icon} {c.nameCn}</a>;
+    })}
+  </div>
+
+  {relatedWords.length > 0 && (
+    <section class="related" aria-label="相关词汇">
+      <h2>相关词汇</h2>
+      <ul>
+        {relatedWords.map((r) => (
+          <li><a href={`/words/${r.id}/`}>{r.data.english}（{r.data.chinese}）</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {relatedScenes.length > 0 && (
+    <section class="related" aria-label="相关情景对话">
+      <h2>相关情景对话</h2>
+      <ul>
+        {relatedScenes.map((s) => (
+          <li><a href={`/scenes/${s.id}/`}>{s.data.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <EcoBlock categoryIds={w.categoryIds} />
+</BaseLayout>

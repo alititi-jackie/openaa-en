@@ -1,0 +1,27 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const scenes = await getCollection('scenes');
+---
+<BaseLayout
+  title="美国生活情景英语｜真实场景对话中英对照 - OpenAA"
+  description="美国生活情景英语：围绕真实问题展开的中英文对话，覆盖工作、租房、看病、购物等场景，每句可点读。"
+  canonicalPath="/scenes/"
+  current="/scenes/"
+  wide
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '情景英语' }]} />
+  <h1>美国生活情景英语</h1>
+  <p>每个场景围绕一个真实问题展开：最实用的一句话、常用表达、完整中英文对话，全部可以点击播放美式发音。</p>
+  <div class="grid-entries">
+    {scenes.map((s) => (
+      <a class="entry-card" href={`/scenes/${s.id}/`}>
+        <h3>{s.data.title}</h3>
+        <p>{s.data.summary}</p>
+      </a>
+    ))}
+  </div>
+  {scenes.length === 0 && <p class="empty">情景内容正在准备中，敬请期待。</p>}
+</BaseLayout>

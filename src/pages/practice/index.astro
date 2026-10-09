@@ -1,0 +1,59 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const phrases = await getCollection('phrases');
+---
+<BaseLayout
+  title="英语发音练习｜美式发音跟读 - OpenAA"
+  description="免费英语发音练习：美式英语朗读，可选正常/慢速语速，单句重复跟读。直接在浏览器中播放，无需下载。"
+  canonicalPath="/practice/"
+  current="/practice/"
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '发音练习' }]} />
+  <h1>英语发音练习</h1>
+  <p>点击每句英文即可听到美式发音。建议先听一遍，再跟着读两遍。</p>
+
+  <div class="note" id="voice-status" role="status">正在加载语音列表…</div>
+  <p id="speech-unsupported" class="note" hidden>
+    当前浏览器不支持朗读功能，请使用 Chrome、Edge 或 Safari 访问。
+  </p>
+
+  <fieldset style="border:1px solid var(--border);border-radius:12px;padding:12px 16px;margin:16px 0">
+    <legend style="padding:0 8px">语速</legend>
+    <label style="margin-right:20px">
+      <input type="radio" name="rate" value="1" checked /> 正常语速
+    </label>
+    <label>
+      <input type="radio" name="rate" value="0.6" /> 慢速
+    </label>
+  </fieldset>
+
+  {phrases.map((p) => (
+    <div class="say-row">
+      <div class="en" style="font-size:20px">{p.data.english}</div>
+      <div class="zh">{p.data.chinese}</div>
+      <div class="ops">
+        <button type="button" class="btn primary" data-speak={p.data.english}>
+          🔊 朗读
+        </button>
+        <button type="button" class="btn" data-speak-repeat={p.data.english}>
+          🔁 再播一遍跟读
+        </button>
+      </div>
+    </div>
+  ))}
+  {phrases.length === 0 && <p class="empty">练习句子正在准备中，敬请期待。</p>}
+</BaseLayout>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var radios = document.querySelectorAll('input[name="rate"]');
+    radios.forEach(function (r) {
+      r.addEventListener('change', function () {
+        if (r.checked) window.enSpeechRate = parseFloat(r.value);
+      });
+    });
+  });
+</script>

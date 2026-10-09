@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+<BaseLayout
+  title="隐私政策 - OpenAA 美国生活英语"
+  description="OpenAA 美国生活英语隐私政策：我们不收集个人信息，学习数据只保存在您的设备上。"
+  canonicalPath="/privacy/"
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '隐私政策' }]} />
+  <h1>隐私政策</h1>
+  <p>更新日期：2026 年 10 月</p>
+  <h2>我们不收集什么</h2>
+  <p>
+    本站不需要注册、不需要登录，<strong>不收集您的姓名、邮箱、电话号码或任何可以识别您身份的信息</strong>。
+  </p>
+  <h2>保存在您设备上的数据</h2>
+  <p>以下数据只保存在您自己的浏览器（localStorage）里，不会上传到我们的服务器：</p>
+  <ul>
+    <li>您收藏的单词、句子和情景（<code>openaa-en:favs</code>）</li>
+    <li>您的最近学习记录，最多 30 条（<code>openaa-en:recent</code>）</li>
+  </ul>
+  <p>
+    您可以在"我的收藏"页面清空收藏；清除浏览器数据会同时清除以上所有记录，且无法恢复。
+  </p>
+  <h2>匿名访问统计</h2>
+  <p>
+    为改进网站，我们可能使用 OpenAA 统一的匿名访问统计，只记录访问的页面路径，不含 Cookie、
+    查询参数、表单内容或点击文本，不会关联到个人。
+  </p>
+  <h2>外部链接</h2>
+  <p>本站包含指向 OpenAA 生态网站的链接，点击后将受对方网站的隐私政策约束。</p>
+</BaseLayout>

@@ -1,0 +1,143 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SayRow from '../../components/SayRow.astro';
+import EcoBlock from '../../components/EcoBlock.astro';
+import { categoryById } from '../../data/categories';
+import { SITE } from '../../config/site';
+
+export async function getStaticPaths() {
+  const scenes = await getCollection('scenes');
+  return scenes.map((s) => ({ params: { slug: s.id } }));
+}
+
+const { slug } = Astro.params;
+const scenes = await getCollection('scenes');
+const entry = scenes.find((s) => s.id === slug);
+if (!entry) throw new Error(`情景不存在: ${slug}`);
+const sc = entry.data;
+
+const words = await getCollection('words');
+const vocab = (sc.vocabularyIds || []).flatMap((id) => {
+  const f = words.find((x) => x.id === id || x.data.id === id);
+  return f ? [f] : [];
+});
+const related = (sc.relatedSceneIds || []).flatMap((id) => {
+  const f = scenes.find((x) => x.id === id || x.data.id === id);
+  return f ? [f] : [];
+});
+
+const title = sc.seoTitle || `${sc.title} - OpenAA`;
+const description = sc.seoDescription || `${sc.summary}中英文对照，含美式发音、常用表达和完整对话。`;
+const canonicalPath = `/scenes/${entry.id}/`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: sc.title,
+  description,
+  inLanguage: 'zh-CN',
+  mainEntityOfPage: `${SITE.domain}${canonicalPath}`,
+};
+---
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  current="/scenes/"
+  jsonLd={jsonLd}
+>
+  <span data-recent data-kind="scene" data-id={entry.id} data-title={sc.title} hidden></span>
+  <Breadcrumbs
+    items={[
+      { label: '首页', href: '/' },
+      { label: '情景英语', href: '/scenes/' },
+      { label: sc.title },
+    ]}
+  />
+
+  <h1>{sc.title}</h1>
+
+  <div class="note">
+    <strong>适用情况：</strong>{sc.summary}
+  </div>
+
+  <div class="key-phrase">
+    <div class="en">{sc.featuredPhrase.en}</div>
+    <div class="zh">{sc.featuredPhrase.zh}</div>
+    <div class="ops">
+      <button type="button" class="btn primary" data-speak={sc.featuredPhrase.en}>
+        🔊 朗读
+      </button>
+      <button type="button" class="btn" data-copy={sc.featuredPhrase.en}>📋 复制</button>
+      <button
+        type="button"
+        class="btn"
+        data-fav={entry.id}
+        data-kind="scene"
+        aria-pressed="false"
+      >
+        ⭐ 收藏本情景
+      </button>
+    </div>
+  </div>
+
+  <h2>常用表达</h2>
+  {sc.phrases.map((p) => (
+    <SayRow en={p.en} zh={p.zh} />
+  ))}
+
+  <h2>完整对话</h2>
+  <div class="dialogue">
+    {sc.dialogue.map((t) => (
+      <div class="turn">
+        <div class="who">{t.speaker} · {t.speakerZh}</div>
+        <div class="en">{t.en}</div>
+        <div class="zh">{t.zh}</div>
+        <div class="ops">
+          <button
+            type="button"
+            class="icon-btn"
+            data-speak={t.en}
+            aria-label={`朗读：${t.en}`}
+          >
+            🔊
+          </button>
+        </div>
+      </div>
+    ))}
+  </div>
+
+  {vocab.length > 0 && (
+    <>
+      <h2>重点单词</h2>
+      <div class="pill-row">
+        {vocab.map((v) => (
+          <a class="pill" href={`/words/${v.id}/`}>{v.data.english}（{v.data.chinese}）</a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <h2>所属分类</h2>
+  <div class="pill-row">
+    {sc.categoryIds.map((cid) => {
+      const c = categoryById(cid);
+      return c && <a class="pill" href={`/categories/${c.id}/`}>{c.icon} {c.nameCn}</a>;
+    })}
+  </div>
+
+  {related.length > 0 && (
+    <section class="related" aria-label="相关情景">
+      <h2>相关情景</h2>
+      <ul>
+        {related.map((r) => (
+          <li><a href={`/scenes/${r.id}/`}>{r.data.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <EcoBlock categoryIds={sc.categoryIds} />
+</BaseLayout>
