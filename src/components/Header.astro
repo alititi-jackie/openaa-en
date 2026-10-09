@@ -1,0 +1,24 @@
+---
+import { NAV, SITE } from '../config/site';
+
+interface Props {
+  current?: string;
+}
+const { current = '/' } = Astro.props;
+---
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label={SITE.name}>
+      <img src="/logo.png" alt="" width="34" height="34" />
+      <span class="brand-name">OpenAA EN<small>美国生活英语</small></span>
+    </a>
+    <nav class="site-nav" aria-label="主导航">
+      {NAV.map((item) => (
+        <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+          {item.label}
+        </a>
+      ))}
+    </nav>
+    <a class="header-search" href="/search/" aria-label="搜索">🔍 搜索</a>
+  </div>
+</header>

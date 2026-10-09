@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+<BaseLayout
+  title="关于本站 - OpenAA 美国生活英语"
+  description="OpenAA 美国生活英语：帮助在美华人解决真实英语沟通问题的免费学习网站。"
+  canonicalPath="/about/"
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '关于本站' }]} />
+  <h1>关于本站</h1>
+  <p>
+    <strong>OpenAA 美国生活英语</strong>（OpenAA Everyday English）是 OpenAA
+    生态下的免费英语学习网站，专为生活在美国、英语基础较弱的华人朋友设计。
+  </p>
+  <p>我们的目标很简单：<strong>美国生活英语，查得到、听得懂、说得出。</strong></p>
+  <h2>我们提供什么</h2>
+  <ul>
+    <li><strong>生活英语词典</strong>：单词、短语中英对照，带美式发音和实用例句。</li>
+    <li><strong>情景英语</strong>：围绕真实问题展开的中英文对话，比如"忘记打卡英语怎么说"。</li>
+    <li><strong>常用英语句子</strong>：请假、问价、预约等短句，即查即用。</li>
+    <li><strong>发音练习</strong>：美式发音朗读和跟读，全部在浏览器里完成。</li>
+  </ul>
+  <h2>我们不做什么</h2>
+  <ul>
+    <li>不做在线课程、不做付费会员。</li>
+    <li>不需要注册、不需要登录，打开就能用。</li>
+    <li>不收集姓名、邮箱、电话等个人信息。</li>
+  </ul>
+  <p>本站是 OpenAA 生态的一部分，更多服务请访问 <a href="https://openaa.com/">OpenAA 主站</a>。</p>
+</BaseLayout>

@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+<BaseLayout
+  title="我的收藏 - OpenAA 美国生活英语"
+  description="查看我收藏的单词、句子和情景对话。收藏保存在本机浏览器中。"
+  canonicalPath="/favorites/"
+  noindex
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '我的收藏' }]} />
+  <h1>我的收藏</h1>
+  <p style="color:var(--text-3);font-size:14px">
+    收藏只保存在这台设备的浏览器里，不会上传。清除浏览器数据后无法恢复。
+  </p>
+  <div id="fav-list" class="fav-list"></div>
+  <div id="fav-empty" class="empty" hidden>
+    <p>还没有收藏。去词典、句子或情景页点 ⭐ 收藏实用的内容吧。</p>
+    <p>
+      <a class="btn" href="/words/">去英语词典看看</a>
+    </p>
+  </div>
+  <div id="fav-actions" style="margin-top:24px" hidden>
+    <button type="button" class="btn" id="fav-clear">清空全部收藏</button>
+  </div>
+</BaseLayout>
+
+<script src="/js/search.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var KIND_META = {
+      word: { path: 'words', label: '词汇' },
+      phrase: { path: 'phrases', label: '句子' },
+      scene: { path: 'scenes', label: '情景' },
+    };
+    function esc(s) {
+      return String(s).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+      });
+    }
+    function getFavs() {
+      try {
+        var f = JSON.parse(localStorage.getItem('openaa-en:favs') || '{}');
+        return { word: f.word || [], phrase: f.phrase || [], scene: f.scene || [] };
+      } catch (e) { return { word: [], phrase: [], scene: [] }; }
+    }
+    function render() {
+      var favs = getFavs();
+      var box = document.getElementById('fav-list');
+      var empty = document.getElementById('fav-empty');
+      var actions = document.getElementById('fav-actions');
+      window.enSearch.loadSearchIndex().then(function (idx) {
+        var byId = {};
+        ['words', 'phrases', 'scenes'].forEach(function (k) {
+          idx[k].forEach(function (it) { byId[k + ':' + it.id] = it; });
+        });
+        var html = '';
+        var total = 0;
+        ['word', 'phrase', 'scene'].forEach(function (kind) {
+          var items = (favs[kind] || [])
+            .map(function (id) { return byId[kind + 's:' + id]; })
+            .filter(Boolean);
+          if (!items.length) return;
+          total += items.length;
+          html += '<section class="section"><h2>' + KIND_META[kind].label + '（' + items.length + '）</h2>';
+          html += items.map(function (it) {
+            var href = '/' + KIND_META[kind].path + '/' + encodeURIComponent(it.slug) + '/';
+            return '<div class="say-row" data-fav-row><div class="en">' + esc(it.title) + '</div>' +
+              '<div class="zh">' + esc(it.zh || '') + '</div>' +
+              '<div class="ops"><a class="btn small" href="' + href + '">查看详情 →</a>' +
+              '<button type="button" class="btn small" data-speak="' + esc(it.en || it.title) + '">🔊 朗读</button>' +
+              '<button type="button" class="btn small" data-unfav="' + esc(it.id) + '" data-kind="' + kind + '">取消收藏</button>' +
+              '</div></div>';
+          }).join('') + '</section>';
+        });
+        box.innerHTML = html;
+        empty.hidden = total > 0;
+        actions.hidden = total === 0;
+      });
+    }
+    window.enFavsChanged = render;
+    var clearBtn = document.getElementById('fav-clear');
+    if (clearBtn) {
+      clearBtn.addEventListener('click', function () {
+        if (confirm('确定清空全部收藏吗？')) {
+          try { localStorage.removeItem('openaa-en:favs'); } catch (e) {}
+          render();
+        }
+      });
+    }
+    render();
+  });
+</script>

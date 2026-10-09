@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { CATEGORIES, categoryById } from '../../data/categories';
+import { SITE } from '../../config/site';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((c) => ({ params: { id: c.id } }));
+}
+
+const { id } = Astro.params;
+const cat = categoryById(id);
+if (!cat) throw new Error(`分类不存在: ${id}`);
+
+const words = (await getCollection('words')).filter((w) => w.data.categoryIds.includes(id));
+const phrases = (await getCollection('phrases')).filter((p) => p.data.categoryIds.includes(id));
+const scenes = (await getCollection('scenes')).filter((s) => s.data.categoryIds.includes(id));
+
+const title = `${cat.nameCn}英语｜${cat.nameEn} - OpenAA`;
+const description = `${cat.description}中英对照，含美式发音、实用例句和真实情景对话。`;
+const canonicalPath = `/categories/${cat.id}/`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${cat.nameCn}英语`,
+  description,
+  inLanguage: 'zh-CN',
+  mainEntityOfPage: `${SITE.domain}${canonicalPath}`,
+};
+---
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  jsonLd={jsonLd}
+  wide
+>
+  <Breadcrumbs
+    items={[{ label: '首页', href: '/' }, { label: `${cat.nameCn}英语` }]}
+  />
+  <h1>{cat.icon} {cat.nameCn}英语</h1>
+  <p>{cat.description}</p>
+
+  {words.length > 0 && (
+    <section class="section" aria-label="相关词汇">
+      <h2>相关词汇（{words.length}）</h2>
+      <div class="grid-entries">
+        {words.map((w) => (
+          <a class="entry-card" href={`/words/${w.id}/`}>
+            <div class="en-big">{w.data.english}</div>
+            <div class="zh">{w.data.chinese}</div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {phrases.length > 0 && (
+    <section class="section" aria-label="相关句子">
+      <h2>相关句子（{phrases.length}）</h2>
+      <ul>
+        {phrases.map((p) => (
+          <li style="margin:8px 0">
+            <a href={p.data.explanation || (p.data.alternatives || []).length ? `/phrases/${p.id}/` : '/phrases/'}>
+              {p.data.english}
+            </a>
+            <span style="color:var(--text-3)"> — {p.data.chinese}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  {scenes.length > 0 && (
+    <section class="section" aria-label="相关情景">
+      <h2>相关情景（{scenes.length}）</h2>
+      <div class="grid-entries">
+        {scenes.map((s) => (
+          <a class="entry-card" href={`/scenes/${s.id}/`}>
+            <h3>{s.data.title}</h3>
+            <p>{s.data.summary}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  {words.length + phrases.length + scenes.length === 0 && (
+    <p class="empty">该分类内容正在准备中，敬请期待。</p>
+  )}
+</BaseLayout>

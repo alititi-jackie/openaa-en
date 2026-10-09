@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SayRow from '../../components/SayRow.astro';
+
+const phrases = await getCollection('phrases');
+---
+<BaseLayout
+  title="美国常用英语句子｜即查即用中英对照 - OpenAA"
+  description="美国生活常用英语句子：请假、问价、预约、报修等短句中英对照，每句可直接播放美式发音、复制和收藏。"
+  canonicalPath="/phrases/"
+  current="/phrases/"
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '常用句子' }]} />
+  <h1>美国常用英语句子</h1>
+  <p>收录在美国生活、工作中最常用的短句。每句都可以直接朗读、复制或收藏，不用点进详情页。</p>
+  {phrases.map((p) => (
+    <SayRow en={p.data.english} zh={p.data.chinese} favId={p.id} favKind="phrase" />
+  ))}
+  {phrases.length === 0 && <p class="empty">句子内容正在准备中，敬请期待。</p>}
+</BaseLayout>

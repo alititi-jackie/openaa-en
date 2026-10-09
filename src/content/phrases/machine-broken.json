@@ -1,0 +1,1 @@
+{"aliases":["机器坏了","设备故障"],"alternatives":[{"en":"The machine isn't working.","zh":"机器不工作了。"},{"en":"There's something wrong with the machine.","zh":"机器出问题了。"}],"categoryIds":["work","factory"],"chinese":"机器坏了。","english":"The machine is broken.","explanation":"报修时最直接的说法；broken 在这里指机器坏了、出了故障。","id":"p-machine-broken","sceneIds":["s-machine-broken"]}

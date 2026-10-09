@@ -1,0 +1,24 @@
+---
+import { ecoForCategories } from '../data/eco-services';
+
+/** 按场景匹配展示 ≤3 个生态服务 */
+interface Props {
+  categoryIds: string[];
+}
+
+const { categoryIds } = Astro.props;
+const services = ecoForCategories(categoryIds, 3);
+---
+{services.length > 0 && (
+  <section class="related" aria-label="相关服务">
+    <h2>相关服务</h2>
+    <ul>
+      {services.map((s) => (
+        <li>
+          <a href={s.url} target="_blank" rel="noopener">{s.name}</a>
+          <span> — {s.description}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+---
+<BaseLayout
+  title="联系与反馈 - OpenAA 美国生活英语"
+  description="联系 OpenAA 美国生活英语：内容纠错、功能建议请通过 GitHub Issues 反馈。"
+  canonicalPath="/contact/"
+>
+  <Breadcrumbs items={[{ label: '首页', href: '/' }, { label: '联系与反馈' }]} />
+  <h1>联系与反馈</h1>
+  <p>
+    如果您发现某个英文表达不地道、中文翻译不准确，或者希望增加某个生活场景的内容，
+    欢迎告诉我们。
+  </p>
+  <h2>反馈渠道</h2>
+  <p>
+    请通过 GitHub Issues 提交反馈（需要 GitHub 账号）：
+  </p>
+  <p>
+    <a
+      class="btn primary"
+      href="https://github.com/alititi-jackie/openaa-en/issues"
+      target="_blank"
+      rel="noopener"
+    >
+      去 GitHub 提反馈 →
+    </a>
+  </p>
+  <div class="note">
+    写反馈时如果能附上：① 具体是哪个页面 ② 您觉得哪里不对 ③ 您建议的说法，我们处理起来会更快。
+  </div>
+  <h2>关于内容准确性</h2>
+  <p>
+    本站英语表达以美国实际使用为准编写，但语言习惯因地区和场合而异，仅供学习参考。
+    涉及合同、医疗、法律等重要事项，请以专业人士的意见为准。
+  </p>
+</BaseLayout>

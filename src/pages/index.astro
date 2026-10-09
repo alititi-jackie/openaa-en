@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { CATEGORIES } from '../data/categories';
+import { ECO_LINKS, SITE } from '../config/site';
+
+const title = '美国生活英语大全｜常用英语词典、实用口语与情景对话 - OpenAA';
+const description =
+  '专为美国华人提供免费生活英语学习，涵盖工作、租房、购物、看病、汽车、银行等真实场景，支持中英对照、美式发音和常用句子查询。';
+
+const hotSearches = [
+  { label: '美国请假英文怎么说', q: '请假' },
+  { label: '工资条英文怎么看', q: '工资条' },
+  { label: '忘记打卡英文怎么说', q: '打卡' },
+  { label: '怎么用英语问房租', q: '房租' },
+  { label: '超市退货英文怎么说', q: '退货' },
+  { label: '怎么用英语预约医生', q: '预约医生' },
+];
+
+const entries = [
+  { href: '/words/', icon: '📖', name: '生活英语词典', desc: '单词短语查得到' },
+  { href: '/scenes/', icon: '🎬', name: '情景英语大全', desc: '真实场景对话' },
+  { href: '/phrases/', icon: '💬', name: '常用英语句子', desc: '短句即查即用' },
+  { href: '/practice/', icon: '🎙️', name: '发音练习', desc: '美式发音跟读' },
+];
+
+const ecoLink = (label: string, sub: string) => {
+  const base = ECO_LINKS.find((l) => l.label === label);
+  const href = base ? base.href.replace(/\/$/, '/') + sub : '#';
+  return href + (href.includes('?') ? '&' : '?') + 'utm_source=en.openaa.com&utm_medium=home-eco';
+};
+const ecoRecs = [
+  { text: '工作英语 → 找工作', desc: '在美华人招聘信息', href: ecoLink('OpenAA 主站', 'jobs/') },
+  { text: '租房英语 → 找房子', desc: '租房买房信息', href: ecoLink('OpenAA 主站', 'housing/') },
+  { text: '驾驶英语 → DMV 题库', desc: '美国驾照笔试练习', href: ecoLink('DMV 题库', '') },
+  { text: '工资英语 → 实用工具', desc: '工资计算等小工具', href: ecoLink('实用工具', '') },
+];
+---
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath="/"
+  current="/"
+  wide
+>
+  <section class="hero">
+    <h1>美国生活英语大全</h1>
+    <p>专为在美华人设计，轻松查询生活英语、工作英语和常用英文表达。</p>
+    <div class="search-big">
+      <label class="sr-only" for="hero-search">搜索英语表达</label>
+      <input
+        id="hero-search"
+        type="search"
+        autocomplete="off"
+        placeholder="输入中文或英文，例如：请假、工资条、退货、看医生……"
+      />
+      <div id="hero-results" class="search-results" role="listbox" aria-label="搜索建议"></div>
+    </div>
+    <div class="pill-row" style="justify-content:center">
+      {hotSearches.map((h) => (
+        <a class="pill" href={`/search/?q=${encodeURIComponent(h.q)}`}>{h.label}</a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-label="主要功能">
+    <div class="grid-entries">
+      {entries.map((e) => (
+        <a class="entry-card" href={e.href}>
+          <div class="icon" aria-hidden="true">{e.icon}</div>
+          <h3>{e.name}</h3>
+          <p>{e.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-label="热门学习分类">
+    <h2>热门学习分类</h2>
+    <p class="sub">按生活场景查找英语表达</p>
+    <div class="grid-entries cols4">
+      {CATEGORIES.map((c) => (
+        <a class="entry-card" href={`/categories/${c.id}/`}>
+          <div class="icon" aria-hidden="true">{c.icon}</div>
+          <h3>{c.nameCn}</h3>
+          <p>{c.nameEn}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" id="recent-section" hidden aria-label="最近学习">
+    <h2>最近学习</h2>
+    <p class="sub">继续上次的学习</p>
+    <div class="pill-row" id="recent-home"></div>
+  </section>
+
+  <section class="section" aria-label="OpenAA 相关服务">
+    <h2>OpenAA 相关服务</h2>
+    <p class="sub">{SITE.tagline}</p>
+    <div class="grid-entries">
+      {ecoRecs.map((r) => (
+        <a class="entry-card" href={r.href} target="_blank" rel="noopener">
+          <h3>{r.text}</h3>
+          <p>{r.desc}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<script src="/js/search.js" defer></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var input = document.getElementById('hero-search');
+    var results = document.getElementById('hero-results');
+    if (window.enSearch && input && results) {
+      window.enSearch.wireSearch(input, results);
+    }
+  });
+</script>

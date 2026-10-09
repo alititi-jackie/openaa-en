@@ -1,0 +1,16 @@
+---
+/** 面包屑导航 */
+interface Props {
+  items: { label: string; href?: string }[];
+}
+
+const { items } = Astro.props;
+---
+<nav class="crumbs" aria-label="面包屑">
+  {items.map((item, i) => (
+    <>
+      {i > 0 && <span aria-hidden="true"> › </span>}
+      {item.href ? <a href={item.href}>{item.label}</a> : <span>{item.label}</span>}
+    </>
+  ))}
+</nav>

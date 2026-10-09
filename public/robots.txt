@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://en.openaa.com/sitemap-index.xml

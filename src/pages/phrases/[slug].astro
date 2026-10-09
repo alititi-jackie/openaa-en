@@ -1,0 +1,109 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import SayRow from '../../components/SayRow.astro';
+import EcoBlock from '../../components/EcoBlock.astro';
+import { categoryById } from '../../data/categories';
+import { SITE } from '../../config/site';
+
+/**
+ * 只有有实质内容（解释或替代表达）的句子才生成详情页，
+ * 避免产生大量内容重复的薄页面。
+ */
+export async function getStaticPaths() {
+  const phrases = await getCollection('phrases');
+  return phrases
+    .filter((p) => (p.data.explanation && p.data.explanation.trim()) || (p.data.alternatives || []).length > 0)
+    .map((p) => ({ params: { slug: p.id } }));
+}
+
+const { slug } = Astro.params;
+const phrases = await getCollection('phrases');
+const entry = phrases.find((p) => p.id === slug);
+if (!entry) throw new Error(`句子不存在: ${slug}`);
+const ph = entry.data;
+
+const scenes = await getCollection('scenes');
+const linkedScenes = (ph.sceneIds || []).flatMap((id) => {
+  const f = scenes.find((x) => x.id === id || x.data.id === id);
+  return f ? [f] : [];
+});
+
+const title = `${ph.english}｜${ph.chinese} - OpenAA`;
+const description = `${ph.chinese}的英文是${ph.english}。${ph.explanation || '美国生活常用英语句子，中英对照，支持美式发音。'}`;
+const canonicalPath = `/phrases/${entry.id}/`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${ph.english}（${ph.chinese}）`,
+  description,
+  inLanguage: 'zh-CN',
+  mainEntityOfPage: `${SITE.domain}${canonicalPath}`,
+};
+---
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalPath={canonicalPath}
+  current="/phrases/"
+  jsonLd={jsonLd}
+>
+  <span data-recent data-kind="phrase" data-id={entry.id} data-title={ph.english} hidden></span>
+  <Breadcrumbs
+    items={[
+      { label: '首页', href: '/' },
+      { label: '常用句子', href: '/phrases/' },
+      { label: ph.english },
+    ]}
+  />
+
+  <h1 style="font-size:1.8rem">{ph.english}</h1>
+  <p style="font-size:1.15rem;color:var(--text-2)">{ph.chinese}</p>
+
+  <div class="ops" style="display:flex;gap:8px;flex-wrap:wrap;margin:16px 0">
+    <button type="button" class="btn primary" data-speak={ph.english}>🔊 朗读</button>
+    <button type="button" class="btn" data-copy={ph.english}>📋 复制</button>
+    <button type="button" class="btn" data-fav={entry.id} data-kind="phrase" aria-pressed="false">
+      ⭐ 收藏
+    </button>
+  </div>
+
+  {ph.explanation && (
+    <>
+      <h2>用法解释</h2>
+      <div class="note">{ph.explanation}</div>
+    </>
+  )}
+
+  {(ph.alternatives || []).length > 0 && (
+    <>
+      <h2>替代表达</h2>
+      {(ph.alternatives || []).map((a) => (
+        <SayRow en={a.en} zh={a.zh} />
+      ))}
+    </>
+  )}
+
+  <h2>所属分类</h2>
+  <div class="pill-row">
+    {ph.categoryIds.map((cid) => {
+      const c = categoryById(cid);
+      return c && <a class="pill" href={`/categories/${c.id}/`}>{c.icon} {c.nameCn}</a>;
+    })}
+  </div>
+
+  {linkedScenes.length > 0 && (
+    <section class="related" aria-label="相关情景">
+      <h2>相关情景</h2>
+      <ul>
+        {linkedScenes.map((s) => (
+          <li><a href={`/scenes/${s.id}/`}>{s.data.title}</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <EcoBlock categoryIds={ph.categoryIds} />
+</BaseLayout>
