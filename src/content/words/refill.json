@@ -1,0 +1,32 @@
+{
+  "english": "refill",
+  "chinese": "续药",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "续处方"
+  ],
+  "explanation": "长期吃的药吃完了再配一次叫 refill；很多可以直接打电话给药房或在 App 上申请，不用再跑一趟看医生。",
+  "examples": [
+    {
+      "en": "I need a refill on my blood pressure medicine.",
+      "zh": "我的降压药该续了。"
+    },
+    {
+      "en": "You have two refills left.",
+      "zh": "你这个处方还能再续两次。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-prescription",
+    "w-pharmacy"
+  ],
+  "relatedSceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "seoTitle": "续药英文怎么说？refill 用法",
+  "seoDescription": "refill 就是处方药吃完再续。本文讲解它的意思和用法，附实用例句，长期用药续药不求人。",
+  "id": "w-refill",
+  "categoryIds": [
+    "medical"
+  ]
+}

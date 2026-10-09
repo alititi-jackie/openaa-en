@@ -1,0 +1,33 @@
+{
+  "english": "inspection",
+  "chinese": "车辆年检",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "年检",
+    "验车"
+  ],
+  "explanation": "很多州要求车辆每年检查一次（尾气加安全）；过期没检会被警察拦，注册也续不了，修车店一般都能做。",
+  "examples": [
+    {
+      "en": "My car needs an inspection this month.",
+      "zh": "我的车这个月要去年检。"
+    },
+    {
+      "en": "Where can I get my car inspected?",
+      "zh": "去哪儿做车辆年检？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-mechanic",
+    "w-car-registration"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "车辆年检英文怎么说？inspection 用法",
+  "seoDescription": "inspection 在美国常指车辆年检。本文讲解它的意思和用法，附实用例句，年检一次过。",
+  "id": "w-inspection",
+  "categoryIds": [
+    "driving"
+  ]
+}

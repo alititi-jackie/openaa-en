@@ -1,0 +1,32 @@
+{
+  "english": "routing number",
+  "chinese": "路由号码",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "银行代码"
+  ],
+  "explanation": "9 位数，标识是哪家银行；设 direct deposit 或电汇时跟 account number 一起用，支票左下角就有。",
+  "examples": [
+    {
+      "en": "What is my routing number?",
+      "zh": "我的路由号码是多少？"
+    },
+    {
+      "en": "I need the routing number to set up direct deposit.",
+      "zh": "设工资直存需要路由号码。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-wire-transfer"
+  ],
+  "relatedSceneIds": [
+    "s-open-account",
+    "s-wire-money"
+  ],
+  "seoTitle": "路由号码英文怎么说？routing number 用法",
+  "seoDescription": "routing number 是美国银行的 9 位识别码，转账汇款都要用。本文讲解，附实用例句。",
+  "id": "w-routing-number",
+  "categoryIds": [
+    "banking"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "english": "urgent care",
+  "chinese": "急诊诊所",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "紧急护理",
+    "小急诊"
+  ],
+  "explanation": "比诊所快、比急诊室便宜的看病地方；发烧、扭伤、割伤这种不太危急但等不了预约的，就去 urgent care，不用预约。",
+  "examples": [
+    {
+      "en": "There's an urgent care clinic near my house.",
+      "zh": "我家附近有一家急诊诊所。"
+    },
+    {
+      "en": "You don't need an appointment at urgent care.",
+      "zh": "去急诊诊所不用预约。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-emergency-room",
+    "w-symptoms"
+  ],
+  "relatedSceneIds": [
+    "s-urgent-care-visit"
+  ],
+  "seoTitle": "urgent care 是什么意思？美国急诊诊所讲解",
+  "seoDescription": "urgent care 是不用预约、比急诊室便宜的诊所。本文讲清楚它跟急诊室的区别，附实用例句，生病不再跑错地方。",
+  "id": "w-urgent-care",
+  "categoryIds": [
+    "medical"
+  ]
+}

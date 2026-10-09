@@ -1,0 +1,32 @@
+{
+  "english": "deposit",
+  "chinese": "存款",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "存钱"
+  ],
+  "explanation": "把钱放进银行；现金去柜台或 ATM 存，支票可以手机拍照存（mobile deposit），很方便。",
+  "examples": [
+    {
+      "en": "I'd like to make a deposit.",
+      "zh": "我要存钱。"
+    },
+    {
+      "en": "Can I deposit this check with my phone?",
+      "zh": "这张支票能用手机存吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-withdrawal",
+    "w-checking-account"
+  ],
+  "relatedSceneIds": [
+    "s-open-account"
+  ],
+  "seoTitle": "存款英文怎么说？deposit 用法",
+  "seoDescription": "deposit 就是存款、存钱。本文讲解它的意思和用法，附实用例句，去银行存钱一次搞定。",
+  "id": "w-deposit",
+  "categoryIds": [
+    "banking"
+  ]
+}

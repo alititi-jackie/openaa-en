@@ -1,0 +1,32 @@
+{
+  "english": "prescription",
+  "chinese": "处方",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "处方药单"
+  ],
+  "explanation": "医生开的买药单子；在美国很多药（比如抗生素）没处方买不到，医生一般会把处方直接发到你选的药房。",
+  "examples": [
+    {
+      "en": "The doctor gave me a prescription for antibiotics.",
+      "zh": "医生给我开了抗生素的处方。"
+    },
+    {
+      "en": "Do I need a prescription for this medicine?",
+      "zh": "这药需要处方吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-pharmacy",
+    "w-refill"
+  ],
+  "relatedSceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "seoTitle": "处方英文怎么说？prescription 用法",
+  "seoDescription": "prescription 就是医生开的处方。本文讲解它的意思和用法，附实用例句，帮你在美国顺利拿药。",
+  "id": "w-prescription",
+  "categoryIds": [
+    "medical"
+  ]
+}

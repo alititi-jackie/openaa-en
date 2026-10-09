@@ -1,0 +1,33 @@
+{
+  "english": "WiFi",
+  "chinese": "无线网络",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "无线网",
+    "Wi-Fi"
+  ],
+  "explanation": "家里、店里的无线网；连上 WiFi 就不耗手机流量，租房时问房东包不包 WiFi。",
+  "examples": [
+    {
+      "en": "Is there free WiFi here?",
+      "zh": "这里有免费无线网吗？"
+    },
+    {
+      "en": "My WiFi isn't working.",
+      "zh": "我家无线网连不上了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-router",
+    "w-internet-provider"
+  ],
+  "relatedSceneIds": [
+    "s-wifi-support"
+  ],
+  "seoTitle": "无线网英文怎么说？WiFi 用法",
+  "seoDescription": "WiFi 就是无线网络。本文讲解它的意思和用法，附实用例句，在家在外上网都用得上。",
+  "id": "w-wifi",
+  "categoryIds": [
+    "phone"
+  ]
+}

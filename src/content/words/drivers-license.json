@@ -1,0 +1,33 @@
+{
+  "english": "driver's license",
+  "chinese": "驾照",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "驾驶证"
+  ],
+  "explanation": "在美国开车必须有驾照；各州自己发（去 DMV 办），刚来时中国驾照加翻译件一般能短期开，长期住要考本地的。",
+  "examples": [
+    {
+      "en": "Do you have a valid driver's license?",
+      "zh": "你有有效的驾照吗？"
+    },
+    {
+      "en": "My driver's license expires next year.",
+      "zh": "我的驾照明年到期。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-dmv",
+    "w-car-registration"
+  ],
+  "relatedSceneIds": [
+    "s-at-dmv",
+    "s-traffic-stop"
+  ],
+  "seoTitle": "驾照英文怎么说？driver's license 用法",
+  "seoDescription": "driver's license 就是驾照。本文讲解它的意思和用法，附实用例句，在美国开车、办事都用得上。",
+  "id": "w-drivers-license",
+  "categoryIds": [
+    "driving"
+  ]
+}

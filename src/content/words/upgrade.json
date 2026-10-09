@@ -1,0 +1,32 @@
+{
+  "english": "upgrade",
+  "chinese": "以旧换新",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "换新机"
+  ],
+  "explanation": "运营商常推的活动：旧手机折价换新机；看着划算，但一般要签两年合约绑死，提前解约要赔钱。",
+  "examples": [
+    {
+      "en": "Is there an upgrade promotion right now?",
+      "zh": "现在有以旧换新活动吗？"
+    },
+    {
+      "en": "I upgraded to the new iPhone.",
+      "zh": "我换了新款 iPhone。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-phone-plan",
+    "w-carrier"
+  ],
+  "relatedSceneIds": [
+    "s-phone-store"
+  ],
+  "seoTitle": "以旧换新英文怎么说？upgrade 用法",
+  "seoDescription": "upgrade 在手机店常指以旧换新。本文讲解它的意思和注意事项，附实用例句。",
+  "id": "w-upgrade",
+  "categoryIds": [
+    "phone"
+  ]
+}

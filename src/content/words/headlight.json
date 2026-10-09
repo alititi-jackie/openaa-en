@@ -1,0 +1,32 @@
+{
+  "english": "headlight",
+  "chinese": "车灯",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "大灯",
+    "车头灯"
+  ],
+  "explanation": "天黑、下雨要开灯；灯不亮被警察拦下来是常见的事，灯泡很便宜，AutoZone 买了自己就能换。",
+  "examples": [
+    {
+      "en": "One of my headlights is out.",
+      "zh": "我一个大灯不亮了。"
+    },
+    {
+      "en": "Turn on your headlights, it's getting dark.",
+      "zh": "开车灯吧，天黑了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-inspection"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "车灯英文怎么说？headlight 用法",
+  "seoDescription": "headlight 就是汽车大灯。本文讲解它的意思和用法，附实用例句，灯不亮被拦下知道怎么说。",
+  "id": "w-headlight",
+  "categoryIds": [
+    "driving"
+  ]
+}

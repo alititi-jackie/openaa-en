@@ -1,0 +1,33 @@
+{
+  "english": "SIM card",
+  "chinese": "电话卡",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "SIM卡"
+  ],
+  "explanation": "插手机里才能打电话上网的小卡；现在很多手机用 eSIM（电子卡），不用实体卡，店里扫码就激活。",
+  "examples": [
+    {
+      "en": "Do I need a new SIM card?",
+      "zh": "我需要换张新电话卡吗？"
+    },
+    {
+      "en": "My phone uses an eSIM.",
+      "zh": "我的手机用的是电子卡。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-carrier",
+    "w-phone-plan"
+  ],
+  "relatedSceneIds": [
+    "s-phone-store",
+    "s-switch-carrier"
+  ],
+  "seoTitle": "电话卡英文怎么说？SIM card 用法",
+  "seoDescription": "SIM card 就是电话卡。本文讲解它的意思和 eSIM 的区别，附实用例句。",
+  "id": "w-sim-card",
+  "categoryIds": [
+    "phone"
+  ]
+}

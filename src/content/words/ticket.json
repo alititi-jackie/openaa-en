@@ -1,0 +1,32 @@
+{
+  "english": "ticket",
+  "chinese": "罚单",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "交通罚单"
+  ],
+  "explanation": "超速、违停等违规收到的罚单；可以交钱，也可以上庭申诉（contest），千万别不理，不交会有大麻烦。",
+  "examples": [
+    {
+      "en": "I got a speeding ticket on the highway.",
+      "zh": "我在高速上吃了张超速罚单。"
+    },
+    {
+      "en": "You can pay the ticket online.",
+      "zh": "罚单可以在网上交。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-speed-limit",
+    "w-parking-ticket"
+  ],
+  "relatedSceneIds": [
+    "s-traffic-stop"
+  ],
+  "seoTitle": "罚单英文怎么说？ticket 用法",
+  "seoDescription": "ticket 在美国常指交通罚单。本文讲解它的意思和处理办法，附实用例句，收到罚单不再慌。",
+  "id": "w-ticket",
+  "categoryIds": [
+    "driving"
+  ]
+}

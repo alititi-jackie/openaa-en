@@ -1,0 +1,32 @@
+{
+  "english": "referral",
+  "chinese": "转诊单",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "转诊"
+  ],
+  "explanation": "家庭医生开的介绍信；很多保险要求先看家庭医生，拿到 referral 才能去看专科医生，没有的话保险不报。",
+  "examples": [
+    {
+      "en": "Do I need a referral to see a specialist?",
+      "zh": "看专科医生需要转诊单吗？"
+    },
+    {
+      "en": "My doctor gave me a referral to a dermatologist.",
+      "zh": "我的医生给我开了去看皮肤科的转诊单。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-appointment",
+    "w-insurance"
+  ],
+  "relatedSceneIds": [
+    "s-make-appointment"
+  ],
+  "seoTitle": "转诊单英文怎么说？referral 用法",
+  "seoDescription": "referral 就是看专科医生要的转诊单。本文讲解它的意思和用法，附实用例句，转诊流程一次搞懂。",
+  "id": "w-referral",
+  "categoryIds": [
+    "medical"
+  ]
+}

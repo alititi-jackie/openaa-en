@@ -1,0 +1,31 @@
+{
+  "english": "cracked screen",
+  "chinese": "碎屏",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "屏幕碎了"
+  ],
+  "explanation": "手机屏幕摔碎了；换屏去官方店或商场里的维修店，问清价格再修，有的比买新的还贵。",
+  "examples": [
+    {
+      "en": "My screen is cracked. How much to fix it?",
+      "zh": "我屏幕碎了，修一下多少钱？"
+    },
+    {
+      "en": "I need a screen protector to avoid a cracked screen.",
+      "zh": "我得贴个膜，免得碎屏。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-charger"
+  ],
+  "relatedSceneIds": [
+    "s-phone-repair"
+  ],
+  "seoTitle": "碎屏英文怎么说？cracked screen 用法",
+  "seoDescription": "cracked screen 就是手机碎屏。本文讲解它的意思和用法，附实用例句，修手机先问价。",
+  "id": "w-cracked-screen",
+  "categoryIds": [
+    "phone"
+  ]
+}

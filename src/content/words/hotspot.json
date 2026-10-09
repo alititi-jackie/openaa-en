@@ -1,0 +1,29 @@
+{
+  "english": "hotspot",
+  "chinese": "手机热点",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "个人热点"
+  ],
+  "explanation": "把手机流量分享给电脑、平板上网；套餐里的 hotspot 流量一般是单独算的，开之前看一眼剩多少。",
+  "examples": [
+    {
+      "en": "How do I turn on the hotspot?",
+      "zh": "手机热点怎么开？"
+    },
+    {
+      "en": "Can I use your hotspot?",
+      "zh": "能用一下你的热点吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-mobile-data"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "手机热点英文怎么说？hotspot 用法",
+  "seoDescription": "hotspot 就是手机热点。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-hotspot",
+  "categoryIds": [
+    "phone"
+  ]
+}

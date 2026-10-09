@@ -1,0 +1,31 @@
+{
+  "english": "spam call",
+  "chinese": "骚扰电话",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "诈骗电话"
+  ],
+  "explanation": "推销、诈骗的陌生来电；美国特别多，陌生号码先别接，让它进 voicemail，真有事对方会留言。",
+  "examples": [
+    {
+      "en": "I keep getting spam calls.",
+      "zh": "我老是接到骚扰电话。"
+    },
+    {
+      "en": "Don't answer spam calls.",
+      "zh": "骚扰电话别接。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-voicemail"
+  ],
+  "relatedSceneIds": [
+    "s-spam-calls"
+  ],
+  "seoTitle": "骚扰电话英文怎么说？spam call 用法",
+  "seoDescription": "spam call 就是骚扰电话。本文讲解它的意思和应对办法，附实用例句。",
+  "id": "w-spam-call",
+  "categoryIds": [
+    "phone"
+  ]
+}

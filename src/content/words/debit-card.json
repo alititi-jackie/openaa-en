@@ -1,0 +1,33 @@
+{
+  "english": "debit card",
+  "chinese": "借记卡",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "银行卡"
+  ],
+  "explanation": "银行发的卡，直接扣 checking 账户的钱；丢了马上打电话挂失，越快越好。",
+  "examples": [
+    {
+      "en": "I lost my debit card.",
+      "zh": "我的借记卡丢了。"
+    },
+    {
+      "en": "Can I use my debit card here?",
+      "zh": "这里能刷借记卡吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-checking-account",
+    "w-atm"
+  ],
+  "relatedSceneIds": [
+    "s-lost-card",
+    "s-open-account"
+  ],
+  "seoTitle": "借记卡英文怎么说？debit card 用法",
+  "seoDescription": "debit card 就是借记卡，直接扣账户里的钱。本文讲解，附实用例句，丢卡知道怎么挂失。",
+  "id": "w-debit-card",
+  "categoryIds": [
+    "banking"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "english": "gas station",
+  "chinese": "加油站",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "油站"
+  ],
+  "explanation": "美国加油基本自助：刷卡、选油号、自己加；regular 最便宜，柴油车加 diesel，别加错油。",
+  "examples": [
+    {
+      "en": "Where is the nearest gas station?",
+      "zh": "最近的加油站在哪？"
+    },
+    {
+      "en": "Gas is cheaper at Costco.",
+      "zh": "Costco 的油便宜。"
+    }
+  ],
+  "relatedWordIds": [],
+  "relatedSceneIds": [
+    "s-gas-station"
+  ],
+  "seoTitle": "加油站英文怎么说？gas station 用法",
+  "seoDescription": "gas station 就是加油站。本文讲解它的意思和自助加油的说法，附实用例句，开车加油不求人。",
+  "id": "w-gas-station",
+  "categoryIds": [
+    "driving"
+  ]
+}

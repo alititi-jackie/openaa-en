@@ -1,0 +1,32 @@
+{
+  "english": "emergency room",
+  "chinese": "急诊室",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "急诊",
+    "ER"
+  ],
+  "explanation": "医院的急诊室，处理危及生命的紧急情况；费用非常贵，小病别去 ER，去 urgent care 更划算。",
+  "examples": [
+    {
+      "en": "Call 911 and go to the emergency room.",
+      "zh": "打 911，去急诊室。"
+    },
+    {
+      "en": "The emergency room wait was four hours.",
+      "zh": "急诊室等了四个小时。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-urgent-care"
+  ],
+  "relatedSceneIds": [
+    "s-urgent-care-visit"
+  ],
+  "seoTitle": "急诊室英文怎么说？emergency room 用法",
+  "seoDescription": "emergency room（ER）就是医院的急诊室。本文讲解它的意思和用法，附实用例句，紧急情况不再慌。",
+  "id": "w-emergency-room",
+  "categoryIds": [
+    "medical"
+  ]
+}

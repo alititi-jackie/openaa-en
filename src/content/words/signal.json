@@ -1,0 +1,29 @@
+{
+  "english": "signal",
+  "chinese": "信号",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "手机信号"
+  ],
+  "explanation": "手机左上角的格数；没信号（no signal）就打不出电话，偏远地区常见，换运营商前先查覆盖。",
+  "examples": [
+    {
+      "en": "I have no signal here.",
+      "zh": "我这里没信号。"
+    },
+    {
+      "en": "The signal is weak in the basement.",
+      "zh": "地下室信号很弱。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-carrier"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "信号英文怎么说？signal 用法",
+  "seoDescription": "signal 就是手机信号。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-signal",
+  "categoryIds": [
+    "phone"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "english": "tow truck",
+  "chinese": "拖车",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "拖车服务"
+  ],
+  "explanation": "车坏在路上动不了就叫 tow truck；保险里常带 roadside assistance（道路救援），先打保险公司电话，可能免费。",
+  "examples": [
+    {
+      "en": "Can you send a tow truck?",
+      "zh": "能派辆拖车来吗？"
+    },
+    {
+      "en": "The tow truck took my car to the shop.",
+      "zh": "拖车把我的车拖到修车店了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-flat-tire"
+  ],
+  "relatedSceneIds": [
+    "s-roadside-help"
+  ],
+  "seoTitle": "拖车英文怎么说？tow truck 用法",
+  "seoDescription": "tow truck 就是拖车。本文讲解它的意思和用法，附实用例句，车坏在路上知道找谁。",
+  "id": "w-tow-truck",
+  "categoryIds": [
+    "driving"
+  ]
+}

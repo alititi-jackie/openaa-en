@@ -1,0 +1,30 @@
+{
+  "english": "overdraft",
+  "chinese": "透支",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "透支费"
+  ],
+  "explanation": "账户里钱不够还硬刷，银行先垫上然后收你一笔 overdraft fee（一次 30 多美元）；很亏，尽量避免。",
+  "examples": [
+    {
+      "en": "I got charged an overdraft fee.",
+      "zh": "我被收了透支费。"
+    },
+    {
+      "en": "How can I avoid overdraft fees?",
+      "zh": "怎么避免透支费？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-balance",
+    "w-checking-account"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "透支英文怎么说？overdraft 讲解",
+  "seoDescription": "overdraft 就是账户透支，手续费很贵。本文讲清楚怎么回事、怎么避免，附实用例句。",
+  "id": "w-overdraft",
+  "categoryIds": [
+    "banking"
+  ]
+}

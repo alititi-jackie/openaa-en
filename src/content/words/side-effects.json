@@ -1,0 +1,31 @@
+{
+  "english": "side effects",
+  "chinese": "副作用",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "不良反应"
+  ],
+  "explanation": "药吃下去除了治病之外的其他反应，比如头晕、恶心；拿药时问一句 \"What are the side effects?\" 心里有数。",
+  "examples": [
+    {
+      "en": "What are the side effects of this medicine?",
+      "zh": "这药有什么副作用？"
+    },
+    {
+      "en": "Drowsiness is a common side effect.",
+      "zh": "嗜睡是常见的副作用。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-prescription"
+  ],
+  "relatedSceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "seoTitle": "副作用英文怎么说？side effects 用法",
+  "seoDescription": "side effects 就是药物的副作用。本文讲解它的意思和用法，附实用例句，拿药时多问一句更安心。",
+  "id": "w-side-effects",
+  "categoryIds": [
+    "medical"
+  ]
+}

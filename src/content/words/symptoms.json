@@ -1,0 +1,32 @@
+{
+  "english": "symptoms",
+  "chinese": "症状",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "病症"
+  ],
+  "explanation": "身体不舒服的具体表现；看医生时要能说出 symptoms，比如发烧、咳嗽、头疼，医生靠这个判断病情。",
+  "examples": [
+    {
+      "en": "What are your symptoms?",
+      "zh": "你有什么症状？"
+    },
+    {
+      "en": "My symptoms started three days ago.",
+      "zh": "我的症状是三天前开始的。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-fever",
+    "w-allergy"
+  ],
+  "relatedSceneIds": [
+    "s-first-visit"
+  ],
+  "seoTitle": "症状英文怎么说？symptoms 用法",
+  "seoDescription": "symptoms 就是身体不舒服的具体症状。本文讲解它的意思和用法，附实用例句，看医生描述病情更清楚。",
+  "id": "w-symptoms",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "english": "router",
+  "chinese": "路由器",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "无线路由器"
+  ],
+  "explanation": "家里发 WiFi 信号的盒子；网速慢先重启路由器，80% 的问题重启就好，不行再打客服。",
+  "examples": [
+    {
+      "en": "Try restarting your router.",
+      "zh": "试试重启路由器。"
+    },
+    {
+      "en": "The router is in the living room.",
+      "zh": "路由器在客厅。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-wifi",
+    "w-internet-provider"
+  ],
+  "relatedSceneIds": [
+    "s-wifi-support"
+  ],
+  "seoTitle": "路由器英文怎么说？router 用法",
+  "seoDescription": "router 就是路由器。本文讲解它的意思和用法，附实用例句，断网先重启。",
+  "id": "w-router",
+  "categoryIds": [
+    "phone"
+  ]
+}

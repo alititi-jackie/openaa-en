@@ -1,0 +1,32 @@
+{
+  "english": "pharmacy",
+  "chinese": "药房",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "药店"
+  ],
+  "explanation": "拿处方药的地方；CVS、Walgreens 里面都有 pharmacy，处方药在后面的柜台取，前面卖的是日用品。",
+  "examples": [
+    {
+      "en": "You can pick up your medicine at the pharmacy.",
+      "zh": "你可以去药房取药。"
+    },
+    {
+      "en": "The pharmacy closes at 9 pm.",
+      "zh": "药房晚上 9 点关门。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-prescription",
+    "w-refill"
+  ],
+  "relatedSceneIds": [
+    "s-pharmacy-pickup"
+  ],
+  "seoTitle": "药房英文怎么说？pharmacy 用法",
+  "seoDescription": "pharmacy 就是药房，拿处方药的地方。本文讲解它的意思和用法，附实用例句，在美国找药房不再问人。",
+  "id": "w-pharmacy",
+  "categoryIds": [
+    "medical"
+  ]
+}

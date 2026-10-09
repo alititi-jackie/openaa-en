@@ -1,0 +1,32 @@
+{
+  "english": "mileage",
+  "chinese": "里程",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "公里数",
+    "英里数"
+  ],
+  "explanation": "车跑了多少英里；买二手车先看 mileage，里程太高容易出毛病，卖车时里程低也更值钱。",
+  "examples": [
+    {
+      "en": "What's the mileage on this car?",
+      "zh": "这车跑了多少英里？"
+    },
+    {
+      "en": "This car has low mileage.",
+      "zh": "这车里程很低。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-oil-change"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "里程英文怎么说？mileage 用法",
+  "seoDescription": "mileage 就是车辆跑了多少英里。本文讲解它的意思和用法，附实用例句，买二手车会看里程。",
+  "id": "w-mileage",
+  "categoryIds": [
+    "driving"
+  ]
+}

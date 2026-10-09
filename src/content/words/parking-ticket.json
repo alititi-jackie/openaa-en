@@ -1,0 +1,31 @@
+{
+  "english": "parking ticket",
+  "chinese": "违停罚单",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "停车罚单"
+  ],
+  "explanation": "乱停车收到的罚单，雨刮器上夹着的那张；看清路边的牌子（ sweeping 时间、消防栓距离）， downtown 停车先看清再停。",
+  "examples": [
+    {
+      "en": "I got a parking ticket downtown.",
+      "zh": "我在市中心吃了张违停罚单。"
+    },
+    {
+      "en": "Parking tickets must be paid within 30 days.",
+      "zh": "违停罚单要在 30 天内交。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-ticket"
+  ],
+  "relatedSceneIds": [
+    "s-traffic-stop"
+  ],
+  "seoTitle": "违停罚单英文怎么说？parking ticket 用法",
+  "seoDescription": "parking ticket 就是违停罚单。本文讲解它的意思和处理办法，附实用例句。",
+  "id": "w-parking-ticket",
+  "categoryIds": [
+    "driving"
+  ]
+}

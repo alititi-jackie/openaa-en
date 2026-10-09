@@ -1,0 +1,31 @@
+{
+  "english": "voicemail",
+  "chinese": "语音留言",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "语音信箱"
+  ],
+  "explanation": "你没接电话时对方留的语音；第一次用要设密码，重要电话没接到记得听留言，别错过正事。",
+  "examples": [
+    {
+      "en": "You have a new voicemail.",
+      "zh": "你有一条新的语音留言。"
+    },
+    {
+      "en": "I forgot my voicemail password.",
+      "zh": "我忘了语音留言的密码。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-spam-call"
+  ],
+  "relatedSceneIds": [
+    "s-spam-calls"
+  ],
+  "seoTitle": "语音留言英文怎么说？voicemail 用法",
+  "seoDescription": "voicemail 就是语音留言。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-voicemail",
+  "categoryIds": [
+    "phone"
+  ]
+}

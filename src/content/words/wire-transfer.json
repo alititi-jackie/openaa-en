@@ -1,0 +1,32 @@
+{
+  "english": "wire transfer",
+  "chinese": "电汇",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "电汇汇款"
+  ],
+  "explanation": "银行之间的正式汇款，跨国、大额用它；手续费贵（30 到 50 美元），到账要 1 到 3 天。",
+  "examples": [
+    {
+      "en": "I need to wire money to China.",
+      "zh": "我要往中国电汇一笔钱。"
+    },
+    {
+      "en": "How much is the wire transfer fee?",
+      "zh": "电汇手续费多少？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-routing-number",
+    "w-transfer"
+  ],
+  "relatedSceneIds": [
+    "s-wire-money"
+  ],
+  "seoTitle": "电汇英文怎么说？wire transfer 用法",
+  "seoDescription": "wire transfer 就是电汇，往国内汇款常用。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-wire-transfer",
+  "categoryIds": [
+    "banking"
+  ]
+}

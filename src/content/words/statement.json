@@ -1,0 +1,31 @@
+{
+  "english": "statement",
+  "chinese": "对账单",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "月结单"
+  ],
+  "explanation": "银行每月出的账单，列了这月所有进出账；对账、报税、办贷款都用得上。",
+  "examples": [
+    {
+      "en": "Can you print my last statement?",
+      "zh": "能打印我上个月的对账单吗？"
+    },
+    {
+      "en": "I check my statement every month.",
+      "zh": "我每月都对一次账单。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-balance"
+  ],
+  "relatedSceneIds": [
+    "s-dispute-charge"
+  ],
+  "seoTitle": "对账单英文怎么说？statement 用法",
+  "seoDescription": "statement 就是银行对账单。本文讲解它的意思和用法，附实用例句，对账、办事都要用。",
+  "id": "w-statement",
+  "categoryIds": [
+    "banking"
+  ]
+}

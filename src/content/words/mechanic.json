@@ -1,0 +1,32 @@
+{
+  "english": "mechanic",
+  "chinese": "修车工",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "修车师傅"
+  ],
+  "explanation": "修车店里干活的人；修之前先问 estimate（报价），修完要 itemized bill（明细账单），防止被乱收费。",
+  "examples": [
+    {
+      "en": "My mechanic said the brakes need to be replaced.",
+      "zh": "修车师傅说刹车片该换了。"
+    },
+    {
+      "en": "Do you know a good mechanic?",
+      "zh": "你认识靠谱的修车师傅吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-oil-change",
+    "w-inspection"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "修车工英文怎么说？mechanic 用法",
+  "seoDescription": "mechanic 就是修车工。本文讲解它的意思和用法，附实用例句，去修车店沟通不踩坑。",
+  "id": "w-mechanic",
+  "categoryIds": [
+    "driving"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "english": "deductible",
+  "chinese": "免赔额",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "自付额度"
+  ],
+  "explanation": "保险开始报销前，你自己要先掏的钱；比如 deductible 是 2000 美元，就是一年内先自己花够 2000，之后保险才按比例报。",
+  "examples": [
+    {
+      "en": "My plan has a $2,000 deductible.",
+      "zh": "我的保险免赔额是 2000 美元。"
+    },
+    {
+      "en": "Have you met your deductible this year?",
+      "zh": "你今年的免赔额花够了吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-insurance",
+    "w-copay"
+  ],
+  "relatedSceneIds": [
+    "s-bill-question"
+  ],
+  "seoTitle": "deductible 是什么意思？美国保险免赔额讲解",
+  "seoDescription": "deductible 是保险报销前自己要先掏的钱。本文用大白话讲清楚，附实用例句，选保险、看账单不再糊涂。",
+  "id": "w-deductible",
+  "categoryIds": [
+    "medical"
+  ]
+}

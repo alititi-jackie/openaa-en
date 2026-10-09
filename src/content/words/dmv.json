@@ -1,0 +1,32 @@
+{
+  "english": "DMV",
+  "chinese": "车管所",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "车管局"
+  ],
+  "explanation": "Department of Motor Vehicles 的缩写，各州管驾照、车辆注册的地方；办事最好先网上预约，排队很长，证件带齐。",
+  "examples": [
+    {
+      "en": "I have an appointment at the DMV tomorrow.",
+      "zh": "我明天约了去车管所。"
+    },
+    {
+      "en": "The DMV line was so long.",
+      "zh": "车管所排队排了好久。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-drivers-license",
+    "w-car-registration"
+  ],
+  "relatedSceneIds": [
+    "s-at-dmv"
+  ],
+  "seoTitle": "DMV 是什么意思？美国车管所讲解",
+  "seoDescription": "DMV 就是美国的车管所，办驾照、车辆注册都去这儿。本文讲清楚去之前要准备什么，附实用英语。",
+  "id": "w-dmv",
+  "categoryIds": [
+    "driving"
+  ]
+}

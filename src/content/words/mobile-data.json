@@ -1,0 +1,32 @@
+{
+  "english": "mobile data",
+  "chinese": "手机流量",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "流量"
+  ],
+  "explanation": "不用 WiFi 时上网用的流量；套餐里的 data 用超了会降速或加钱，出门前连好 WiFi 能省不少。",
+  "examples": [
+    {
+      "en": "How much mobile data do I have left?",
+      "zh": "我还剩多少流量？"
+    },
+    {
+      "en": "I ran out of mobile data.",
+      "zh": "我的流量用完了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-phone-plan",
+    "w-hotspot"
+  ],
+  "relatedSceneIds": [
+    "s-phone-store"
+  ],
+  "seoTitle": "流量英文怎么说？mobile data 用法",
+  "seoDescription": "mobile data 就是手机流量。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-mobile-data",
+  "categoryIds": [
+    "phone"
+  ]
+}

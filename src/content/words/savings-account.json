@@ -1,0 +1,32 @@
+{
+  "english": "savings account",
+  "chinese": "储蓄账户",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "储蓄户头"
+  ],
+  "explanation": "存钱的账户，利息比 checking 高一点；两个账户之间转钱一般即时到账。",
+  "examples": [
+    {
+      "en": "I move $200 to my savings account every month.",
+      "zh": "我每月往储蓄账户转 200 美元。"
+    },
+    {
+      "en": "What's the interest rate on the savings account?",
+      "zh": "储蓄账户利率是多少？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-checking-account",
+    "w-transfer"
+  ],
+  "relatedSceneIds": [
+    "s-open-account"
+  ],
+  "seoTitle": "储蓄账户英文怎么说？savings account 用法",
+  "seoDescription": "savings account 就是储蓄账户。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-savings-account",
+  "categoryIds": [
+    "banking"
+  ]
+}

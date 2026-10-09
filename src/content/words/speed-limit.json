@@ -1,0 +1,31 @@
+{
+  "english": "speed limit",
+  "chinese": "限速",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "限速标志"
+  ],
+  "explanation": "路边的最高时速牌；超速被抓罚单很贵，学校区域（school zone）限速更低，罚款翻倍，看到校车停了一定要停。",
+  "examples": [
+    {
+      "en": "The speed limit here is 35.",
+      "zh": "这里限速 35 英里。"
+    },
+    {
+      "en": "You were going over the speed limit.",
+      "zh": "你超速了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-ticket"
+  ],
+  "relatedSceneIds": [
+    "s-traffic-stop"
+  ],
+  "seoTitle": "限速英文怎么说？speed limit 用法",
+  "seoDescription": "speed limit 就是限速。本文讲解它的意思和用法，附实用例句，在美国开车不吃罚单。",
+  "id": "w-speed-limit",
+  "categoryIds": [
+    "driving"
+  ]
+}

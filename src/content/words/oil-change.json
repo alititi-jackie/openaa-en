@@ -1,0 +1,32 @@
+{
+  "english": "oil change",
+  "chinese": "换机油",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "保养换油"
+  ],
+  "explanation": "定期保养项目，一般 5000 英里换一次；Jiffy Lube 这种快修店不用预约，直接开去就行。",
+  "examples": [
+    {
+      "en": "I need an oil change.",
+      "zh": "我要换机油。"
+    },
+    {
+      "en": "How often should I get an oil change?",
+      "zh": "多久换一次机油？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-mechanic",
+    "w-mileage"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "换机油英文怎么说？oil change 用法",
+  "seoDescription": "oil change 就是换机油，汽车最常规的保养。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-oil-change",
+  "categoryIds": [
+    "driving"
+  ]
+}

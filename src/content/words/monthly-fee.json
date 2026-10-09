@@ -1,0 +1,31 @@
+{
+  "english": "monthly fee",
+  "chinese": "月费",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "账户管理费"
+  ],
+  "explanation": "有些 checking 账户每月收十几美元管理费；保持最低余额或设 direct deposit 一般能免掉，开户时问清楚。",
+  "examples": [
+    {
+      "en": "Is there a monthly fee for this account?",
+      "zh": "这个账户收月费吗？"
+    },
+    {
+      "en": "How can I avoid the monthly fee?",
+      "zh": "怎么免掉月费？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-checking-account"
+  ],
+  "relatedSceneIds": [
+    "s-open-account"
+  ],
+  "seoTitle": "月费英文怎么说？monthly fee 用法",
+  "seoDescription": "monthly fee 就是银行账户的月费。本文讲解怎么问、怎么免，附实用例句，开户不花冤枉钱。",
+  "id": "w-monthly-fee",
+  "categoryIds": [
+    "banking"
+  ]
+}

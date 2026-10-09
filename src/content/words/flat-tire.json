@@ -1,0 +1,32 @@
+{
+  "english": "flat tire",
+  "chinese": "爆胎",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "轮胎没气",
+    "瘪胎"
+  ],
+  "explanation": "轮胎漏气或扎钉子了；路边爆胎先打双闪，停到安全地方再换备胎或叫拖车，别在路中间硬撑。",
+  "examples": [
+    {
+      "en": "I have a flat tire.",
+      "zh": "我的轮胎爆了。"
+    },
+    {
+      "en": "Do you know how to change a flat tire?",
+      "zh": "你会换备胎吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-tow-truck"
+  ],
+  "relatedSceneIds": [
+    "s-roadside-help"
+  ],
+  "seoTitle": "爆胎英文怎么说？flat tire 用法",
+  "seoDescription": "flat tire 就是爆胎、轮胎没气。本文讲解它的意思和用法，附实用例句，路上爆胎知道怎么求助。",
+  "id": "w-flat-tire",
+  "categoryIds": [
+    "driving"
+  ]
+}

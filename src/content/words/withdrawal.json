@@ -1,0 +1,32 @@
+{
+  "english": "withdrawal",
+  "chinese": "取款",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "取钱"
+  ],
+  "explanation": "从账户里拿钱出来；ATM 取款每天有限额，大额取现去柜台更稳妥。",
+  "examples": [
+    {
+      "en": "I'd like to make a withdrawal.",
+      "zh": "我想取钱。"
+    },
+    {
+      "en": "Is there a limit on ATM withdrawals?",
+      "zh": "ATM 取款有限额吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-deposit",
+    "w-atm"
+  ],
+  "relatedSceneIds": [
+    "s-atm-problem"
+  ],
+  "seoTitle": "取款英文怎么说？withdrawal 用法",
+  "seoDescription": "withdrawal 就是取款。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-withdrawal",
+  "categoryIds": [
+    "banking"
+  ]
+}

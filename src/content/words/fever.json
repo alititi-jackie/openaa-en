@@ -1,0 +1,32 @@
+{
+  "english": "fever",
+  "chinese": "发烧",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "发热"
+  ],
+  "explanation": "体温超过 100.4°F（38°C）就是 fever；看病或给孩子请假时，医生和学校都会问有没有发烧。",
+  "examples": [
+    {
+      "en": "My son has a fever of 102.",
+      "zh": "我儿子发烧到 102 华氏度。"
+    },
+    {
+      "en": "Do you have a fever?",
+      "zh": "你发烧吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-symptoms"
+  ],
+  "relatedSceneIds": [
+    "s-first-visit",
+    "s-urgent-care-visit"
+  ],
+  "seoTitle": "发烧英文怎么说？fever 用法",
+  "seoDescription": "fever 就是发烧。本文讲解它的意思和用法，附实用例句，看病描述病情一步到位。",
+  "id": "w-fever",
+  "categoryIds": [
+    "medical"
+  ]
+}

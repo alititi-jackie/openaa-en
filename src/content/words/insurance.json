@@ -1,0 +1,34 @@
+{
+  "english": "insurance",
+  "chinese": "医疗保险",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "医保",
+    "保险卡"
+  ],
+  "explanation": "美国的医疗保险；看病前先确认诊所收不收你的保险（in-network），不收的话账单会贵得吓人。",
+  "examples": [
+    {
+      "en": "Do you take my insurance?",
+      "zh": "你们收我的保险吗？"
+    },
+    {
+      "en": "Please bring your insurance card.",
+      "zh": "请带上你的保险卡。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-copay",
+    "w-deductible"
+  ],
+  "relatedSceneIds": [
+    "s-make-appointment",
+    "s-first-visit"
+  ],
+  "seoTitle": "保险英文怎么说？insurance 在美国看病时的用法",
+  "seoDescription": "insurance 就是保险，看病时最关键的一张卡。本文讲解它的意思和用法，附实用例句，帮你避开天价账单。",
+  "id": "w-insurance",
+  "categoryIds": [
+    "medical"
+  ]
+}

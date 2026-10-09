@@ -1,0 +1,33 @@
+{
+  "english": "transfer",
+  "chinese": "转账",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "汇款",
+    "转钱"
+  ],
+  "explanation": "把钱从一个账户转到另一个；自己名下 checking 转 savings 即时到，转给别人用 Zelle 也很快。",
+  "examples": [
+    {
+      "en": "I need to transfer money to my savings account.",
+      "zh": "我要往储蓄账户转钱。"
+    },
+    {
+      "en": "How long does the transfer take?",
+      "zh": "转账要多久到？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-wire-transfer",
+    "w-zelle"
+  ],
+  "relatedSceneIds": [
+    "s-wire-money"
+  ],
+  "seoTitle": "转账英文怎么说？transfer 用法",
+  "seoDescription": "transfer 就是转账。本文讲解它的意思和用法，附实用例句，在美国转钱不求人。",
+  "id": "w-transfer",
+  "categoryIds": [
+    "banking"
+  ]
+}

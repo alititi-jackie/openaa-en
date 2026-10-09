@@ -1,0 +1,32 @@
+{
+  "english": "phone plan",
+  "chinese": "手机套餐",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "话费套餐"
+  ],
+  "explanation": "每月固定交钱，包含流量、通话时长；美国三大运营商 Verizon、AT&T、T-Mobile，套餐价格差不少，多比几家。",
+  "examples": [
+    {
+      "en": "Which phone plan is the cheapest?",
+      "zh": "哪个手机套餐最便宜？"
+    },
+    {
+      "en": "My phone plan includes 10GB of data.",
+      "zh": "我的套餐含 10G 流量。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-mobile-data",
+    "w-carrier"
+  ],
+  "relatedSceneIds": [
+    "s-phone-store"
+  ],
+  "seoTitle": "手机套餐英文怎么说？phone plan 用法",
+  "seoDescription": "phone plan 就是手机套餐。本文讲解它的意思和用法，附实用例句，在美国办套餐不被坑。",
+  "id": "w-phone-plan",
+  "categoryIds": [
+    "phone"
+  ]
+}
