@@ -1,0 +1,27 @@
+{
+  "english": "Zelle",
+  "chinese": "Zelle 转账",
+  "partOfSpeech": "noun",
+  "aliases": [],
+  "explanation": "美国银行间的即时转账工具，银行 App 里自带；转给认识的人秒到账，但转错了很难要回来，只转给熟人。",
+  "examples": [
+    {
+      "en": "Can I pay you with Zelle?",
+      "zh": "我能用 Zelle 转给你吗？"
+    },
+    {
+      "en": "The Zelle transfer was instant.",
+      "zh": "Zelle 转账秒到。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-transfer"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "Zelle 是什么意思？美国转账工具讲解",
+  "seoDescription": "Zelle 是美国银行自带的即时转账工具。本文讲清楚怎么用、注意什么，附实用例句。",
+  "id": "w-zelle",
+  "categoryIds": [
+    "banking"
+  ]
+}
