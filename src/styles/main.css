@@ -42,23 +42,36 @@ main { padding: 20px 0 48px; min-height: 60vh; }
   max-width: var(--maxw); margin: 0 auto; padding: 10px 16px;
   display: flex; align-items: center; gap: 12px;
 }
-.brand { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); }
-.brand img { width: 34px; height: 34px; border-radius: 50%; }
-.brand-name { font-weight: 800; font-size: 17px; line-height: 1.2; }
-.brand-name small { display: block; font-weight: 400; font-size: 11px; color: var(--text-3); }
-.site-nav { display: flex; gap: 4px; margin-left: auto; overflow-x: auto; scrollbar-width: none; }
-.site-nav::-webkit-scrollbar { display: none; }
+.brand { display: flex; align-items: center; gap: 9px; text-decoration: none; color: var(--text); flex-shrink: 0; }
+.brand img { width: 36px; height: 36px; border-radius: 10px; }
+.brand-word { display: flex; align-items: baseline; gap: 10px; }
+.brand-word b { font-size: 23px; letter-spacing: -.7px; line-height: 1; }
+.brand-word em { color: var(--brand); font-style: normal; }
+.brand-word small { color: var(--text-3); border-left: 1px solid var(--border); padding-left: 10px; font-size: 14px; font-weight: 400; }
+.site-nav { display: flex; gap: 4px; margin-left: auto; }
 .site-nav a {
   white-space: nowrap; text-decoration: none; color: var(--text-2);
   font-size: 14px; padding: 8px 12px; border-radius: 999px;
 }
-.site-nav a[aria-current="page"] { background: var(--brand); color: #fff; font-weight: 700; }
-.header-search {
-  margin-left: 8px; flex: 0 0 auto;
-  border: 1px solid var(--border); background: var(--bg-soft);
-  border-radius: 999px; padding: 8px 14px; font-size: 14px; color: var(--text-2);
-  text-decoration: none; white-space: nowrap;
+.site-nav a[aria-current="page"] { color: var(--brand-dark); font-weight: 700; }
+.header-actions { display: flex; align-items: center; gap: 2px; flex-shrink: 0; }
+.icon-btn {
+  width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;
+  border: none; background: none; border-radius: 10px; color: var(--text-2); cursor: pointer;
 }
+.icon-btn:hover { background: var(--bg-soft); color: var(--text); }
+/* 副导航：不吸顶，随页面滚动 */
+.sub-nav { background: var(--bg-soft); border-bottom: 1px solid var(--border); }
+.sub-nav-inner {
+  max-width: var(--maxw); margin: 0 auto; padding: 0 16px;
+  display: flex; gap: 2px; overflow-x: auto; scrollbar-width: none;
+}
+.sub-nav-inner::-webkit-scrollbar { display: none; }
+.sub-nav-inner a {
+  white-space: nowrap; text-decoration: none; color: var(--text-2);
+  font-size: 13px; padding: 10px 12px; border-bottom: 2px solid transparent;
+}
+.sub-nav-inner a[aria-current="page"] { color: var(--brand); font-weight: 700; border-bottom-color: var(--brand); }
 
 /* ---------- hero / search ---------- */
 .hero { text-align: center; padding: 36px 0 8px; }

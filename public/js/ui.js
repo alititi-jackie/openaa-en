@@ -143,6 +143,17 @@
     var t = e.target;
     if (!(t instanceof Element)) return;
 
+    var installBtn = t.closest('[data-install]');
+    if (installBtn) {
+      handleInstall();
+      return;
+    }
+    var shareBtn = t.closest('[data-share]');
+    if (shareBtn) {
+      handleShare();
+      return;
+    }
+
     var speakBtn = t.closest('[data-speak]');
     if (speakBtn) {
       var rate = parseFloat(speakBtn.getAttribute('data-rate') || String(window.enSpeechRate || 1)) || 1;
@@ -182,6 +193,50 @@
     }
   });
 
+  /* ---------- 安装到桌面 / 分享 ---------- */
+  var deferredPrompt = null;
+  var installDone = false;
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault();
+    deferredPrompt = e;
+  });
+  window.addEventListener('appinstalled', function () {
+    installDone = true;
+    deferredPrompt = null;
+    toast('已添加到桌面');
+  });
+
+  function handleInstall() {
+    if (installDone || (window.matchMedia && window.matchMedia('(display-mode: standalone)').matches) || window.navigator.standalone === true) {
+      toast('当前应用已经安装到桌面');
+      return;
+    }
+    if (deferredPrompt) {
+      var p = deferredPrompt;
+      deferredPrompt = null;
+      p.prompt();
+      if (p.userChoice) {
+        p.userChoice.then(function (choice) {
+          toast(choice && choice.outcome === 'accepted' ? '已提交安装请求，请按浏览器提示完成' : '已取消安装');
+        }).catch(function () {});
+      }
+      return;
+    }
+    toast('请用浏览器菜单中的"添加到主屏幕"安装');
+  }
+
+  function handleShare() {
+    var data = { title: document.title, url: window.location.href };
+    if (window.navigator.share) {
+      window.navigator.share(data).catch(function () {});
+      return;
+    }
+    var done = function () { toast('链接已复制'); };
+    if (window.navigator.clipboard && window.navigator.clipboard.writeText) {
+      window.navigator.clipboard.writeText(data.url).then(done, function () { fallbackCopy(data.url); done(); });
+    } else { fallbackCopy(data.url); done(); }
+  }
+
   function fallbackCopy(text) {
     try {
       var ta = document.createElement('textarea');
@@ -200,6 +255,9 @@
     paintFavButtons();
     recordRecent();
     renderRecentHome();
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(function () {});
+    }
     if (speechOK) {
       loadVoices();
       if ('onvoiceschanged' in window.speechSynthesis) {

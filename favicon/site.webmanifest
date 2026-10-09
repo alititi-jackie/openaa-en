@@ -1,11 +1,11 @@
 {
-  "name": "OpenAA · 美国华人生活入口",
-  "short_name": "OpenAA",
+  "name": "OpenAA 美国生活英语",
+  "short_name": "英语频道",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0d6efd",
+  "theme_color": "#2563eb",
   "icons": [
     {
       "src": "/favicon/android-chrome-192x192.png",
