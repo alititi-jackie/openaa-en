@@ -41,6 +41,19 @@ const ecoRecs = [
   canonicalPath="/"
   current="/"
   wide
+  jsonLd={{
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'OpenAA 美国生活英语',
+    alternateName: 'OpenAA Everyday English',
+    url: 'https://en.openaa.com/',
+    inLanguage: 'zh-CN',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://en.openaa.com/search/?q={query}',
+      'query-input': 'required name=query',
+    },
+  }}
 >
   <section class="hero">
     <h1>美国生活英语大全</h1>

@@ -12,10 +12,12 @@ interface Props {
   wide?: boolean;
   noindex?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  ogImage?: string;
 }
 
-const { title, description, canonicalPath, current, wide, noindex, jsonLd } = Astro.props;
+const { title, description, canonicalPath, current, wide, noindex, jsonLd, ogImage } = Astro.props;
 const canonical = `https://en.openaa.com${canonicalPath}`;
+const ogImageUrl = ogImage ?? 'https://en.openaa.com/logo.png';
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -34,6 +36,7 @@ const canonical = `https://en.openaa.com${canonicalPath}`;
       canonical={canonical}
       noindex={noindex}
       jsonLd={jsonLd}
+      ogImage={ogImageUrl}
     />
   </head>
   <body>
