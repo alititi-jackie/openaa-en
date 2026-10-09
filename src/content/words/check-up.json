@@ -1,0 +1,32 @@
+{
+  "english": "check-up",
+  "chinese": "体检",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "年度体检",
+    "身体检查"
+  ],
+  "explanation": "每年一次的常规身体检查；很多保险每年 cover 一次免费体检，记得主动约，别浪费。",
+  "examples": [
+    {
+      "en": "I have my annual check-up next week.",
+      "zh": "我下周做年度体检。"
+    },
+    {
+      "en": "When was your last check-up?",
+      "zh": "你上次体检是什么时候？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-appointment"
+  ],
+  "relatedSceneIds": [
+    "s-make-appointment"
+  ],
+  "seoTitle": "体检英文怎么说？check-up 用法",
+  "seoDescription": "check-up 就是体检。本文讲解它的意思和用法，附实用例句，在美国按时体检不花冤枉钱。",
+  "id": "w-check-up",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "去银行开户：带什么、说什么",
+  "summary": "第一次在美国银行开户：带护照和地址证明，跟柜员这样沟通，checking 和 savings 一次开好。",
+  "featuredPhrase": {
+    "en": "I'd like to open a checking account.",
+    "zh": "我想开个支票账户。"
+  },
+  "phrases": [
+    {
+      "en": "I'd like to open a checking account.",
+      "zh": "我想开个支票账户。"
+    },
+    {
+      "en": "What documents do I need?",
+      "zh": "需要什么证件？"
+    },
+    {
+      "en": "Is there a monthly fee for this account?",
+      "zh": "这个账户收月费吗？"
+    },
+    {
+      "en": "What is my routing number?",
+      "zh": "我的路由号码是多少？"
+    },
+    {
+      "en": "I'd like to set up direct deposit.",
+      "zh": "我想设置工资直接入账。"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I'd like to open a checking account.",
+      "zh": "你好，我想开个支票账户。"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "Sure. Do you have a photo ID and proof of address?",
+      "zh": "好的，有带照片的证件和地址证明吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Here's my passport and a utility bill with my address.",
+      "zh": "这是我的护照和一张带地址的水电账单。"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "Great. There's no monthly fee if you keep a $500 balance.",
+      "zh": "很好，保持 500 美元余额就不收月费。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Got it. What is my routing number?",
+      "zh": "明白了，我的路由号码是多少？"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "It's on this paper. Your debit card will arrive in 7 days.",
+      "zh": "写在这张纸上了，借记卡 7 天内寄到。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-checking-account",
+    "w-savings-account",
+    "w-debit-card",
+    "w-routing-number",
+    "w-monthly-fee"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国银行开户英语怎么说？开户对话",
+  "seoDescription": "第一次在美国银行开户：带什么证件、说什么英语。本文附完整对话，开户一次搞定。",
+  "id": "s-open-account",
+  "categoryIds": [
+    "banking"
+  ],
+  "aliases": []
+}

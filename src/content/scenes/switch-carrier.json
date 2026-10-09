@@ -1,0 +1,82 @@
+{
+  "title": "携号转网：换运营商怎么说？",
+  "summary": "换运营商但保留老号码：问转网流程、确认费用，新卡激活全程英语。",
+  "featuredPhrase": {
+    "en": "I want to switch to T-Mobile.",
+    "zh": "我想转到 T-Mobile。"
+  },
+  "phrases": [
+    {
+      "en": "I want to switch to T-Mobile.",
+      "zh": "我想转到 T-Mobile。"
+    },
+    {
+      "en": "Can I keep my old number?",
+      "zh": "我能保留原来的号码吗？"
+    },
+    {
+      "en": "Is there a switching fee?",
+      "zh": "转网要手续费吗？"
+    },
+    {
+      "en": "How long does the transfer take?",
+      "zh": "转网要多久？"
+    },
+    {
+      "en": "Do I need a new SIM card?",
+      "zh": "需要换新电话卡吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I want to switch to T-Mobile from Verizon.",
+      "zh": "你好，我想从 Verizon 转到 T-Mobile。"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Welcome! Would you like to keep your old number?",
+      "zh": "欢迎！想保留原来的号码吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, can I keep my old number?",
+      "zh": "想，能保留吗？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Of course, it's free. Is there a switching fee? No, we waive it this month.",
+      "zh": "当然，免费。这个月转网手续费也免了。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Great. How long does the transfer take?",
+      "zh": "太好了，转网要多久？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Usually a few hours. I'll activate your eSIM now.",
+      "zh": "一般几小时，现在就给你激活电子卡。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-carrier",
+    "w-phone-plan"
+  ],
+  "relatedSceneIds": [
+    "s-phone-store"
+  ],
+  "seoTitle": "美国换运营商英语怎么说？携号转网对话",
+  "seoDescription": "在美国换运营商、保留老号码的完整英语说法，附真实对话，转网不丢号。",
+  "id": "s-switch-carrier",
+  "categoryIds": [
+    "phone"
+  ],
+  "aliases": []
+}

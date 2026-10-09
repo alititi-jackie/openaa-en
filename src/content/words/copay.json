@@ -1,0 +1,33 @@
+{
+  "english": "copay",
+  "chinese": "挂号自付费",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "自付费",
+    "看病自付"
+  ],
+  "explanation": "有保险看病时，每次自己要交的固定金额，比如 30 美元；去诊所前台先交 copay 再看医生。",
+  "examples": [
+    {
+      "en": "My copay for a specialist visit is $50.",
+      "zh": "我看专科医生的自付费是 50 美元。"
+    },
+    {
+      "en": "Do I need to pay the copay today?",
+      "zh": "今天需要交自付费吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-insurance",
+    "w-deductible"
+  ],
+  "relatedSceneIds": [
+    "s-first-visit"
+  ],
+  "seoTitle": "copay 是什么意思？美国看病自付费讲解",
+  "seoDescription": "copay 是美国看病时每次要自己交的固定费用。本文讲清楚它跟保险的关系，附实用例句，看病交钱不再懵。",
+  "id": "w-copay",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "title": "打电话预约医生，英语怎么说？",
+  "summary": "第一次约家庭医生：报保险信息、说看病需求、定好时间，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "I'd like to make an appointment.",
+    "zh": "我想约个号。"
+  },
+  "phrases": [
+    {
+      "en": "I'd like to make an appointment.",
+      "zh": "我想约个号。"
+    },
+    {
+      "en": "Do you take my insurance?",
+      "zh": "你们收我的保险吗？"
+    },
+    {
+      "en": "I'm a new patient.",
+      "zh": "我是新病人。"
+    },
+    {
+      "en": "Do I need a referral to see a specialist?",
+      "zh": "看专科医生需要转诊单吗？"
+    },
+    {
+      "en": "Can I move my appointment to next week?",
+      "zh": "能把预约改到下周吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I'd like to make an appointment. I'm a new patient.",
+      "zh": "你好，我想约个号，我是新病人。"
+    },
+    {
+      "speaker": "Receptionist",
+      "speakerZh": "前台",
+      "en": "Sure. What insurance do you have?",
+      "zh": "好的，你是什么保险？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I have Blue Cross Blue Shield. Do you take my insurance?",
+      "zh": "我是 Blue Cross Blue Shield，你们收吗？"
+    },
+    {
+      "speaker": "Receptionist",
+      "speakerZh": "前台",
+      "en": "Yes, we're in-network. What's the reason for your visit?",
+      "zh": "收的，在网络内。你看病是什么原因？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I need a check-up, and I've had a cough for two weeks.",
+      "zh": "我想做个体检，另外咳嗽两周了。"
+    },
+    {
+      "speaker": "Receptionist",
+      "speakerZh": "前台",
+      "en": "How about next Tuesday at 10 am?",
+      "zh": "下周二上午 10 点可以吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "That works. How much is the copay?",
+      "zh": "可以。自付费是多少？"
+    }
+  ],
+  "vocabularyIds": [
+    "w-appointment",
+    "w-insurance",
+    "w-referral",
+    "w-copay"
+  ],
+  "relatedSceneIds": [
+    "s-first-visit"
+  ],
+  "seoTitle": "美国怎么预约医生？打电话约医生的英语",
+  "seoDescription": "在美国看病先预约。本文教你打电话约医生的完整英语说法，附真实对话，第一次约医生也不慌。",
+  "id": "s-make-appointment",
+  "categoryIds": [
+    "medical"
+  ],
+  "aliases": []
+}

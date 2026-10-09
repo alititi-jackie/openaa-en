@@ -1,0 +1,84 @@
+{
+  "title": "去手机店办套餐，怎么说？",
+  "summary": "去运营商门店办手机套餐：问价格、问流量、问家庭套餐，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "I'd like to sign up for a phone plan.",
+    "zh": "我想办个手机套餐。"
+  },
+  "phrases": [
+    {
+      "en": "I'd like to sign up for a phone plan.",
+      "zh": "我想办个手机套餐。"
+    },
+    {
+      "en": "How much data does this plan include?",
+      "zh": "这个套餐包含多少流量？"
+    },
+    {
+      "en": "Do you have a family plan?",
+      "zh": "你们有家庭套餐吗？"
+    },
+    {
+      "en": "What's the cheapest plan you have?",
+      "zh": "你们最便宜的套餐是多少？"
+    },
+    {
+      "en": "Is there an upgrade promotion right now?",
+      "zh": "现在有以旧换新活动吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I'd like to sign up for a phone plan.",
+      "zh": "你好，我想办个手机套餐。"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Sure. How many lines do you need?",
+      "zh": "好的，要几个号码？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Two. Do you have a family plan?",
+      "zh": "两个，有家庭套餐吗？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Yes, the family plan is $90 a month with unlimited data.",
+      "zh": "有，家庭套餐 90 美元一个月，流量不限量。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Sounds good. Do I need a new SIM card?",
+      "zh": "不错，需要换新电话卡吗？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Your phone supports eSIM, so I'll activate it right now.",
+      "zh": "你的手机支持电子卡，我现在就给你激活。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-phone-plan",
+    "w-mobile-data",
+    "w-carrier",
+    "w-sim-card"
+  ],
+  "relatedSceneIds": [
+    "s-switch-carrier"
+  ],
+  "seoTitle": "美国办手机套餐英语怎么说？手机店对话",
+  "seoDescription": "在美国手机店办套餐：问价格、问流量、问家庭套餐的完整英语说法，附真实对话。",
+  "id": "s-phone-store",
+  "categoryIds": [
+    "phone"
+  ],
+  "aliases": []
+}

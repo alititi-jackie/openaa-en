@@ -1,0 +1,82 @@
+{
+  "title": "车坏在路上：叫拖车和道路救援",
+  "summary": "车打不着火、爆胎抛锚：打电话叫拖车、报位置，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "My car won't start.",
+    "zh": "我的车打不着火了。"
+  },
+  "phrases": [
+    {
+      "en": "My car won't start.",
+      "zh": "我的车打不着火了。"
+    },
+    {
+      "en": "I have a flat tire.",
+      "zh": "我的轮胎爆了。"
+    },
+    {
+      "en": "Can you tow my car?",
+      "zh": "能把我的车拖走吗？"
+    },
+    {
+      "en": "I've been in a car accident.",
+      "zh": "我出车祸了。"
+    },
+    {
+      "en": "I'm on Highway 101 near exit 45.",
+      "zh": "我在 101 高速 45 号出口附近。"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, my car won't start. I need roadside assistance.",
+      "zh": "你好，我的车打不着火了，需要道路救援。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Where are you located?",
+      "zh": "你现在在什么位置？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I'm on Highway 101 near exit 45. I have a flat tire too.",
+      "zh": "我在 101 高速 45 号出口附近，轮胎也爆了。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Do you need a tow truck?",
+      "zh": "需要叫拖车吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, please tow my car to the nearest shop.",
+      "zh": "要，把车拖到最近的修车店吧。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "A tow truck will be there in 30 minutes.",
+      "zh": "拖车 30 分钟到。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-tow-truck",
+    "w-flat-tire"
+  ],
+  "relatedSceneIds": [
+    "s-car-repair"
+  ],
+  "seoTitle": "美国车坏在路上英语怎么说？叫拖车对话",
+  "seoDescription": "车在美国路上抛锚：打电话叫拖车、报位置的完整英语说法，附真实对话，出门不怕车坏。",
+  "id": "s-roadside-help",
+  "categoryIds": [
+    "driving"
+  ],
+  "aliases": []
+}

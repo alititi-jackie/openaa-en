@@ -1,0 +1,32 @@
+{
+  "english": "ATM",
+  "chinese": "自动取款机",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "取款机"
+  ],
+  "explanation": "24 小时自助取钱存钱的机器；用别家银行的 ATM 取钱会被收两道手续费，尽量用自己银行的。",
+  "examples": [
+    {
+      "en": "Where is the nearest ATM?",
+      "zh": "最近的取款机在哪？"
+    },
+    {
+      "en": "The ATM ate my card.",
+      "zh": "取款机把我的卡吞了。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-withdrawal",
+    "w-debit-card"
+  ],
+  "relatedSceneIds": [
+    "s-atm-problem"
+  ],
+  "seoTitle": "ATM 是什么意思？美国取款机讲解",
+  "seoDescription": "ATM 就是自动取款机。本文讲解在美国用 ATM 的注意事项和英语说法，附实用例句。",
+  "id": "w-atm",
+  "categoryIds": [
+    "banking"
+  ]
+}

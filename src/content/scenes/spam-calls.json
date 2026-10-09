@@ -1,0 +1,80 @@
+{
+  "title": "骚扰电话太多，怎么屏蔽？",
+  "summary": "天天接到骚扰电话：问运营商开拦截、手机设置勿扰，英语这样说。",
+  "featuredPhrase": {
+    "en": "I keep getting spam calls.",
+    "zh": "我老是接到骚扰电话。"
+  },
+  "phrases": [
+    {
+      "en": "I keep getting spam calls.",
+      "zh": "我老是接到骚扰电话。"
+    },
+    {
+      "en": "Can you block spam calls for me?",
+      "zh": "能帮我拦截骚扰电话吗？"
+    },
+    {
+      "en": "How do I block a number?",
+      "zh": "怎么拉黑一个号码？"
+    },
+    {
+      "en": "Don't answer unknown numbers.",
+      "zh": "陌生号码别接。"
+    },
+    {
+      "en": "I forgot my voicemail password.",
+      "zh": "我忘了语音留言的密码。"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I keep getting spam calls every day.",
+      "zh": "你好，我每天都接到骚扰电话。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "I'm sorry. We have a free spam blocking feature. Want me to turn it on?",
+      "zh": "很抱歉，我们有免费的骚扰拦截功能，要帮你打开吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, please. How do I block a number on my phone?",
+      "zh": "要，怎么在手机上拉黑号码？"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Open the recent calls, tap the number, then Block.",
+      "zh": "打开通话记录，点那个号码，再点拉黑。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Got it. By the way, I forgot my voicemail password.",
+      "zh": "会了，顺便问下，我忘了语音留言的密码。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "No problem, I've reset it for you.",
+      "zh": "没问题，已经帮你重置了。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-spam-call",
+    "w-voicemail"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国骚扰电话太多怎么办？屏蔽英语说法",
+  "seoDescription": "骚扰电话太多：让运营商开拦截、手机拉黑号码的英语说法，附真实对话。",
+  "id": "s-spam-calls",
+  "categoryIds": [
+    "phone"
+  ],
+  "aliases": []
+}

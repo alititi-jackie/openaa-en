@@ -1,0 +1,80 @@
+{
+  "title": "往国内电汇汇款，怎么说？",
+  "summary": "往中国汇钱：去银行办电汇，要对方的账户信息、问手续费和到账时间。",
+  "featuredPhrase": {
+    "en": "I need to wire money to China.",
+    "zh": "我要往中国电汇一笔钱。"
+  },
+  "phrases": [
+    {
+      "en": "I need to wire money to China.",
+      "zh": "我要往中国电汇一笔钱。"
+    },
+    {
+      "en": "How much is the wire transfer fee?",
+      "zh": "电汇手续费多少？"
+    },
+    {
+      "en": "How long will it take?",
+      "zh": "要多久能到？"
+    },
+    {
+      "en": "What information do you need?",
+      "zh": "需要我提供什么信息？"
+    },
+    {
+      "en": "Can I track the transfer?",
+      "zh": "能查汇款进度吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I need to wire money to China.",
+      "zh": "你好，我要往中国电汇一笔钱。"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "Sure. Do you have the recipient's bank information?",
+      "zh": "好的，有收款人的银行信息吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, I have the account number and the bank's SWIFT code.",
+      "zh": "有，账号和银行的 SWIFT 代码都有。"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "The fee is $45, and it takes 1 to 3 business days.",
+      "zh": "手续费 45 美元，1 到 3 个工作日到。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Okay. Can I track the transfer?",
+      "zh": "好的，能查汇款进度吗？"
+    },
+    {
+      "speaker": "Banker",
+      "speakerZh": "柜员",
+      "en": "Yes, I'll give you a tracking number.",
+      "zh": "可以，给你一个查询号。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-wire-transfer",
+    "w-routing-number"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国往国内汇款英语怎么说？电汇对话",
+  "seoDescription": "在美国银行往国内电汇的完整英语说法：手续费、到账时间、要什么信息，附真实对话。",
+  "id": "s-wire-money",
+  "categoryIds": [
+    "banking"
+  ],
+  "aliases": []
+}

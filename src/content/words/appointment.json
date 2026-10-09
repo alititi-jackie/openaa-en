@@ -1,0 +1,33 @@
+{
+  "english": "appointment",
+  "chinese": "预约",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "约号",
+    "看病预约"
+  ],
+  "explanation": "去看医生前先打电话或在网上约好时间；美国看病基本都要预约，直接上门（walk-in）很多诊所不收。",
+  "examples": [
+    {
+      "en": "I have an appointment with Dr. Smith at 3.",
+      "zh": "我跟 Smith 医生约了下午 3 点。"
+    },
+    {
+      "en": "I need to cancel my appointment.",
+      "zh": "我得取消我的预约。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-referral",
+    "w-check-up"
+  ],
+  "relatedSceneIds": [
+    "s-make-appointment"
+  ],
+  "seoTitle": "预约英文怎么说？appointment 用法",
+  "seoDescription": "appointment 就是看病、办事的预约。本文讲解它的意思和用法，附实用例句，帮你在美国看病不再靠碰运气。",
+  "id": "w-appointment",
+  "categoryIds": [
+    "medical"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "english": "car insurance",
+  "chinese": "车险",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "汽车保险"
+  ],
+  "explanation": "美国开车法律强制要买车险；至少买 liability（责任险），撞了别人由保险公司赔，没保险上路被抓罚很重。",
+  "examples": [
+    {
+      "en": "Do you have car insurance?",
+      "zh": "你有车险吗？"
+    },
+    {
+      "en": "My car insurance costs $120 a month.",
+      "zh": "我的车险一个月 120 美元。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-drivers-license"
+  ],
+  "relatedSceneIds": [
+    "s-traffic-stop"
+  ],
+  "seoTitle": "车险英文怎么说？car insurance 用法",
+  "seoDescription": "car insurance 就是汽车保险，美国开车强制要买。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-car-insurance",
+  "categoryIds": [
+    "driving"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "english": "checking account",
+  "chinese": "支票账户",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "支票户头"
+  ],
+  "explanation": "日常花钱的账户：工资进、账单出、刷卡都走它；debit 卡绑的就是这个账户。",
+  "examples": [
+    {
+      "en": "My paycheck goes into my checking account.",
+      "zh": "我的工资打到支票账户里。"
+    },
+    {
+      "en": "I'd like to open a checking account.",
+      "zh": "我想开个支票账户。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-savings-account",
+    "w-debit-card",
+    "w-monthly-fee"
+  ],
+  "relatedSceneIds": [
+    "s-open-account"
+  ],
+  "seoTitle": "支票账户英文怎么说？checking account 用法",
+  "seoDescription": "checking account 就是日常花钱的支票账户。本文讲解它的意思和用法，附实用例句，在美国开户不懵。",
+  "id": "w-checking-account",
+  "categoryIds": [
+    "banking"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "title": "去 urgent care 看急诊，英语怎么说？",
+  "summary": "发烧、扭伤、割伤等不太危急但等不了预约的情况，去 urgent care 这样沟通。",
+  "featuredPhrase": {
+    "en": "I need to be seen today.",
+    "zh": "我今天就得看上医生。"
+  },
+  "phrases": [
+    {
+      "en": "I need to be seen today.",
+      "zh": "我今天就得看上医生。"
+    },
+    {
+      "en": "I have a fever and a sore throat.",
+      "zh": "我发烧，嗓子疼。"
+    },
+    {
+      "en": "It's an emergency!",
+      "zh": "这是紧急情况！"
+    },
+    {
+      "en": "I need a Mandarin interpreter.",
+      "zh": "我需要中文翻译。"
+    },
+    {
+      "en": "How long is the wait?",
+      "zh": "要等多久？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I need to be seen today. I have a high fever.",
+      "zh": "你好，我今天就得看上医生，我发高烧了。"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "工作人员",
+      "en": "Do you have insurance? Please fill out this form.",
+      "zh": "有保险吗？请填一下这个表。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes. How long is the wait?",
+      "zh": "有。要等多久？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "工作人员",
+      "en": "About 30 minutes. Your copay is $40.",
+      "zh": "大概 30 分钟，自付费 40 美元。"
+    },
+    {
+      "speaker": "Nurse",
+      "speakerZh": "护士",
+      "en": "What are your symptoms?",
+      "zh": "什么症状？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Fever, headache, and a sore throat since yesterday.",
+      "zh": "发烧、头疼、嗓子疼，从昨天开始的。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-urgent-care",
+    "w-symptoms",
+    "w-copay",
+    "w-insurance"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "urgent care 看病英语怎么说？美国急诊诊所对话",
+  "seoDescription": "发烧扭伤等不及预约就去 urgent care。本文教你全程英语说法，附真实对话，看病不用等。",
+  "id": "s-urgent-care-visit",
+  "categoryIds": [
+    "medical"
+  ],
+  "aliases": []
+}

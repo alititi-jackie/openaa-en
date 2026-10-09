@@ -1,0 +1,80 @@
+{
+  "title": "手机碎屏去维修，怎么说？",
+  "summary": "屏幕碎了去维修店：描述问题、先问价格、问保修，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "My screen is cracked. How much to fix it?",
+    "zh": "我屏幕碎了，修一下多少钱？"
+  },
+  "phrases": [
+    {
+      "en": "My screen is cracked. How much to fix it?",
+      "zh": "我屏幕碎了，修一下多少钱？"
+    },
+    {
+      "en": "How long will the repair take?",
+      "zh": "修要多久？"
+    },
+    {
+      "en": "Is there a warranty on the repair?",
+      "zh": "维修有保修吗？"
+    },
+    {
+      "en": "I need a new charger for my iPhone.",
+      "zh": "我的 iPhone 需要一个新的充电器。"
+    },
+    {
+      "en": "Can you back up my data first?",
+      "zh": "能先帮我备份一下数据吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, my screen is cracked. How much to fix it?",
+      "zh": "你好，我屏幕碎了，修一下多少钱？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "What model is it? For an iPhone 13, it's $129.",
+      "zh": "什么型号？iPhone 13 的话 129 美元。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Okay. How long will the repair take?",
+      "zh": "行，修要多久？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "About an hour. Is there a warranty? Yes, 90 days.",
+      "zh": "大概一小时。有保修吗？有，90 天。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Good. Can you back up my data first?",
+      "zh": "那就好，能先帮我备份一下数据吗？"
+    },
+    {
+      "speaker": "Staff",
+      "speakerZh": "店员",
+      "en": "Sure, we'll take care of it.",
+      "zh": "没问题，交给我们吧。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-cracked-screen",
+    "w-charger"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国修手机英语怎么说？碎屏维修对话",
+  "seoDescription": "手机碎屏去维修店：问价格、问时间的完整英语说法，附真实对话，先问价再修。",
+  "id": "s-phone-repair",
+  "categoryIds": [
+    "phone"
+  ],
+  "aliases": []
+}

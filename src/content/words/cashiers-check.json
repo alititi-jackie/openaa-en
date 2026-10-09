@@ -1,0 +1,29 @@
+{
+  "english": "cashier's check",
+  "chinese": "银行本票",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "保付支票"
+  ],
+  "explanation": "银行担保的支票，不会跳票；租房交押金、买车付首付时，房东和车行常要求用这个。",
+  "examples": [
+    {
+      "en": "Can I get a cashier's check?",
+      "zh": "能开一张银行本票吗？"
+    },
+    {
+      "en": "The landlord asked for a cashier's check.",
+      "zh": "房东要求用银行本票付款。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-checking-account"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "银行本票英文怎么说？cashier's check 用法",
+  "seoDescription": "cashier's check 就是银行本票，租房买车常要用到。本文讲解，附实用例句。",
+  "id": "w-cashiers-check",
+  "categoryIds": [
+    "banking"
+  ]
+}

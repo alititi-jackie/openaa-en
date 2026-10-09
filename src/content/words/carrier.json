@@ -1,0 +1,32 @@
+{
+  "english": "carrier",
+  "chinese": "运营商",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "电话公司"
+  ],
+  "explanation": "提供手机服务的公司；美国主要是 Verizon、AT&T、T-Mobile 三家，信号覆盖不一样，选之前问问邻居用哪家信号好。",
+  "examples": [
+    {
+      "en": "Which carrier has the best signal here?",
+      "zh": "这里哪家运营商信号最好？"
+    },
+    {
+      "en": "I want to switch carriers.",
+      "zh": "我想换运营商。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-phone-plan",
+    "w-sim-card"
+  ],
+  "relatedSceneIds": [
+    "s-switch-carrier"
+  ],
+  "seoTitle": "运营商英文怎么说？carrier 用法",
+  "seoDescription": "carrier 就是手机运营商。本文讲解它的意思和美国三家运营商，附实用例句。",
+  "id": "w-carrier",
+  "categoryIds": [
+    "phone"
+  ]
+}

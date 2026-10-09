@@ -1,0 +1,82 @@
+{
+  "title": "去药房取处方药，怎么说？",
+  "summary": "医生开了处方，去 CVS 或 Walgreens 的药房取药：报名字、问用法、问副作用。",
+  "featuredPhrase": {
+    "en": "I'm here to pick up my prescription.",
+    "zh": "我是来取处方药的。"
+  },
+  "phrases": [
+    {
+      "en": "I'm here to pick up my prescription.",
+      "zh": "我是来取处方药的。"
+    },
+    {
+      "en": "I need a refill on my prescription.",
+      "zh": "我的处方药该续了。"
+    },
+    {
+      "en": "What are the side effects of this medicine?",
+      "zh": "这药有什么副作用？"
+    },
+    {
+      "en": "How should I take this medicine?",
+      "zh": "这药怎么吃？"
+    },
+    {
+      "en": "Do I need to avoid any foods?",
+      "zh": "吃药要忌口吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I'm here to pick up my prescription.",
+      "zh": "你好，我是来取处方药的。"
+    },
+    {
+      "speaker": "Pharmacist",
+      "speakerZh": "药剂师",
+      "en": "Your name and date of birth, please?",
+      "zh": "请报一下姓名和出生日期？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Li Wei, January 5th, 1990.",
+      "zh": "Li Wei，1990 年 1 月 5 日。"
+    },
+    {
+      "speaker": "Pharmacist",
+      "speakerZh": "药剂师",
+      "en": "Here you go. Take one pill twice a day with food.",
+      "zh": "给你，一天两次，一次一片，随餐吃。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "What are the side effects of this medicine?",
+      "zh": "这药有什么副作用？"
+    },
+    {
+      "speaker": "Pharmacist",
+      "speakerZh": "药剂师",
+      "en": "It may make you drowsy. Don't drive after taking it.",
+      "zh": "可能会嗜睡，吃完别开车。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-prescription",
+    "w-pharmacy",
+    "w-refill",
+    "w-side-effects"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国药房取药英语怎么说？拿处方药对话",
+  "seoDescription": "在美国药房取处方药的完整英语说法：报名字、问吃法、问副作用。本文附真实对话，取药一次搞定。",
+  "id": "s-pharmacy-pickup",
+  "categoryIds": [
+    "medical"
+  ],
+  "aliases": []
+}

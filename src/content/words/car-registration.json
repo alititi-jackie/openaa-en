@@ -1,0 +1,33 @@
+{
+  "english": "car registration",
+  "chinese": "车辆注册",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "车辆登记"
+  ],
+  "explanation": "买车后要在 DMV 登记注册，拿到牌照和注册卡；卡要放车里，警察查车时会看，过期要续。",
+  "examples": [
+    {
+      "en": "Can I see your license and registration?",
+      "zh": "请出示驾照和车辆注册卡。"
+    },
+    {
+      "en": "My car registration expires in June.",
+      "zh": "我的车辆注册六月到期。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-drivers-license",
+    "w-dmv"
+  ],
+  "relatedSceneIds": [
+    "s-at-dmv",
+    "s-traffic-stop"
+  ],
+  "seoTitle": "车辆注册英文怎么说？car registration 用法",
+  "seoDescription": "car registration 就是车辆注册。本文讲解它的意思和用法，附实用例句，买车上牌流程一次搞懂。",
+  "id": "w-car-registration",
+  "categoryIds": [
+    "driving"
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "title": "银行卡丢了：挂失和补办",
+  "summary": "借记卡丢了：马上打电话挂失，确认有没有可疑扣款，申请补新卡。",
+  "featuredPhrase": {
+    "en": "I lost my debit card.",
+    "zh": "我的借记卡丢了。"
+  },
+  "phrases": [
+    {
+      "en": "I lost my debit card.",
+      "zh": "我的借记卡丢了。"
+    },
+    {
+      "en": "I need to freeze my card.",
+      "zh": "我要冻结我的卡。"
+    },
+    {
+      "en": "Can you send me a new card?",
+      "zh": "能给我寄张新卡吗？"
+    },
+    {
+      "en": "Are there any unauthorized charges?",
+      "zh": "有没有未经授权的扣款？"
+    },
+    {
+      "en": "How long will the new card take?",
+      "zh": "新卡要多久能到？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, I lost my debit card. I need to freeze it right away.",
+      "zh": "你好，我的借记卡丢了，要马上冻结。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "I'm sorry to hear that. Can I have your name and account number?",
+      "zh": "很抱歉，请问你的姓名和账号？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Li Wei. Are there any unauthorized charges?",
+      "zh": "Li Wei。有没有未经授权的扣款？"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Your card is now frozen. I don't see any suspicious charges.",
+      "zh": "卡已经冻结了，没看到可疑扣款。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Good. Can you send me a new card?",
+      "zh": "那就好，能给我寄张新卡吗？"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Of course. It will arrive in 5 to 7 business days.",
+      "zh": "当然，5 到 7 个工作日寄到。"
+    }
+  ],
+  "vocabularyIds": [
+    "w-debit-card"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国银行卡丢了英语怎么说？挂失对话",
+  "seoDescription": "在美国借记卡丢了：打电话挂失、查可疑扣款、补新卡的完整英语说法，附真实对话。",
+  "id": "s-lost-card",
+  "categoryIds": [
+    "banking"
+  ],
+  "aliases": []
+}

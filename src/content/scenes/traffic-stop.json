@@ -1,0 +1,82 @@
+{
+  "title": "被警察拦下怎么办？英语怎么说",
+  "summary": "开车被警察拦下：靠边停车、手放方向盘、配合出示证件，全程英语这样说。",
+  "featuredPhrase": {
+    "en": "I got pulled over by the police.",
+    "zh": "我被警察拦下来了。"
+  },
+  "phrases": [
+    {
+      "en": "I got pulled over by the police.",
+      "zh": "我被警察拦下来了。"
+    },
+    {
+      "en": "I'm sorry, officer.",
+      "zh": "抱歉，警官。"
+    },
+    {
+      "en": "Here's my license and registration.",
+      "zh": "这是我的驾照和车辆注册卡。"
+    },
+    {
+      "en": "I got a speeding ticket.",
+      "zh": "我吃了张超速罚单。"
+    },
+    {
+      "en": "Where do I pay this ticket?",
+      "zh": "这罚单去哪儿交？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "Officer",
+      "speakerZh": "警察",
+      "en": "Do you know why I pulled you over?",
+      "zh": "知道为什么拦你吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "I'm not sure, officer.",
+      "zh": "不太清楚，警官。"
+    },
+    {
+      "speaker": "Officer",
+      "speakerZh": "警察",
+      "en": "You were going 50 in a 35 zone. License and registration, please.",
+      "zh": "35 的路段你开了 50，驾照和注册卡看一下。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Here's my license and registration. I'm sorry, officer.",
+      "zh": "给你，抱歉，警官。"
+    },
+    {
+      "speaker": "Officer",
+      "speakerZh": "警察",
+      "en": "I'm giving you a ticket today. You can pay it online or contest it in court.",
+      "zh": "今天给你开张罚单，可以网上交，也可以上庭申诉。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Where do I pay this ticket?",
+      "zh": "这罚单去哪儿交？"
+    }
+  ],
+  "vocabularyIds": [
+    "w-drivers-license",
+    "w-car-registration",
+    "w-car-insurance",
+    "w-speed-limit"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国被警察拦下英语怎么说？traffic stop 对话",
+  "seoDescription": "在美国开车被警察拦下怎么办：靠边停车、配合出示证件。本文附完整英语对话，冷静应对不慌张。",
+  "id": "s-traffic-stop",
+  "categoryIds": [
+    "driving"
+  ],
+  "aliases": []
+}

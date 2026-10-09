@@ -1,0 +1,29 @@
+{
+  "english": "area code",
+  "chinese": "区号",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "电话区号"
+  ],
+  "explanation": "电话号码前三位，代表地区；比如纽约 212、洛杉矶 213，打电话要先拨 1 再拨区号加号码。",
+  "examples": [
+    {
+      "en": "What's the area code for Los Angeles?",
+      "zh": "洛杉矶的区号是多少？"
+    },
+    {
+      "en": "Don't forget to dial the area code.",
+      "zh": "别忘了拨区号。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-phone-plan"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "区号英文怎么说？area code 用法",
+  "seoDescription": "area code 就是电话区号。本文讲解它的意思和用法，附实用例句，打电话不再拨错。",
+  "id": "w-area-code",
+  "categoryIds": [
+    "phone"
+  ]
+}

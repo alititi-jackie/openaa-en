@@ -1,0 +1,33 @@
+{
+  "english": "allergy",
+  "chinese": "过敏",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "过敏症"
+  ],
+  "explanation": "对某种东西（花粉、药物、食物）的不良反应；看病和拿药时一定要主动告诉医生你的过敏史，这很重要。",
+  "examples": [
+    {
+      "en": "I'm allergic to penicillin.",
+      "zh": "我对青霉素过敏。"
+    },
+    {
+      "en": "Do you have any food allergies?",
+      "zh": "你对什么食物过敏吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-symptoms",
+    "w-prescription"
+  ],
+  "relatedSceneIds": [
+    "s-first-visit",
+    "s-pharmacy-pickup"
+  ],
+  "seoTitle": "过敏英文怎么说？allergy 用法",
+  "seoDescription": "allergy 就是过敏。本文讲解它的意思和用法，附实用例句，看病拿药时主动说明，保障用药安全。",
+  "id": "w-allergy",
+  "categoryIds": [
+    "medical"
+  ]
+}

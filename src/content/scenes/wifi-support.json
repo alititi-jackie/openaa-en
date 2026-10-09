@@ -1,0 +1,75 @@
+{
+  "title": "宽带坏了，打客服电话怎么说？",
+  "summary": "家里断网：打电话给宽带公司，描述问题、重启路由器、约上门维修。",
+  "featuredPhrase": {
+    "en": "My WiFi isn't working.",
+    "zh": "我家无线网连不上了。"
+  },
+  "phrases": [
+    {
+      "en": "My WiFi isn't working.",
+      "zh": "我家无线网连不上了。"
+    },
+    {
+      "en": "The internet is down.",
+      "zh": "断网了。"
+    },
+    {
+      "en": "Can you help me reset my router?",
+      "zh": "能帮我重置一下路由器吗？"
+    },
+    {
+      "en": "Have you tried restarting your router?",
+      "zh": "你试过重启路由器吗？"
+    },
+    {
+      "en": "Can you send a technician?",
+      "zh": "能派个师傅上门吗？"
+    }
+  ],
+  "dialogue": [
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Hi, my WiFi isn't working since this morning.",
+      "zh": "你好，我家无线网从今天早上就连不上了。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "I'm sorry. Have you tried restarting your router?",
+      "zh": "很抱歉，试过重启路由器吗？"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Yes, twice. It's still not working.",
+      "zh": "试了，两次了，还是不行。"
+    },
+    {
+      "speaker": "Agent",
+      "speakerZh": "客服",
+      "en": "Let me reset it from my side. Please wait two minutes.",
+      "zh": "我从这边帮你重置一下，等两分钟。"
+    },
+    {
+      "speaker": "You",
+      "speakerZh": "你",
+      "en": "Okay... it's working now. Thank you!",
+      "zh": "好了……现在能用了，谢谢！"
+    }
+  ],
+  "vocabularyIds": [
+    "w-wifi",
+    "w-router",
+    "w-internet-provider"
+  ],
+  "relatedSceneIds": [],
+  "seoTitle": "美国宽带坏了英语怎么说？打客服电话对话",
+  "seoDescription": "家里断网打宽带客服：描述问题、重启路由器的完整英语说法，附真实对话。",
+  "id": "s-wifi-support",
+  "categoryIds": [
+    "phone"
+  ],
+  "aliases": []
+}

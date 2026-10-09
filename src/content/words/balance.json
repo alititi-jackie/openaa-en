@@ -1,0 +1,32 @@
+{
+  "english": "balance",
+  "chinese": "余额",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "账户余额"
+  ],
+  "explanation": "账户里还剩多少钱；花钱前先查 balance，刷超了会收 overdraft 费，很亏。",
+  "examples": [
+    {
+      "en": "What's my balance?",
+      "zh": "我账户余额是多少？"
+    },
+    {
+      "en": "Check your balance before you pay.",
+      "zh": "付款前先查一下余额。"
+    }
+  ],
+  "relatedWordIds": [
+    "w-overdraft",
+    "w-statement"
+  ],
+  "relatedSceneIds": [
+    "s-dispute-charge"
+  ],
+  "seoTitle": "余额英文怎么说？balance 用法",
+  "seoDescription": "balance 就是账户余额。本文讲解它的意思和用法，附实用例句，查余额、管钱心里有数。",
+  "id": "w-balance",
+  "categoryIds": [
+    "banking"
+  ]
+}

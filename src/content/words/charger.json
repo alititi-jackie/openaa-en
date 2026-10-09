@@ -1,0 +1,31 @@
+{
+  "english": "charger",
+  "chinese": "充电器",
+  "partOfSpeech": "noun",
+  "aliases": [
+    "充电线"
+  ],
+  "explanation": "给手机充电的头和线；iPhone 15 之后都用 Type-C 口了，买线看准接口，别买错。",
+  "examples": [
+    {
+      "en": "I need a new charger for my iPhone.",
+      "zh": "我的 iPhone 需要一个新的充电器。"
+    },
+    {
+      "en": "Do you have a charger I can borrow?",
+      "zh": "有充电器能借我用一下吗？"
+    }
+  ],
+  "relatedWordIds": [
+    "w-cracked-screen"
+  ],
+  "relatedSceneIds": [
+    "s-phone-repair"
+  ],
+  "seoTitle": "充电器英文怎么说？charger 用法",
+  "seoDescription": "charger 就是充电器。本文讲解它的意思和用法，附实用例句。",
+  "id": "w-charger",
+  "categoryIds": [
+    "phone"
+  ]
+}
