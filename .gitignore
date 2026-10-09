@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.env
+
+# 构建时由 copy-assets.mjs 生成的副本
+public/logo.png
+public/favicon.ico
+public/favicon/
