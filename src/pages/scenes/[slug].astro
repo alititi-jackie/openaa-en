@@ -70,6 +70,9 @@ const jsonLd = {
       <button type="button" class="btn primary" data-speak={sc.featuredPhrase.en}>
         🔊 朗读
       </button>
+      <button type="button" class="btn" data-speak-slow={sc.featuredPhrase.en} aria-label={`慢速朗读：${sc.featuredPhrase.en}`}>
+        🐢 慢速
+      </button>
       <button type="button" class="btn" data-copy={sc.featuredPhrase.en}>📋 复制</button>
       <button
         type="button"
@@ -103,6 +106,15 @@ const jsonLd = {
             aria-label={`朗读：${t.en}`}
           >
             🔊
+          </button>
+          <button
+            type="button"
+            class="icon-btn"
+            data-speak-slow={t.en}
+            aria-label={`慢速朗读：${t.en}`}
+            title="慢速"
+          >
+            🐢
           </button>
         </div>
       </div>

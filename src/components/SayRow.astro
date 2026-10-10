@@ -18,6 +18,9 @@ const { en, zh, favId, favKind = 'phrase' } = Astro.props;
     <button type="button" class="btn small" data-speak={en} aria-label={`朗读：${en}`}>
       🔊 朗读
     </button>
+    <button type="button" class="btn small" data-speak-slow={en} aria-label={`慢速朗读：${en}`}>
+      🐢 慢速
+    </button>
     <button type="button" class="btn small" data-copy={en} aria-label="复制英文">
       📋 复制
     </button>

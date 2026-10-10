@@ -4,7 +4,26 @@
 
   var FAV_KEY = 'openaa-en:favs';
   var RECENT_KEY = 'openaa-en:recent';
+  var RATE_KEY = 'openaa-en:speech-rate';
+  var NORMAL_RATE = 0.9;
+  var SLOW_RATE = 0.6;
   var KIND_PATH = { word: 'words', phrase: 'phrases', scene: 'scenes' };
+
+  /* ---------- 语速偏好（持久化） ---------- */
+  function loadRate() {
+    try {
+      var v = parseFloat(localStorage.getItem(RATE_KEY));
+      if (v === NORMAL_RATE || v === SLOW_RATE) return v;
+    } catch (e) { /* ignore */ }
+    return NORMAL_RATE;
+  }
+  function saveRate(v) {
+    window.enSpeechRate = v;
+    try { localStorage.setItem(RATE_KEY, String(v)); } catch (e) { /* ignore */ }
+  }
+  window.enSpeechRate = loadRate();
+  window.enSetSpeechRate = saveRate;
+  window.enRates = { normal: NORMAL_RATE, slow: SLOW_RATE };
 
   /* ---------- toast ---------- */
   var toastTimer = null;
@@ -124,14 +143,14 @@
       var v = pickVoice();
       if (v) u.voice = v;
       u.lang = 'en-US';
-      u.rate = rate || 1;
+      u.rate = rate || window.enSpeechRate || NORMAL_RATE;
       window.speechSynthesis.speak(u);
     } catch (e) { toast('朗读失败，请重试'); }
   }
   window.enSpeak = speak;
 
   function hideSpeakButtons() {
-    document.querySelectorAll('[data-speak],[data-speak-repeat]').forEach(function (b) {
+    document.querySelectorAll('[data-speak],[data-speak-slow],[data-speak-repeat]').forEach(function (b) {
       b.style.display = 'none';
     });
     var note = document.getElementById('speech-unsupported');
@@ -154,15 +173,21 @@
       return;
     }
 
+    var slowBtn = t.closest('[data-speak-slow]');
+    if (slowBtn) {
+      saveRate(SLOW_RATE);
+      speak(slowBtn.getAttribute('data-speak-slow') || '', SLOW_RATE);
+      return;
+    }
     var speakBtn = t.closest('[data-speak]');
     if (speakBtn) {
-      var rate = parseFloat(speakBtn.getAttribute('data-rate') || String(window.enSpeechRate || 1)) || 1;
+      var rate = parseFloat(speakBtn.getAttribute('data-rate') || String(window.enSpeechRate || NORMAL_RATE)) || NORMAL_RATE;
       speak(speakBtn.getAttribute('data-speak') || '', rate);
       return;
     }
     var repeatBtn = t.closest('[data-speak-repeat]');
     if (repeatBtn) {
-      var r2 = parseFloat(repeatBtn.getAttribute('data-rate') || String(window.enSpeechRate || 1)) || 1;
+      var r2 = parseFloat(repeatBtn.getAttribute('data-rate') || String(window.enSpeechRate || NORMAL_RATE)) || NORMAL_RATE;
       var txt = repeatBtn.getAttribute('data-speak-repeat') || '';
       speak(txt, r2);
       setTimeout(function () { speak(txt, r2); }, 1800);

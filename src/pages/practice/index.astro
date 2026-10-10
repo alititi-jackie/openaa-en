@@ -23,10 +23,10 @@ const phrases = await getCollection('phrases');
   <fieldset style="border:1px solid var(--border);border-radius:12px;padding:12px 16px;margin:16px 0">
     <legend style="padding:0 8px">语速</legend>
     <label style="margin-right:20px">
-      <input type="radio" name="rate" value="1" checked /> 正常语速
+      <input type="radio" name="rate" value="0.9" /> 正常语速
     </label>
     <label>
-      <input type="radio" name="rate" value="0.6" /> 慢速
+      <input type="radio" name="rate" value="0.6" /> 🐢 慢速
     </label>
   </fieldset>
 
@@ -37,6 +37,9 @@ const phrases = await getCollection('phrases');
       <div class="ops">
         <button type="button" class="btn primary" data-speak={p.data.english}>
           🔊 朗读
+        </button>
+        <button type="button" class="btn" data-speak-slow={p.data.english} aria-label={`慢速朗读：${p.data.english}`}>
+          🐢 慢速
         </button>
         <button type="button" class="btn" data-speak-repeat={p.data.english}>
           🔁 再播一遍跟读
@@ -49,10 +52,13 @@ const phrases = await getCollection('phrases');
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
+    var rates = window.enRates || { normal: 0.9, slow: 0.6 };
+    var current = window.enSpeechRate || rates.normal;
     var radios = document.querySelectorAll('input[name="rate"]');
     radios.forEach(function (r) {
+      if (parseFloat(r.value) === current) r.checked = true;
       r.addEventListener('change', function () {
-        if (r.checked) window.enSpeechRate = parseFloat(r.value);
+        if (r.checked && window.enSetSpeechRate) window.enSetSpeechRate(parseFloat(r.value));
       });
     });
   });
