@@ -20,10 +20,20 @@
   function saveRate(v) {
     window.enSpeechRate = v;
     try { localStorage.setItem(RATE_KEY, String(v)); } catch (e) { /* ignore */ }
+    paintSlowButtons();
   }
   window.enSpeechRate = loadRate();
   window.enSetSpeechRate = saveRate;
   window.enRates = { normal: NORMAL_RATE, slow: SLOW_RATE };
+
+  /* 慢速按钮状态反馈 */
+  function paintSlowButtons() {
+    var slow = window.enSpeechRate === SLOW_RATE;
+    document.querySelectorAll('[data-speak-slow]').forEach(function (b) {
+      b.setAttribute('aria-pressed', slow ? 'true' : 'false');
+      b.classList.toggle('active', slow);
+    });
+  }
 
   /* ---------- toast ---------- */
   var toastTimer = null;
@@ -139,12 +149,17 @@
     if (!speechOK) { toast('当前浏览器不支持朗读'); return; }
     try {
       window.speechSynthesis.cancel();
-      var u = new SpeechSynthesisUtterance(text);
-      var v = pickVoice();
-      if (v) u.voice = v;
-      u.lang = 'en-US';
-      u.rate = rate || window.enSpeechRate || NORMAL_RATE;
-      window.speechSynthesis.speak(u);
+      /* Chrome 已知问题：cancel 后立即 speak 可能被吞掉，加一点延迟 */
+      setTimeout(function () {
+        try {
+          var u = new SpeechSynthesisUtterance(text);
+          var v = pickVoice();
+          if (v) u.voice = v;
+          u.lang = 'en-US';
+          u.rate = rate || window.enSpeechRate || NORMAL_RATE;
+          window.speechSynthesis.speak(u);
+        } catch (e) { toast('朗读失败，请重试'); }
+      }, 60);
     } catch (e) { toast('朗读失败，请重试'); }
   }
   window.enSpeak = speak;
@@ -278,6 +293,7 @@
   /* ---------- 初始化 ---------- */
   document.addEventListener('DOMContentLoaded', function () {
     paintFavButtons();
+    paintSlowButtons();
     recordRecent();
     renderRecentHome();
     if ('serviceWorker' in navigator) {

@@ -170,6 +170,7 @@ main { padding: 20px 0 48px; min-height: 60vh; }
 .btn.primary { background: var(--brand); border-color: var(--brand); color: #fff; font-weight: 700; }
 .btn.primary:hover { background: var(--brand-dark); color: #fff; }
 .btn.small { padding: 5px 12px; font-size: 13px; min-height: 34px; }
+[data-speak-slow][aria-pressed="true"] { border-color: var(--brand); color: var(--brand-dark); background: var(--brand-soft); font-weight: 700; }
 .btn[aria-pressed="true"] { background: var(--brand-soft); border-color: var(--brand); color: var(--brand-dark); }
 .icon-btn {
   border: 1px solid var(--border); background: #fff; border-radius: 50%;

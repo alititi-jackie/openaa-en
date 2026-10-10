@@ -78,13 +78,16 @@
   function wireSearch(inputEl, resultsEl) {
     if (!inputEl || !resultsEl) return;
     var timer = null;
+    var seq = 0;
     function close() { resultsEl.classList.remove('open'); resultsEl.innerHTML = ''; }
     inputEl.addEventListener('input', function () {
       if (timer) clearTimeout(timer);
       var q = inputEl.value.trim();
       if (!q) { close(); return; }
+      var my = ++seq;
       timer = setTimeout(function () {
         searchAll(q).then(function (hits) {
+          if (my !== seq) return; /* 过期请求直接丢弃 */
           var top = hits.slice(0, 8);
           if (!top.length) {
             resultsEl.innerHTML = '<a href="/search/?q=' + encodeURIComponent(q) + '">没有直接匹配，去搜索页看看相关分类 →</a>';
