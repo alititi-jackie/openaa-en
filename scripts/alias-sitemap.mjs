@@ -1,7 +1,6 @@
 import { copyFile, access, readFile } from 'node:fs/promises';
 import { constants } from 'node:fs';
 import { basename } from 'node:path';
-import { fileURLToPath } from 'node:url';
 
 const dist = new URL('../dist/', import.meta.url);
 const indexUrl = new URL('sitemap-index.xml', dist);
