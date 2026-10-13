@@ -30,10 +30,20 @@ const pages = walk(dist);
 console.log(`pages: ${pages.length}`);
 
 // 1. 必备文件
-for (const f of ['sitemap-index.xml', 'CNAME', 'robots.txt',
+for (const f of ['sitemap-index.xml', 'sitemap.xml', 'CNAME', 'robots.txt',
                  'search-index.words.json', 'search-index.phrases.json', 'search-index.scenes.json']) {
   if (!existsSync(join(dist, f))) errors.push(`缺失 dist/${f}`);
 }
+// robots.txt must advertise the canonical sitemap.xml URL.
+const robotsTxt = existsSync(join(dist, 'robots.txt')) ? readFileSync(join(dist, 'robots.txt'), 'utf8') : '';
+if (!/Sitemap:\s*https:\/\/en\.openaa\.com\/sitemap\.xml\s*(?:\r?\n|$)/i.test(robotsTxt)) {
+  errors.push('robots.txt 未指向 https://en.openaa.com/sitemap.xml');
+}
+const directSitemap = existsSync(join(dist, 'sitemap.xml')) ? readFileSync(join(dist, 'sitemap.xml'), 'utf8') : '';
+if (!directSitemap.includes('<urlset') && !directSitemap.includes('<sitemapindex')) {
+  errors.push('dist/sitemap.xml 不是有效的 sitemap XML');
+}
+
 // sitemap 子文件
 const smIndex = existsSync(join(dist, 'sitemap-index.xml')) ? readFileSync(join(dist, 'sitemap-index.xml'), 'utf8') : '';
 for (const m of smIndex.matchAll(/<loc>(.*?)<\/loc>/g)) {
