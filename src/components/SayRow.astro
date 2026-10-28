@@ -7,9 +7,10 @@ interface Props {
   zh: string;
   favId?: string;
   favKind?: 'word' | 'phrase' | 'scene';
+  detailHref?: string;
 }
 
-const { en, zh, favId, favKind = 'phrase' } = Astro.props;
+const { en, zh, favId, favKind = 'phrase', detailHref } = Astro.props;
 ---
 <div class="say-row">
   <div class="en">{en}</div>
@@ -35,6 +36,11 @@ const { en, zh, favId, favKind = 'phrase' } = Astro.props;
       >
         ⭐ 收藏
       </button>
+    )}
+    {detailHref && (
+      <a class="btn small" href={detailHref}>
+        📖 详情
+      </a>
     )}
   </div>
 </div>

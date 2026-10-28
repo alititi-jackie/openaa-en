@@ -16,7 +16,13 @@ const phrases = await getCollection('phrases');
   <h1>美国常用英语句子</h1>
   <p>收录在美国生活、工作中最常用的短句。每句都可以直接朗读、复制或收藏，不用点进详情页。</p>
   {phrases.map((p) => (
-    <SayRow en={p.data.english} zh={p.data.chinese} favId={p.id} favKind="phrase" />
+    <SayRow
+      en={p.data.english}
+      zh={p.data.chinese}
+      favId={p.id}
+      favKind="phrase"
+      detailHref={`/phrases/${p.id}/`}
+    />
   ))}
   {phrases.length === 0 && <p class="empty">句子内容正在准备中，敬请期待。</p>}
 </BaseLayout>

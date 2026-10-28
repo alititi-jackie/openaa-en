@@ -30,6 +30,18 @@ const linkedScenes = (ph.sceneIds || []).flatMap((id) => {
   return f ? [f] : [];
 });
 
+// 相关句子：同分类的其他句子，按 slug 顺序从本句之后轮转取 5 条（构建结果确定性）
+const catPeers = phrases
+  .filter((p) => p.data.categoryIds.some((cid) => ph.categoryIds.includes(cid)))
+  .sort((a, b) => a.id.localeCompare(b.id));
+const selfIdx = catPeers.findIndex((p) => p.id === entry.id);
+const relatedPhrases =
+  selfIdx >= 0 && catPeers.length > 1
+    ? [1, 2, 3, 4, 5]
+        .map((n) => catPeers[(selfIdx + n) % catPeers.length])
+        .filter((p) => p && p.id !== entry.id)
+    : [];
+
 const title = `${ph.english}｜${ph.chinese} - OpenAA`;
 const description = `${ph.chinese}的英文是${ph.english}。${ph.explanation || '美国生活常用英语句子，中英对照，支持美式发音。'}`;
 const canonicalPath = `/phrases/${entry.id}/`;
@@ -94,6 +106,17 @@ const jsonLd = {
       return c && <a class="pill" href={`/categories/${c.id}/`}>{c.icon} {c.nameCn}</a>;
     })}
   </div>
+
+  {relatedPhrases.length > 0 && (
+    <section class="related" aria-label="相关句子">
+      <h2>相关句子</h2>
+      <ul>
+        {relatedPhrases.map((r) => (
+          <li><a href={`/phrases/${r.id}/`}>{r.data.english}（{r.data.chinese}）</a></li>
+        ))}
+      </ul>
+    </section>
+  )}
 
   {linkedScenes.length > 0 && (
     <section class="related" aria-label="相关情景">

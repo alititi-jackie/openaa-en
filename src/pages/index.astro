@@ -1,7 +1,27 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { CATEGORIES } from '../data/categories';
 import { ECO_LINKS, SITE } from '../config/site';
+
+// 精选情景：全站最实用的真实场景对话（餐厅 / 看病 / 租房 / 工作 / 银行 / DMV）
+const featuredSceneSlugs = [
+  'ask-for-check',
+  'order-dine-in',
+  'make-appointment',
+  'first-visit',
+  'viewing-apartment',
+  'sign-lease',
+  'ask-time-off',
+  'first-day-factory',
+  'open-account',
+  'at-dmv',
+];
+const allScenes = await getCollection('scenes');
+const featuredScenes = featuredSceneSlugs.flatMap((id) => {
+  const s = allScenes.find((x) => x.id === id);
+  return s ? [s] : [];
+});
 
 const title = '美国生活英语大全｜常用英语词典、实用口语与情景对话 - OpenAA';
 const description =
@@ -96,6 +116,19 @@ const ecoRecs = [
           <div class="icon" aria-hidden="true">{c.icon}</div>
           <h3>{c.nameCn}</h3>
           <p>{c.nameEn}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-label="精选情景英语">
+    <h2>精选情景英语</h2>
+    <p class="sub">真实场景对话，点开就能练</p>
+    <div class="grid-entries">
+      {featuredScenes.map((s) => (
+        <a class="entry-card" href={`/scenes/${s.id}/`}>
+          <h3>{s.data.title}</h3>
+          <p>{s.data.summary}</p>
         </a>
       ))}
     </div>
