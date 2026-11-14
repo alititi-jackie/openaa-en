@@ -26,7 +26,7 @@ if (!existsSync(dist)) {
   process.exit(1);
 }
 
-const pages = walk(dist);
+const pages = walk(dist).filter(p => !/baidu_verify_[^/]*\.html$/.test(p));
 console.log(`pages: ${pages.length}`);
 
 // 1. 必备文件
